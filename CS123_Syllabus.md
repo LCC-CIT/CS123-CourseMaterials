@@ -21,6 +21,10 @@
 
 This course provides an overview of the field of Artificial Intelligence. Students will learn what AI is and how machine learning  works. There will be a focus on generative AI and its practical  applications in the workplace such as prompt engineering and creating  custom chatbots. The risks and dangers of AI will be explored along with the potential benefits.
 
+**Time commitment**
+
+This is an eight-week course with 
+
  
 
 ## Learning Outcomes
@@ -173,11 +177,12 @@ For upcoming closures, please visit the [Center for Accessible Resources webpage
 
 ## Academic Calendar for Summer Term 2024
 
-| Event                                      | Date        |
-| ------------------------------------------ | ----------- |
-| Summer term classes begin                  | 6/24 Monday |
-| Last day to drop and receive a full refund | 7/1 Monday  |
-| End of eight-week term                     | 8/16 Friday |
+| Event                                      | Date          |
+| ------------------------------------------ | ------------- |
+| Summer term classes begin                  | 6/24, Monday  |
+| Last day to drop and receive a full refund | 7/1, Monday   |
+| Independence Day Holiday, no class         | 7/4/ Thursday |
+| End of eight-week term                     | 8/16, Friday  |
 
 View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.  
 

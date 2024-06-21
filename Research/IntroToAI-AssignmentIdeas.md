@@ -4,7 +4,7 @@
 
 Here are some homework assignment ideas for your introduction to AI class, tailored for non-programmers:
 
-## Homework Assignment Ideas from ChatGPT:
+# Homework Assignment Ideas from ChatGPT:
 
 1. **AI in Everyday Life:**
    - **Assignment:** Write an essay or create a presentation on how AI impacts daily life. Include examples like virtual assistants (e.g., Siri, Alexa), recommendation systems (e.g., Netflix, Amazon), and smart home devices.
@@ -46,7 +46,7 @@ Here are some homework assignment ideas for your introduction to AI class, tailo
     - **Assignment:** Create a glossary of key AI terms and concepts (e.g., machine learning, neural networks, natural language processing). Provide clear definitions and real-world examples for each term.
     - **Objective:** To build a foundational understanding of essential AI vocabulary and concepts.
 
-### Tips for Designing Assignments:
+## Tips for Designing Assignments:
 - **Encourage Creativity:** Allow students to choose topics or tools that interest them to keep engagement high.
 - **Use Real-World Examples:** Incorporate current events and practical applications to make assignments relevant.
 - **Promote Collaboration:** Consider group projects or peer reviews to foster collaboration and diverse perspectives.
@@ -56,7 +56,7 @@ These assignments aim to provide a comprehensive and engaging introduction to AI
 
 
 
-### Homework Assignment Ideas From MS Copilot
+## Homework Assignment Ideas From MS Copilot
 
 Here are a few assignment ideas that could help your students understand AI concepts without needing to code:
 
@@ -71,7 +71,7 @@ Remember, the goal is to make students understand what AI is, how it works, its 
 
 
 
-## AI Tools for Creating Presentations from ChatGPT
+# AI Tools for Creating Presentations from ChatGPT
 
 Here are some free AI tools that students can use to enhance their presentations:
 
@@ -99,7 +99,7 @@ Here are some free AI tools that students can use to enhance their presentations
    - **Description:** Microsoft PowerPoint includes an AI feature called "Designer" that provides design suggestions and layout ideas to enhance slides.
    - **Website:** [Microsoft PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint)
 
-### AI Tools for Enhancing Presentation Content:
+## AI Tools for Enhancing Presentation Content:
 
 1. **Grammarly:**
    - **Description:** Grammarly uses AI to help students improve their writing by suggesting grammar and style corrections, enhancing clarity, and ensuring the text is engaging.
@@ -121,7 +121,7 @@ Here are some free AI tools that students can use to enhance their presentations
    - **Description:** Beautiful.ai uses AI to help design and create professional-looking presentations automatically, making the design process straightforward and efficient.
    - **Website:** [Beautiful.ai](https://www.beautiful.ai)
 
-### AI Tools for Enhancing Presentation Delivery:
+## AI Tools for Enhancing Presentation Delivery:
 
 1. **Speeko:**
    - **Description:** Speeko is an AI-powered app that provides feedback on speech patterns, tone, pace, and clarity, helping students improve their public speaking skills.
@@ -131,7 +131,7 @@ Here are some free AI tools that students can use to enhance their presentations
    - **Description:** Orai uses AI to offer real-time feedback on speech delivery, including pacing, filler words, and pronunciation, to help improve presentation skills.
    - **Website:** [Orai](https://www.orai.com)
 
-### Tips for Using AI Tools:
+## Tips for Using AI Tools:
 
 - **Experiment and Explore:** Encourage students to try different tools to see which ones best meet their needs and style.
 - **Combine Tools:** Students can use multiple tools in conjunction to enhance different aspects of their presentations, from content creation to design and delivery.
@@ -139,7 +139,7 @@ Here are some free AI tools that students can use to enhance their presentations
 
 These tools can greatly aid students in creating polished, professional, and engaging presentations, even if they are not skilled in design or public speaking.
 
-## AI Tools for Creating Presentations from MS Copilot
+# AI Tools for Creating Presentations from MS Copilot
 
 Sure, here are some free AI tools that students can use to create presentations:
 
@@ -152,8 +152,79 @@ Sure, here are some free AI tools that students can use to create presentations:
 
 These tools can help students create impressive presentations in a fraction of the time it would take to do manually. They offer various features like AI-powered design, text generation, and translation into multiple languages. Remember, while these tools can provide a great starting point, the final touch and personalization will come from the students themselves. 
 
-​                             
+# Elements of AI Workshops
 
-​              
+## Kick-off
 
-​              
+A cohort of participants is formed and they get ready for the journey ahead.
+ 1 hour meeting online or live
+
+**What happens?**
+
+- The facilitator introduces the course.
+- The participants login to study materials, fill starting surveys and book study time for the first self study period.
+- This time can be used to confirm and refine the program schedule, check accessibility to tools and materials,  and answer questions any questions that might come up.
+
+**Outcomes:**
+After the kick-off participants are ready and equipped to start the first self-study period.
+
+## Workshop 1: A mysterious discovery
+
+The participants encounter an unknown intelligence. In order to find their place in this new reality they are forced to challenge their way of thinking.
+ 2.5 hour workshop online or live
+
+**What happens?**
+
+- The cohort agrees on ways of working.
+- Defining AI: Define AI to a colleague or customer.
+- AI Lab: Explore the use of a large language model and its limits in practice.
+- The Landscape: Define your business landscape concerning AI.
+
+**Learning outcomes:**
+After the workshop participants can…
+
+- Explain AI and its relevance to their work.
+- Understand how to use large language models to produce valuable outcomes.
+- Understand restrictions of large language models.
+- Map their business to industry AI development.
+
+## Workshop 2: Trial by Fire
+
+Is this strange intelligence a friend or foe? A challenge is revealed and the participants have to split up to find answers.
+
+2.5 hours online or live
+
+**What happens?**
+
+- **Generative AI:** Identify what makes generative AI tick. Create a presentation on what you’ve learned.
+- **AI experiment:** Hypothesis – Identify problems to solve with AI solutions. Make a plan for how to test your solution.
+
+**Learning outcomes:**
+
+After the workshop participants can…
+
+- Explain how machine learning and neural networks relate to generative AI
+- Plan agile experiments to enhance existing business processes with the latest AI tools
+
+## Experiment at Work
+
+Testing a use case
+
+## Workshop 3: Triumph of the human mind
+
+Weary from their long journey and forever changed – the participants have found their answers. Now they have what it takes to encounter what lies ahead.
+ 2.5 hour workshop online or live
+
+**What happens?**
+
+- Implications: Design a magazine cover that depicts the future of your business or industry.
+- AI experiment – Results: Sharing what was done, why, and what were the learnings?
+- Participants vote on the best experiment based on the value it brings and how well the experiment tests the hypothesis made.
+- Participants fill out their final evaluation survey
+- The cohort graduates and receive their certificates.
+
+**Learning outcomes:**
+After the workshop participants can…
+
+- Identify and communicate future AI opportunities and challenges for their business
+- Make more informed decisions concerning AI
