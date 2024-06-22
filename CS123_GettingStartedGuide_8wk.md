@@ -1,4 +1,4 @@
-<h1>CIS195: Web Authoring 1</h1>
+<h1>CS 123: Introduction to Artificial Intelligence</h1>
 
 <h2>Getting Started</h2>
 
@@ -6,11 +6,15 @@
 
 # Introduction
 
-Welcome to this class!
+Welcome to this class! Since the release of ChatGPT in November or 2022, AI has become an even hotter topic than it already was. AI already had a big presence in our lives, but now it seems to have exploded in a way that has taken many of us by surprise.
 
-In order to create web pages for this class, you will need access to a computer that can run a code editor like [Visual Studio Code](https://code.visualstudio.com/) (pretty much any computer can) and have a good internet connection.
+AI has great potential for good as well as evil. Some people are excited to see it advance, others are cautious and others see it as a doomsday technology. Regardless of your viewpoint, AI will play a big role our future,  so it is important to have some understanding of how it works and how we can use it for good while guarding against ways in which it might be abused.
 
-In order to be successful, you must devote at least 14 hours a week to learning activities. This includes 4 hours in class, participating in the Zoom live-stream, or watching recordings of the lectures; plus at least 10 hours studying and *having fun making web pages!*
+## Time commitment
+
+Since this class has been compressed from ten-and-a-half weeks to eight weeks for the summer term, you will need to put in a little more time each week than you would in a "normal" class. In order to be successful, you should set aside at least <u>10 hours a week</u> for learning activities. This includes 4 hours in class, participating in the Zoom live-stream, or watching recordings of the lectures; plus at least 6 hours studying on your own. 
+
+I hope the effort is all worth it and you have fun *learning to do exciting things with AI* !
 
 ------
 
@@ -35,20 +39,16 @@ If you have any course-specific questions, please ask them in the [Course Q & A 
 
 ## Software You Will Need
 
-- At least two modern Web Browsers like [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Chrome](https://www.google.com/chrome/).
-- [Adobe Reader](http://get.adobe.com/reader/) for reading PDF files
-- [QuickTime](https://support.apple.com/downloads/quicktime) for viewing videos in your browser
-- [Adobe Flash Player](http://www.adobe.com/products/flashplayer/) for viewing flash videos
-- Software for Word processing and viewing PowerPoint slides such as [MS Office](http://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=Office_365_subnav_22092015_All_Office&s_kwcid=AL!4249!3!82552207853!e!!g!!microsoft office&WT.mc_id=pointitsem+Google+Adwords+5+-+Office+15+Suites&ef_id=UsDFgAAAAHy-iVuM:20160104142119:s), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage) 
-- A code editor such as [Notepad++](https://notepad-plus-plus.org/) for Windows, or [TextWrangler](http://www.barebones.com/products/textwrangler/) for OS X (Mac), or [VisualStudio Code](https://code.visualstudio.com/) for OS X, Windows and Linux.
-- An FTP client for uploading files to a web server such as [CoreFTP](http://coreftp.com/) for Windows, or [CyberDuck](https://cyberduck.io/) for OS X, or [FileZilla](https://filezilla-project.org/) for OS X, Windows and Linux.
+- A web browser like [Safari](https://www.apple.com/safari/), [Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Chrome](https://www.google.com/chrome/).
+- [Adobe Reader](http://get.adobe.com/reader/) for reading PDF files.
+- [QuickTime](https://support.apple.com/downloads/quicktime),  [VLC Media Player](https://www.videolan.org/vlc/) or some other app for viewing videos.
+- Software for viewing and creating office documents such as [MS Office](http://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=Office_365_subnav_22092015_All_Office&s_kwcid=AL!4249!3!82552207853!e!!g!!microsoft office&WT.mc_id=pointitsem+Google+Adwords+5+-+Office+15+Suites&ef_id=UsDFgAAAAHy-iVuM:20160104142119:s), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage) 
 
 ## Skills You Will Need
 
 - Basic computer skills 
 - Experience navigating the Internet and using an Internet browser
-- Basic knowledge of formatting using a word processing program
-- Comfort working with multiple browser windows
+- Basic knowledge of using a word processing program
 
 ------
 
@@ -62,19 +62,19 @@ Moodle is the learning management system of the Lane Community College and the l
 
 ## Course Structure
 
-This course is broken into weekly modules. The modules start on Monday and end on the following Sunday. Every week is broken into three sections: Overview, Resources, and Activities.
+This course is broken into topical modules. The weeks start on Monday and end on Sunday. Every week is broken into three sections: Objectives, Reading, Lecture Notes and Activities.
 
-### Overview
+### Objectives
 
 Each week includes an overview page that is helpful to read before reviewing the resources and completing the assigned activities. 
 
-### Resources
+### Reading
 
-Resources will be listed under Required and Supplemental subheadings. The required resources are the basis for the weekly quiz. Supplemental resources are provided with additional information about the week's topics. 
+The required readings are the basis for the weekly quiz. 
 
 ### Activities
 
-Activities are required unless they are specifically marked as optional. Activities include quizzes and lab assignments
+Activities include quizzes and lab assignments
 
 ------
 
@@ -92,15 +92,11 @@ All course announcements will be posted by the instructor to the [News and Annou
 
 ## Moodle Support
 
-Please view the ***Support*** block on the right side of the Moodle course page for information on how to contact support. 
+Help links can be found by clicking on the ?HELP link in the top navigation bar on Moodle.
 
-Support information is also available on [help.lanecc.edu](https://help.lanecc.edu/).
+Support information is also available at https://library.lanecc.edu/shed.
 
-------
 
-# CIT Computer Lab
-
-The CIT Tutoring Lab (Building 19, Rm 135) is equipped with computers which are available exclusively for students in the CIT department. There are tutors available in the lab to help you with your lab work. 
 
 ------
 
