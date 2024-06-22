@@ -19,7 +19,7 @@
 
 ## Course Description
 
-This course provides an overview of the field of Artificial Intelligence. Students will learn what AI is and how machine learning  works. There will be a focus on generative AI and its practical  applications in the workplace such as prompt engineering and creating  custom chatbots. The risks and dangers of AI will be explored along with the potential benefits.
+This course provides an overview of the field of Artificial Intelligence. Students will learn what AI is and how machine learning works. There will be a focus on generative AI and its practical applications in the workplace such as prompt engineering and creating custom GPT chatbots. The risks and dangers of AI will be explored along with the potential benefits.
 
 **Time commitment**
 
