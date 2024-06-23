@@ -6,12 +6,12 @@
 
 **Syllabus for summer 2024**
 
-| <u>Class</u>      |                                                |      | <u>Instructor</u> |                                                |
-| ----------------- | ---------------------------------------------- | ---- | ----------------- | ---------------------------------------------- |
-| **Course Number** | CS 123                                         |      | **Name**          | Brian Bird                                     |
-| **CRN**           | Hybrid (on campus) 10276<br />Online 10277     |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)    |
-| **Day & Time**    | Tu, Th 10:00&dash;11:50                        |      | **Office Hours**  | Tu&mdash;Th 12:00&ndash;11:50                  |
-| **Room**          | Building 19, Room 128<br />[Zoom meeting](TBD) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](TBD) |
+| <u>Class</u>      |                                                              |      | <u>Instructor</u> |                                                              |
+| ----------------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------------------------------------------ |
+| **Course Number** | CS 123                                                       |      | **Name**          | Brian Bird                                                   |
+| **CRN**           | Hybrid (on campus) 10276<br />Online 10277                   |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)                  |
+| **Day & Time**    | Tu, Th 10:00&dash;11:50                                      |      | **Office Hours**  | Tu&mdash;Th 10:00&ndash;11:50                                |
+| **Room**          | Building 19, Room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/99496384876) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/99496384876) |
 
 <h2>Table of Contents</h2>
 
@@ -19,7 +19,7 @@
 
 ## Course Description
 
-This course provides an overview of the field of Artificial Intelligence. Students will learn what AI is and how machine learning works. There will be a focus on generative AI and its practical applications in the workplace such as prompt engineering and creating custom GPT chatbots. The risks and dangers of AI will be explored along with the potential benefits.
+This course provides an overview of the field of Artificial Intelligence. Students will learn what AI is and how machine learning  works. There will be a focus on generative AI and its practical  applications in the workplace such as prompt engineering and creating  custom chatbots. The risks and dangers of AI will be explored along with the potential benefits.
 
 **Time commitment**
 
@@ -29,13 +29,13 @@ This is an eight-week course with
 
 ## Learning Outcomes
 
-Upon successful completion of this course, the student will be able to:
+Upon successful completion of this course, students will be able to:
 
-1. Explain what AI is
-2. Discuss the potential dangers and benefits of AI to society
-3. Describe how neural networks are used in deep machine learning
-4. Decide what uses of AI are appropriate in education and work settings
-5. Use prompt engineering to get more effective results from generative AI
+1. Explain what AI is.
+2. Discuss the potential dangers and benefits of AI to society.
+3. Describe how neural networks are used in deep machine learning.
+4. Decide what uses of AI are appropriate in education and work settings.
+5. Use prompt engineering to get more effective results from generative AI.
 6. Create a custom chatbot.
 
  
@@ -62,13 +62,15 @@ Upon successful completion of this course, the student will be able to:
 
 ### Online Resources
 
-#### Online Course Materials
+#### Articles and Tutorials
 
-There is no textbook for this class. In place of a textbook you will read online tutorials and chapters in the free online course [Elements of AI](https://www.elementsofai.com/), a high-quality course provided by the The University of Helsinki.
+There is no textbook for this class. There will be weekly assigned readings from online articles and tutorials.
 
 #### Learning Management System
 
 Moodle is the Learning Management System (LMS) used for this course; LCC’s Moodle site is at: [classes.lanecc.edu](https://classes.lanecc.edu). 
+
+
 
 ### Software
 
@@ -169,7 +171,6 @@ For upcoming closures, please visit the [Center for Accessible Resources webpage
 
 - [Bus service and free student bus pass](https://www.lanecc.edu/experience-lane/transportation-getting-around/lcc-bus-pass)
 - [Interactive Map of the LCC Main Campus](https://map.concept3d.com/?id=780#!ct/80243,11008,10696,80244,80245?s/)
-- 
 
 ## Schedules
 
