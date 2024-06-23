@@ -43,6 +43,15 @@ Here are the things you should do to get ready for this course:
 
 Moodle is the learning management system used by Lane Community College. To learn how to use Moodle, go to the LCC Moodle home page. Near the bottom of the page, click on "Training", then "Moodle for Students".
 
+## Class Meetings and Office Hours
+
+Come to class in person or via Zoom or watch the class recordings.
+
+- There is a Zoom link in the syllabus.
+- The Zoom widget at the top of the Moodle page has links for class meeting, recordings, and my office hours 
+
+Come see me during office hours&mdash;Drop in! No appointment needed. Come get help with assignments, discuss AI, or just to say "hi".
+
 
 
 
@@ -54,10 +63,11 @@ Moodle is the learning management system used by Lane Community College. To lear
 - [Adobe Reader](http://get.adobe.com/reader/) for reading PDF files.
 - [QuickTime](https://support.apple.com/downloads/quicktime),  [VLC Media Player](https://www.videolan.org/vlc/) or some other means of viewing videos.
 - Office software such as [MS Office](http://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=Office_365_subnav_22092015_All_Office&s_kwcid=AL!4249!3!82552207853!e!!g!!microsoft office&WT.mc_id=pointitsem+Google+Adwords+5+-+Office+15+Suites&ef_id=UsDFgAAAAHy-iVuM:20160104142119:s), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage).
+- [Zoom](https://zoom.us/) for participating in class or office hours remotely.
 - [Discord](https://discord.com/) for class communication and collaboration with your team.
   - Sign up for a free account, if you don't already have one. 
-  - Accept my invitation to the [ItAI Discord server](https://discord.com/invite/EpC4cGfG) (yes, click on the link).
-  - You can install the Discord app on any computer, phone or tablet; or use it through a web browser.
+  - Accept my invitation to the [Intro to AI Discord server](https://discord.com/invite/EpC4cGfG) (click on the link) and join the class server.
+  - If you haven't used Discord before, [here's a 15 minute beginner's tutorial](https://youtu.be/rnYGrq95ezA?si=f2Bfrwu7WMJivcC6).
 
 
 ## Skills You Will Need

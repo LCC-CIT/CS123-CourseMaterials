@@ -57,7 +57,7 @@ You will need to download any of these applications that aren't already installe
 - Office software such as [MS Office](http://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=Office_365_subnav_22092015_All_Office&s_kwcid=AL!4249!3!82552207853!e!!g!!microsoft office&WT.mc_id=pointitsem+Google+Adwords+5+-+Office+15+Suites&ef_id=UsDFgAAAAHy-iVuM:20160104142119:s), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage).
 - [Discord](https://discord.com/) for class communication and collaboration with your team.
   - Sign up for a free account, if you don't already have one. 
-  - Accept my invitation to the [ItAI Discord server](https://discord.com/invite/EpC4cGfG) (yes, click on the link).
+  - Accept my invitation to the [Intro to AI Discord server](https://discord.com/invite/EpC4cGfG) (yes, click on the link).
   - You can install the Discord app on any computer, phone or tablet; or use it through a web browser.
 
 
@@ -85,18 +85,19 @@ See the [LCC Tutoring Services](https://www.lanecc.edu/tutor) web page for infor
 
 # Assessment and Grading
 
+## Points for Each Graded Activity
+
 The table below summarizes the possible points for each assessment task as well as the course as a whole:
 
-| **Assessment Tasks**      | **Points Each**          | **Total Points** |
-| ------------------------- | ------------------------ | ---------------- |
-| Labs  1&ndash;7           | 50                       | 350              |
-| Code Reviews 1&ndash;7    | 10                       | 70               |
-| Quizzes 1&ndash;7         | 10                       | 70               |
-| Term Project              | 210                      | 210              |
-| Midterm and Final Quizzes | Midterm: 100, Final: 200 | 300              |
-| **Course Total**          |                          | **1000**         |
+| **Assessment Tasks**      | Number | **Each**                 | **Total** |
+| ------------------------- | ------ | ------------------------ | --------- |
+| Exercises                 | 6      | 50                       | 300       |
+| Quizzes                   | 6      | 20                       | 120       |
+| Team projects             | 3      | 50, 80, 150              | 280       |
+| Midterm and Final Quizzes | 2      | Midterm: 100, Final: 200 | 300       |
+| **Course Total**          |        |                          | **1000**  |
 
-
+## Letter Grade Scale
 
 Letter grades for the course will be determined by the following percentages:                  
 
@@ -110,8 +111,14 @@ Letter grades for the course will be determined by the following percentages:
 
  
 
+<u>Exercises</u>
+Weekly (except midterm an final quiz weeks) exercises give you practice with concepts learned during each week.
+
 <u>Quizzes</u>
-Weekly quizzes are given that cover the required reading and tutorial videos for that week. These quizzes must be taken before the second class meeting of the week. They are "open book" (or video).
+Weekly (except midterm an final quiz weeks) quizzes are given that cover learning material for that week. These quizzes are "open book".
+
+<u>Team Projects</u>
+You will work together with your team to either make a presentation or create an AI solution. Each team member will have a specific part to contribute and will be individually graded.
 
 <u>Midterm and Final Quizzes</u>
 
