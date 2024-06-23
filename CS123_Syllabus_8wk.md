@@ -4,14 +4,14 @@
 
 
 
-**Syllabus for summer 2024**
+**Syllabus for Summer 2024**
 
-| <u>Class</u>      |                                                |      | <u>Instructor</u> |                                                |
-| ----------------- | ---------------------------------------------- | ---- | ----------------- | ---------------------------------------------- |
-| **Course Number** | CS 123                                         |      | **Name**          | Brian Bird                                     |
-| **CRN**           | Hybrid (on campus) 10276<br />Online 10277     |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)    |
-| **Day & Time**    | Tu, Th 10:00&dash;11:50                        |      | **Office Hours**  | Tu&mdash;Th 12:00&ndash;11:50                  |
-| **Room**          | Building 19, Room 128<br />[Zoom meeting](TBD) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](TBD) |
+| <u>Class</u>      |                                                              |      | <u>Instructor</u> |                                                              |
+| ----------------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------------------------------------------ |
+| **Course Number** | CS 123                                                       |      | **Name**          | Brian Bird                                                   |
+| **CRN**           | Hybrid (on campus) 10276<br />Online 10277                   |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)                  |
+| **Day & Time**    | Tu, Th 10:00&dash;11:50                                      |      | **Office Hours**  | Tu&mdash;Th 10:00&ndash;11:50                                |
+| **Room**          | Building 19, Room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/95050541545) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/94813245609) |
 
 <h2>Table of Contents</h2>
 
@@ -29,14 +29,14 @@ This is an eight-week course with
 
 ## Learning Outcomes
 
-Upon successful completion of this course, the student will be able to:
+1. Upon successful completion of this course, students will be able to:
 
-1. Explain what AI is
-2. Discuss the potential dangers and benefits of AI to society
-3. Describe how neural networks are used in deep machine learning
-4. Decide what uses of AI are appropriate in education and work settings
-5. Use prompt engineering to get more effective results from generative AI
-6. Create a custom chatbot.
+   1. Explain what AI is.
+   2. Discuss the potential dangers and benefits of AI to society.
+   3. Describe how neural networks are used in deep machine learning.
+   4. Decide what uses of AI are appropriate in education and work settings.
+   5. Use prompt engineering to get more effective results from generative AI.
+   6. Create a custom chatbot.
 
  
 
@@ -62,7 +62,7 @@ Upon successful completion of this course, the student will be able to:
 
 ### Online Resources
 
-#### Online Course Materials
+#### Course Materials
 
 There is no textbook for this class. In place of a textbook you will read online tutorials and chapters in the free online course [Elements of AI](https://www.elementsofai.com/), a high-quality course provided by the The University of Helsinki.
 
@@ -76,11 +76,17 @@ All of the software required for this class is free.  You can use any operating 
 
 #### Software Required for Lab Assignments
 
-You will need to download these applications and install them on your computer. They are already installed on the computers in the classroom.
+You will need to download any of these applications that aren't already installed on your computer and install them. They are already installed on the computers in the classroom and the CIT lab.
 
 - A web browser.
 
-- Microsoft  Word (see the free Microsoft Office offer below) or a word processor that is compatible with Word, like the free, open source, [Libre Office](https://www.libreoffice.org).
+- [Adobe Reader](http://get.adobe.com/reader/) for reading PDF files.
+- [QuickTime](https://support.apple.com/downloads/quicktime),  [VLC Media Player](https://www.videolan.org/vlc/) or some other means of viewing videos.
+- Office software such as [MS Office](http://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=Office_365_subnav_22092015_All_Office&s_kwcid=AL!4249!3!82552207853!e!!g!!microsoft office&WT.mc_id=pointitsem+Google+Adwords+5+-+Office+15+Suites&ef_id=UsDFgAAAAHy-iVuM:20160104142119:s), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage).
+- [Discord](https://discord.com/) for class communication and collaboration with your team.
+  - Sign up for a free account, if you don't already have one. 
+  - Accept my invitation to the [ItAI Discord server](https://discord.com/invite/EpC4cGfG) (yes, click on the link).
+  - You can install the Discord app on any computer, phone or tablet; or use it through a web browser.
 
 
 ####  Free and Discounted Software for Students
@@ -97,7 +103,7 @@ None of the software provided in these offers is required for this class, but yo
 
 #### CIT Computer Lab and In-Person Tutoring
 
-The CIT Main lab (Building 19, room 135) is equipped with computers and software which are available exclusively for students in the CIT department. There are tutors available in the lab to help you with your lab work. The schedule for when the lab will be open and when in-person tutors are available is TBD.
+The CIT Main lab (Building 19, room 135) is equipped with computers and software which are available exclusively for students in the CIT department. There are tutors available in the lab to help you with your lab work. The schedule for when the lab will be open and when in-person tutors are available is available on the [lab web site](https://www.lanecc.edu/programs-academics/academic-departments/business-technology-and-trades/computer-information-technology/cit-computer-lab).
 
 #### Online Tutoring
 
