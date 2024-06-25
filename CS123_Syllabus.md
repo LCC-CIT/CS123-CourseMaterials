@@ -4,14 +4,14 @@
 
 
 
-**Syllabus for summer 2024**
+**CS 123 Syllabus**
 
 | <u>Class</u>      |                                                              |      | <u>Instructor</u> |                                                              |
 | ----------------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------------------------------------------ |
 | **Course Number** | CS 123                                                       |      | **Name**          | Brian Bird                                                   |
 | **CRN**           | Hybrid (on campus) 10276<br />Online 10277                   |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)                  |
 | **Day & Time**    | Tu, Th 10:00&dash;11:50                                      |      | **Office Hours**  | Tu&mdash;Th 10:00&ndash;11:50                                |
-| **Room**          | Building 19, Room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/94718261470) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/94813245609) |
+| **Room**          | Building 19, Room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/99496384876) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/99496384876) |
 
 <h2>Table of Contents</h2>
 
