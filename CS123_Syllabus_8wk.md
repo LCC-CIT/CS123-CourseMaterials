@@ -48,17 +48,9 @@ All of the software required for this class is free.  You can use any operating 
 
 ## Software Required for Course Work
 
-You will need to download any of these applications that aren't already installed on your computer and install them. They are already installed on the computers in the classroom and the CIT lab.
+See the [Getting Started Guide](https://lcc-cit.github.io/CS123-CourseMaterials/CS123_GettingStartedGuide_8wk.html) for a list of the software needed for this class.
 
-- A web browser.
-
-- [Adobe Reader](http://get.adobe.com/reader/) for reading PDF files.
-- [QuickTime](https://support.apple.com/downloads/quicktime),  [VLC Media Player](https://www.videolan.org/vlc/) or some other means of viewing videos.
-- Office software such as [MS Office](http://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=Office_365_subnav_22092015_All_Office&s_kwcid=AL!4249!3!82552207853!e!!g!!microsoft office&WT.mc_id=pointitsem+Google+Adwords+5+-+Office+15+Suites&ef_id=UsDFgAAAAHy-iVuM:20160104142119:s), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage).
-- [Discord](https://discord.com/) for class communication and collaboration with your team.
-  - Sign up for a free account, if you don't already have one. 
-  - Accept my invitation to the [Intro to AI Discord server](https://discord.com/invite/EpC4cGfG) (yes, click on the link).
-  - You can install the Discord app on any computer, phone or tablet; or use it through a web browser.
+You will need to download and install any software you don't already have on your computer. The software has already been installed on the computers in the classroom and in the CIT computer lab.
 
 
 ##  Free and Discounted Software for Students
