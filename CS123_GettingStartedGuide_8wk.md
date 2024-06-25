@@ -68,6 +68,7 @@ Come see me during office hours&mdash;Drop in! No appointment needed. Come get h
   - Sign up for a free account, if you don't already have one. 
   - Accept my invitation to the [Intro to AI Discord server](https://discord.com/invite/EpC4cGfG) (click on the link) and join the class server.
   - If you haven't used Discord before, [here's a 15 minute beginner's tutorial](https://youtu.be/rnYGrq95ezA?si=f2Bfrwu7WMJivcC6).
+- [Azure for Students](https://azure.microsoft.com/en-us/free/students/) account. This is a free online subscription. You won't need to download or install any software. You will use Azure AI Studio to build custom GPT chatbots.
 
 
 ## Skills You Will Need
