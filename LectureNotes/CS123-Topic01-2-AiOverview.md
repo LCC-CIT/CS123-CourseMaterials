@@ -82,7 +82,7 @@ AI can also be categorized into two categories: *narrow AI* and *general AI*.
 - Neural networks are built using machine learning, in which they are trained an large amounts of data that contains examples of the things the neural network should recognize and process
 - They are not transparent. It is very difficult (if not impossible) to determine which set of connections were followed to reach a given decision.
 - Example, image recognition:  
-  <img src="D:\Repos\CS123-CourseMaterials\LectureNotes\Images\PigeonNeuralNet.png" alt="PigeonNeuralNet" style="zoom:33%;" />
+  <img src="Images\PigeonNeuralNet.png" alt="PigeonNeuralNet" style="zoom:33%;" />
 
 #### Generative AI 
 
