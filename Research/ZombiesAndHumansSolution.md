@@ -17,6 +17,7 @@ author: Brian Bird
 
 # The Problem
 
+<img src="Images\TwoZombiesRowingABoatInMoonlight.png" style="zoom:50%;" />
 Three humans and three zombies are on one side of a river. They all need to get to the other side. There is one rowboat.
 
 - The boat can only carry two of them for each crossing.
