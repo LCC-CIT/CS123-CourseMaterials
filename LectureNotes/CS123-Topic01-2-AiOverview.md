@@ -9,6 +9,8 @@ author: Brian Bird
 
 <h1>Overview of Artificial Intelligence</h1>
 
+<h2>Part 1</h2>
+
 **CS123, Intro to AI**
 
 | Topics                            |                                 |

@@ -1,5 +1,4 @@
 ---
-
 title: AI Overview
 description: Overview of Artificial Intelligence.
 keywords: AI
@@ -7,7 +6,7 @@ generator: Typora
 author: Brian Bird
 ---
 
-<h1>Overview of Artificial Intelligence</h1>
+<h1>Overview of AI Part 2</h1>
 
 **CS123, Intro to AI**
 
@@ -24,7 +23,37 @@ author: Brian Bird
 
 [TOC]
 
+# Introduction
 
+## What's Happening
+
+- This week's due dates:
+
+  - Introduce yourself survey: **Today**
+  - Join a team: Sunday  
+    
+  - Elements of AI Ch. 1 and 2 exercises: Sunday
+  - Quiz over the lectures: Sunday
+
+- Next week  
+  History of AI (lecture), Real world applications of AI (reading)
+
+  - No class on Thursday, July 4th
+  - Elements of AI Ch. 3 exercises: Sunday
+  - Quiz over the lecture: Sunday
+  - Team project on applications of AI: Sunday  
+    **Start working on this as soon as your team is formed.**
+
+  
+
+## Review
+
+- What are some definitions of AI?
+- What is symbolic AI?
+- What is an Artificial Neural Network?
+- How does generative AI work?
+- What are narrow and general AI?
+  - Does AGI exist yet?
 
 # Tests of Artificial Intelligence
 
@@ -36,13 +65,11 @@ Games like chess and logic problems have been long been some of the standard way
 
 #### Chess
 
-This has been one of the traditional tests of reasoning. It was a significant milestone in the development of AI when IBM's Deep Blue beat the world champion chess player, Garry Ksparerov in 1997[^2].
+This has been one of the traditional tests of reasoning. It was a significant milestone in the development of AI when IBM's Deep Blue beat the world champion chess player, Garry Kasparov in 1997[^1].
 
 #### Logic Problems
 
-- The traveling salesman
-
-- River crossing problem 
+- River crossing problem:
   Three humans and three zombies are on one side of a river. They all need to get to the other side. There is one rowboat.
 
   - The boat can only carry two of them for each crossing.
@@ -50,15 +77,22 @@ This has been one of the traditional tests of reasoning. It was a significant mi
   - Only the boat can be used to cross the river (no wading or swimming).
   - If the zombies on either side of the river outnumber the humans, they will kill them.
 
-  (The traditional problem was about cannibals and missionaries, but that seems a bit inappropriate by today's standards. This version[^3] is the same problem but with different characters.)
+  (The traditional problem was about cannibals and missionaries, but that seems a bit inappropriate by today's standards. This version[^2] is the same problem but with different characters.)
+
+
+  Here is a [state-space solution from ChatGPT](Research/ZombiesAndHumansSolution.html) (GPT 4o model).
+
+  
 
 ##### Your Turn: Try your own logic test
 
 Do you know a good logic puzzle? If not do a web search, or make one up and try it on a GTP chatbot of your choice.
 
+Here are some that I tried: [Attempts to Stump a GPT Chatbot](Research/TryingToStumpGenerativeAI.html)
+
 ### The Turing Test
 
-This test was proposed by Alan Turing in 1950 in order to answer the question: "can computers think?". Since the meaning of the word think is hard to define, so he proposed a test as a type of definition. In his test, a human evaluator judges a text-only, human language conversation between a human and a machine. If the evaluator can't distinguish the machine from the human, the machine is said to have passed the test. The test doesn't depend on the machine's ability to give correct answers, but on how closely its answers resemble those a human would give. The Turing Test has been influential and widely debated in the philosophy of artificial intelligence.
+This test was proposed by Alan Turing in 1950 in order to answer the question: "can computers think?". Since the meaning of the word think is hard to define, he proposed this test as a type of definition. In his test, a human evaluator judges a text-only, human language conversation between a human and a machine. If the evaluator can't distinguish the machine from the human, the machine is said to have passed the test. The test doesn't depend on the machine's ability to give correct answers, but on how closely its answers resemble those a human would give. The Turing Test has been influential and widely debated in the philosophy of artificial intelligence.
 
 #### Your Turn: Let's Do the Turning Test
 
@@ -66,9 +100,9 @@ I (your instructor) will play the part of two personas, "A" and "B". Using the Z
 
 ### The Octopus Test
 
-The "Octopus Test" proposed by Bender and Koller is a thought experiment in their paper challenging the idea that AI truly understands language. They imagine an AI trained on all texts about octopuses but lacks data on their jar-opening ability. If asked about this, the AI wouldn’t be able to provide a correct answer because it hasn’t been trained on that specific piece of information.
+The "Octopus Test" proposed by Bender and Koller[^3] is a thought experiment in their paper challenging the idea that AI truly understands language. They imagine an AI trained on all texts about octopuses but lacks data on their jar-opening ability. If asked about this, the AI wouldn’t be able to provide a correct answer because it hasn’t been trained on that specific piece of information.
 
-This experiment highlights the limitations of AI base on LLMs (Large Language Models) and emphasizes that these models don’t truly understand language or have knowledge about the world. They can only generate responses based on the patterns they’ve learned from their training data.
+This experiment highlights the limitations of AI based on LLMs (Large Language Models) and emphasizes that these models don’t truly understand language or have knowledge about the world. They can only generate responses based on the patterns they’ve learned from their training data.
 
 
 
@@ -97,7 +131,7 @@ Sure, here's an outline of the dangers of AI, including ethical, social, privacy
 4. **Philosophical Issues of Personhood and Humanity**
    - **AI Consciousness and Agency**: There's a debate on whether AI can exhibit personhood, including consciousness and agency.
    - **Moral and Legal Status of AI**: If AI systems can achieve consciousness and personhood, what will the moral and legal rights of these systems be?
-   - **Impact on Humanness**: If AI systems appear to be human and we treat them as human, even though they are machines, will people begin to think of each other as machines? Will our concept of personhood be diminished?
+   - **Impact on Humanness**: If AI systems appear to be human and we treat them as human, even though they are machines, will people begin to think of each other as machines? Will our concept of personhood be diminished? See "You are not a parrot" by Emily Bender.
 
 ### Your turn: What are some concerns you have about AI?
 
@@ -113,7 +147,7 @@ Sure, here's an outline of the dangers of AI, including ethical, social, privacy
 
 - [The Turing Test](https://en.wikipedia.org/wiki/Turing_test)&mdash;Wikipedia
 
-- [You are Not a Parrot](https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html)&mdash;New York magazine
+- [You are Not a Parrot](https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html)&mdash;Emily Bender, New York magazine
 
 - [Climbing towards NLU: On Meaning, Form and Understanding in the Age of Data](https://aclanthology.org/2020.acl-main.463.pdf)&mdash;Bender and Koller  
   - [Video and slide presentation by the authors on SlidesLive](https://slideslive.com/38929214/climbing-towards-nlu-on-meaning-form-and-understanding-in-the-age-of-data)
@@ -122,8 +156,9 @@ Sure, here's an outline of the dangers of AI, including ethical, social, privacy
 
 
 
-[^1]: The "Humans and Zombies" version of the river crossing problem is from [Humans, Zombies, & Other Problems crossing the river](https://mathcommunities.org/river-crossing-problems/) by Spencer Brown.
-[^2]: In "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data" Emily M. Bender and Alexander Koller argue that a system trained only on form has a priori no way to learn meaning. They discuss the success of large neural language models on many NLP tasks and the hype that these models are being described as “understanding” language or capturing “meaning”. They argue that a clear understanding of the distinction between form and meaning will help guide the field towards better science around natural language understanding.
+[^1]: https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov
+[^2]: The "Humans and Zombies" version of the river crossing problem is from [Humans, Zombies, & Other Problems crossing the river](https://mathcommunities.org/river-crossing-problems/) by Spencer Brown.
+[^3]: In "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data" Emily M. Bender and Alexander Koller argue that a system trained only on form has, a priori, no way to learn meaning. They discuss the success of LLMs on many NLP tasks and the hype that these models are being described as “understanding” language or capturing “meaning”. They argue that a clear understanding of the distinction between form and meaning will help guide the field towards better science around natural language understanding.
 
 ---
 
