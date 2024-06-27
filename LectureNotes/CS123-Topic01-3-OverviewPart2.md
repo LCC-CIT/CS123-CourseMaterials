@@ -27,11 +27,15 @@ author: Brian Bird
 
 ## What's Happening
 
+- Reading and exercises, any questions?
+
+  - You can ask on Discord too.
+  
 - This week's due dates:
 
   - Introduce yourself survey: **Today**
   - Join a team: Sunday **or sooner!** 
-    - Join the Discord server so you can communicate with your team.
+    - **Join the Discord server** so you can communicate with your team.
     
   - Elements of AI Ch. 1 and 2 exercises: Sunday
   - Quiz over the lectures: Sunday
