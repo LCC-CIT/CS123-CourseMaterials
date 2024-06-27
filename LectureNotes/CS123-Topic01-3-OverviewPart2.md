@@ -30,7 +30,8 @@ author: Brian Bird
 - This week's due dates:
 
   - Introduce yourself survey: **Today**
-  - Join a team: Sunday  
+  - Join a team: Sunday **or sooner!** 
+    - Join the Discord server so you can communicate with your team.
     
   - Elements of AI Ch. 1 and 2 exercises: Sunday
   - Quiz over the lectures: Sunday
@@ -80,7 +81,7 @@ This has been one of the traditional tests of reasoning. It was a significant mi
   (The traditional problem was about cannibals and missionaries, but that seems a bit inappropriate by today's standards. This version[^2] is the same problem but with different characters.)
 
 
-  Here is a [state-space solution from ChatGPT](Research/ZombiesAndHumansSolution.html) (GPT 4o model).
+  Here is a [state-space solution from ChatGPT](../Research/ZombiesAndHumansSolution.html) (GPT 4o model).
 
   
 
@@ -88,7 +89,7 @@ This has been one of the traditional tests of reasoning. It was a significant mi
 
 Do you know a good logic puzzle? If not do a web search, or make one up and try it on a GTP chatbot of your choice.
 
-Here are some that I tried: [Attempts to Stump a GPT Chatbot](Research/TryingToStumpGenerativeAI.html)
+Here are some that I tried: [Attempts to Stump a GPT Chatbot](../Research/TryingToStumpGenerativeAI.html)
 
 ### The Turing Test
 
