@@ -146,19 +146,11 @@ Sure, here's an outline of the dangers of AI, including ethical, social, privacy
 
 # Reference
 
-- *Artificial Intelligence, A Modern Approach*&mdash;2010, 3rd Ed. Pearson
-
 - [Elements of AI](https://www.elementsofai.com/)&mdash;The University of Helsinki and MinnaLearn
-
-- [Understanding the Different Types of Artificial Intelligence](https://www.ibm.com/blog/understanding-the-different-types-of-artificial-intelligence/)&mdash;IBM
-
 - [The Turing Test](https://en.wikipedia.org/wiki/Turing_test)&mdash;Wikipedia
-
 - [You are Not a Parrot](https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html)&mdash;Emily Bender, New York magazine
-
 - [Climbing towards NLU: On Meaning, Form and Understanding in the Age of Data](https://aclanthology.org/2020.acl-main.463.pdf)&mdash;Bender and Koller  
   - [Video and slide presentation by the authors on SlidesLive](https://slideslive.com/38929214/climbing-towards-nlu-on-meaning-form-and-understanding-in-the-age-of-data)
-
 - [To Dissect an Octopus: Making Sense of the Form/Meaning Debate](https://julianmichael.org/blog/2020/07/23/to-dissect-an-octopus.html)&mdash;Juan Michael
 
 
