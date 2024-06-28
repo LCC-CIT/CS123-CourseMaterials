@@ -38,6 +38,8 @@ author: Brian Bird
     - **Join the Discord server** so you can communicate with your team.
     
   - Elements of AI Ch. 1 and 2 exercises: Sunday
+  - Answer "Your turn" questions in the forum: Sunday  
+    This is mainly for online students or anyone who wasn't able to participate in the live classroom discussion.
   - Quiz over the lectures: Sunday
 
 - Next week  
