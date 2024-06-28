@@ -1,7 +1,7 @@
 ---
 title: AI Overview
 description: Overview of Artificial Intelligence.
-keywords: AI
+keywords: AI, Turing test, Kasparov, Deep Blue, reason, think, conscious
 generator: Typora
 author: Brian Bird
 ---
@@ -107,9 +107,13 @@ I (your instructor) will play the part of two personas, "A" and "B". Using the Z
 
 ### The Octopus Test
 
-The "Octopus Test" proposed by Bender and Koller[^3] is a thought experiment in their paper challenging the idea that AI truly understands language. They imagine an AI trained on all texts about octopuses but lacks data on their jar-opening ability. If asked about this, the AI wouldn’t be able to provide a correct answer because it hasn’t been trained on that specific piece of information.
+The "Octopus Test" proposed by Bender and Koller[^3] is a thought experiment in their paper challenging the idea that generative AI systems truly understand language. Here is a summary:
 
-This experiment highlights the limitations of AI based on LLMs (Large Language Models) and emphasizes that these models don’t truly understand language or have knowledge about the world. They can only generate responses based on the patterns they’ve learned from their training data.
+- **Scenario**: Two English speakers, A and B, communicate via telegraph while stranded on separate islands. A hyper-intelligent octopus that has no knowledge of human language, O, intercepts their messages.
+- **Octopus' Understanding**: O is very good at detecting statistical patterns and learns to accurately predict B's responses to A's messages and learns associations between words but doesn't understand what the words refer to because O has no experience in the world of A and B.
+- **Turing Test**: O attempts to impersonate B in conversations with A. The test is whether O can fool A. As long as A continues sending messages similar to the ones from which O initially learned, A may be fooled by O's responses. (This is a weak Turing test since A doesn't know there is a possibility they are not communicating with B.)
+- **Turing Test Failure:** Suppose A has figured out how to build a coconut catapult and sends instructions to B. Since, O wouldn't understand new words in the instructions like *rope* and *coconut*, it could only respond with a general response like, "Cool idea". Now suppose A is being pursued by a bear and asks B for help coming up with a defensive weapon. O would not know how to respond to a request containing words like *bear* and *weapon* since O only knows the patterns and inter-relationships of words and has no understanding of what the words refer to and therefore can't hypothesize or infer meanings for new words.
+- **Conclusion**: O can only provide convincing responses to the kind of conversations it has already intercepted and not new kinds of conversations because it only learned the forms (patterns, interrelationships of words and statistical probabilities of word occurrence). This thought experiment demonstrates that exposure to form alone is insufficient for learning meaning, as meaningful communication requires grounding in the real world and communicative intent. 
 
 
 
