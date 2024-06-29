@@ -47,10 +47,10 @@ The probability of the *observation* in the case of the *event* of interest divi
 - *Event* is the indicator that the observation will happen.  
   In our example: clouds.
 
-The likelihood ration is where the new information comes in. It is a second set of probabilities that gives us new information about the original probability.
+The likelihood ratio is where the new information comes in. It is a second set of probabilities that gives us new information that will improve the accuracy of predictions.
 
 **Example**  
-The new information is the probability that clouds in the morning predict rain later in the day.
+The new information is: the probability that clouds in the morning predict rain later in the day.
 
 (This is not real data and is different from the example in the book)
 
