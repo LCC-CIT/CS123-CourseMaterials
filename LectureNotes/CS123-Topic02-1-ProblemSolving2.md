@@ -81,9 +81,11 @@ If you search the internet you will find a lot of different logic puzzles involv
 They are search problems since you search the *state-space*[^3] to find the minimum number of *transitions*[^4] between states that will solve the problem.
 
 - Ch.2 of *Elements of AI* describes the "Chicken, feed, and fox" problem.
-- Follow [this link](../Research/ZombiesAndHumansSolution.html) to see a solution to the "Zombies and humans" problem".
+- Look at a solution to  the [Zombies and humans river crossing problem](https://lcc-cit.github.io/CS123-CourseMaterials/LectureNotes/Topic-01-4-ZombieCrossingSolution.html).
 
-## Game Playing Problems
+### Two-Agent Problems
+
+**Game Playing Problems**
 
 Two-player games are examples of *two-agent* problems.
 
