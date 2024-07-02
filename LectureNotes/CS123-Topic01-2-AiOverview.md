@@ -138,7 +138,7 @@ ChatGPT is not an example of General AI. It's actually Narrow AI. While it's qui
 # Reference
 
 - *Artificial Intelligence, A Modern Approach*&mdash;2010, 3rd Ed. Pearson
-- [Elements of AI](https://www.elementsofai.com/)&mdash;The University of Helsinki and MinnaLearn
+- [Elements of AI](https://www.elementsofai.com/)&mdash;The University of Helsinki and MinnaLearn, 2024
 - [Understanding the Different Types of Artificial Intelligence](https://www.ibm.com/blog/understanding-the-different-types-of-artificial-intelligence/)&mdash;IBM
 
 
