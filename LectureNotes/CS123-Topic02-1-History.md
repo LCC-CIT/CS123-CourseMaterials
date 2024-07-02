@@ -27,41 +27,57 @@ author: Brian Bird
 
 ## What's Happening
 
+- No class Thursday.
+
 - Reading and exercises, any questions?
 
-  - You can ask on Discord too.
+  - You can the Discord exercise-questions channel too.
   
-- This week's due dates:
+- Due this Sunday:
 
-  - Introduce yourself survey: **Today**
-  - Join a team: Sunday **or sooner!** 
-    - **Join the Discord server** so you can communicate with your team.
-    
-  - Elements of AI Ch. 1 and 2 exercises: Sunday
-  - Quiz over the lectures: Sunday
-
-- Next week  
-  History of AI (lecture), Real world applications of AI (reading)
-
-  - No class on Thursday, July 4th
-  - Elements of AI Ch. 3 exercises: Sunday
-  - Quiz over the lecture: Sunday
-  - Team project on applications of AI: Sunday  
-    **Start working on this as soon as your team is formed.**
-
+  - Elements of AI Ch. 3 exercises
+  - Quiz over the lecture
   
+  - Team project on applications of AI
+  - "Your turn" forum for online students
 
 ## Review
 
+- Tests of AI systems:
+  - What is meant by "reasoning"?
+  - What are some reasoning tests.
+  - What is the *Turing test*?
+  - What is the point of the *octopus test*?  
+    There was an AI hallucination in last week's notes.
+- What are some concerns about AI in these categories:
+  - Ethical Issues
+  - Social Issues
+
+  - Privacy Issues
+
+  - Philosophical Issues of Personhood and Humanity
 
 
-### 
+
+# Key Events in the History of AI
+
+## Turing
+
+1950: Alan Turing released “Computing Machinery and Intelligence,” questioning whether or not machines could manifest human intelligence and proposed the "imitation game", aka the Turing test.
+
+
+
+1952: [Arthur Samuel](https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)) created a checkers-playing computer program that could determine the probability of winning a game. It was the first program to <u>learn</u> how to <u>autonomously</u> play a game.
+
+![ArthurSamuelCheckers](Images/ArthurSamuelCheckers.webp)
+
+Arthur Samuel playing checkers with an IBM 701 computer.
 
 
 
 # Reference
 
-
+[The Games that helped AI Evolve](https://www.ibm.com/history/early-games?mhsrc=ibmsearch_a&mhq=arthur%20samuel%20checkers)&mdash;IBM
 
 ---
 
