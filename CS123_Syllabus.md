@@ -167,10 +167,11 @@ Enter the Support Hub by going to [lanecc.edu/hub](https://www.lanecc.edu/hub). 
 
 For upcoming closures, please visit the [Center for Accessible Resources webpage ](https://www.lanecc.edu/disability)
 
- ### Campus Location and Maps
+ ## Campus Location and Maps
 
 - [Bus service and free student bus pass](https://www.lanecc.edu/experience-lane/transportation-getting-around/lcc-bus-pass)
 - [Interactive Map of the LCC Main Campus](https://map.concept3d.com/?id=780#!ct/80243,11008,10696,80244,80245?s/)
+- [Floor plan of buiding 19](Images/Building19FloorPlan.pdf)
 
 ## Schedules
 

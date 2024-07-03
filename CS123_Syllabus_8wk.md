@@ -1,4 +1,4 @@
-<h1>Introduction to Artificial Intelligence</h1>
+<h1 id="top">Introduction to Artificial Intelligence</h1>
 
 **CS 123 Syllabus for Summer 2024**
 
@@ -8,6 +8,8 @@
 | **CRN**           | Hybrid (on campus) 10276<br />Online 10277                   |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)                  |
 | **Day & Time**    | Tu, Th 10:00&dash;11:50                                      |      | **Office Hours**  | Drop in!<br />Tu&mdash;Th 10:00&ndash;11:50                  |
 | **Room**          | Building 19, Room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/95050541545) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/94813245609) |
+
+*For the location of building 19, the classroom and the instructor's office see [Campus Location and Maps](#campus-location-and-maps)*
 
 <h2>Table of Contents</h2>
 
@@ -165,11 +167,13 @@ Enter the Support Hub by going to [lanecc.edu/hub](https://www.lanecc.edu/hub). 
 
 For upcoming closures, please visit the [Center for Accessible Resources webpage ](https://www.lanecc.edu/disability)
 
- ## Campus Location and Maps
+ # Campus Location and Maps
 
 - [Bus service and free student bus pass](https://www.lanecc.edu/experience-lane/transportation-getting-around/lcc-bus-pass)
 
 - [Interactive Map of the LCC Main Campus](https://map.concept3d.com/?id=780#!ct/80243,11008,10696,80244,80245?s/)
+
+- [Map (floor plan) of Building 19](Images/Building19FloorPlan.pdf)
 
   
 
@@ -201,4 +205,5 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 | **7**<br />8/6<br />8/8   | Custom GPT chatbot                                 | TBD<br />Quiz                                                |
 | **8**<br />8/13<br />8/15 | Social and ethical issues of AI                    | Final Quiz                                                   |
 
-[Go back to the top](#course-description)
+<a href="#top">Go back to the top</a>
+
