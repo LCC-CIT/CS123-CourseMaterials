@@ -13,8 +13,8 @@ author: Brian Bird
 | Topics                                                       |                                 |
 | ------------------------------------------------------------ | ------------------------------- |
 | Overview of AI                                               | Generative AI                   |
-| <s>History and applications of AI</s> <br /><mark>AI Problem Solving Revisited <br />Applications of AI</mark> | Prompt engineering              |
-| History of AI <br />Machine Learning                         | Custom chatbot creation         |
+| <s>History and applications of AI</s> <br /><mark>AI Problem Solving Revisited</mark><br />Machine Learning&mdash;Part 1<br />Applications of AI | Prompt engineering              |
+| History of AI <br />Machine Learning&mdash;Part 2            | Custom chatbot creation         |
 | Neural networks and deep learning                            | Social and ethical issues of AI |
 
 
