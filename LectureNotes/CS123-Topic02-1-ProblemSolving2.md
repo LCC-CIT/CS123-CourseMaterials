@@ -100,14 +100,14 @@ Two-player games are examples of *two-agent* problems.
   Chapter 2 "AI Problem Solving"
 - [Understand Types of Environments in Artificial Intelligence](https://www.aitude.com/understand-types-of-environments-in-artificial-intelligence/)&mdash;Sandeep Kumar, 2020.
 
-
-
 [^1]: The *environment* of the problem is made up of the things in the world that surrounds the problem.
 [^2]: An *agent* is someone or something that is directing the actions.
 [^3]: Sate-space
 [^4]: A *transition* is the change from one state to another within the state-space.
 [^5]: The *minimax algorithm* is used to search a tree (a type of computer data structure) to find paths through branches with either minim or maximum values.
 
+
+
 ---
 
-[![Creative Commons License](/Volumes/DataCard/Repos/CS123-CourseMaterials/Images/cc-by-sa-88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](Images/cc-by-sa-88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
