@@ -102,7 +102,7 @@ Two-player games are examples of *two-agent* problems.
 
 [^1]: The *environment* of the problem is made up of the things in the world that surrounds the problem.
 [^2]: An *agent* is someone or something that is directing the actions.
-[^3]: Sate-space
+[^3]: State-space
 [^4]: A *transition* is the change from one state to another within the state-space.
 [^5]: The *minimax algorithm* is used to search a tree (a type of computer data structure) to find paths through branches with either minim or maximum values.
 
