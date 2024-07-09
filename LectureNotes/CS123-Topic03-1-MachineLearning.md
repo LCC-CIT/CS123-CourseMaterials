@@ -25,13 +25,18 @@ author: Brian Bird
 
 # Introduction
 
-## What's Happening
+## What's Coming
 
-- Due by this coming Sunday:
+**Due by this coming Sunday:**
 
-  - Forum for questions related to the lecture (for online students)
-  - Elements of AI, Ch. 4, Machine Learning, Exercises
-  - Quiz over the lectures
+- Forum for questions related to the lecture (for online students or those who weren't in class or on Zoom during the lecture).
+- Elements of AI, Ch. 4, Machine Learning, Exercises. 
+  I'm changing the exercises assignment into a quiz with questions modeled after the exercise questions. No more screen-shots.
+- Quiz over the instructor's lectures.
+
+**Next week:**
+
+The midterm quiz will be given in class on Thursday and be available in the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services), Center Building, Room 311, on Wednesday and Thursday, 9:00am to 5:00pm (but start the quiz at 3:00pm at the latest).
 
 ## Review
 
@@ -55,7 +60,7 @@ Machine learning is a subfield of AI that uses algorithms trained on data sets. 
 
 When talking about Machine Learning (ML), people often use the term *model*. This term can refer to either:
 
--  Aa machine learning algorithm and methodology for training it.
+-  A machine learning algorithm and the methodology for training it.
 - A machine learning algorithm that has been trained using data.
 
 **Example of a model:** The *naive Bayes classifier* for detecting spam assigned weights (probabilities) to a set of words. This set of weights along with the algorithm for using them to classify an email message constitute a trained *model*.
@@ -102,24 +107,27 @@ K-NN, where K represents the number of "Nearest Neighbors" to consider". In this
 
 Training: A realtor looks at the recent selling price of homes similar to the one they are selling and sets a selling price based on those similar homes. In order to train an ML model to do this, the pertinent characteristics of a home (location, number of beds and baths, etc.) need to be identified and represented numerically so that they can be compared mathematically.
 
-Inference (classification): A home that hasn't sold yet can have its market value estimated by comparing it to several (k) other homes with similar characteristics (NN).
+Inference (classification in this case): A home that hasn't sold yet can have its market value estimated by comparing it to several (k) other homes with similar characteristics (NN).
 
 **Example:** Character recognition.
 
 <details>
-  <summary>What do you think the steps would be to train a model for Handwritten Character Recognitions(HCR) using the MNIST data set?</summary>
-<b>Training the Model</b>
+  <summary>What do you think the steps would be to train a model for Handwritten Character Recognitions(HCR) using the MNIST data set?<br>(Click to expand)</summary>
+<h4>Training the Model</h4>
 <ul>
-<li>Data Collection: Gather a large dataset of handwritten characters, each labeled with their correct character (such as MNIST).</li>
-<li>Feature Extraction: Convert each handwritten character into a feature vector. This could involve various techniques such as pixel intensity, edge detection, or even more complex methods.</li>
-<li>Model Training: The K-NN algorithm doesn’t require an explicit training step. Instead, it stores all the feature vectors and their corresponding labels.</li>
-<b>Classification Using the Trained Model</b>
+  <li><b>Data Collection:</b> Gather a large dataset of handwritten characters, each labeled with their correct character (such as the MNIST).</li>
+  <li><b>Feature Extraction:</b> Convert each handwritten character into a feature vector. The features could include pixel locations, corner coordinates, location and nmuber of open spaces enclosed by loops, etc.</li>
+  <li><b>Model Training:</b> The K-NN algorithm doesn’t require an explicit training step. Instead, it stores all the feature vectors and their corresponding labels.</li>
+</ul>
+<h4>Classification Using the Trained Model</h4>
 <ul>
-<li>New Character Introduction: When a new, unknown handwritten character is introduced, convert it into a feature vector using the same method used during training.</li>
-<li>Distance Calculation: The K-NN algorithm calculates the distance between the new character and all the known characters in the training set.</li>
-<li>Finding Nearest Neighbors: The algorithm identifies the ‘k’ closest known characters to the new character.</li>
-<li>Majority Voting: The new character is assigned the label that is most common among its ‘k’ nearest neighbors.</li>
+  <li><b>New Character Introduction:</b> When a new, unknown handwritten character is introduced, convert it into a feature vector using the same method used during training.</li>
+  <li><b>Distance Calculation:</b> The K-NN algorithm calculates the distance between the new character and all the known characters in the training set.</li>
+  <li><b>Finding Nearest Neighbors:</b> The algorithm identifies the ‘k’ (some number) closest known characters to the new character.</li>
+  <li><b>Majority Voting:</b> The new character is assigned the label that is most common among its ‘k’ nearest neighbors.</li>
+</ul>
 </details>
+
 
 
 
