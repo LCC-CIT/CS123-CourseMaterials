@@ -149,13 +149,6 @@ We have already seen an application of naive Bayes classification. There are oth
 
 
 
-Classification
-Clustering
-Dimensionality Reduction
-Ensemble Methods
-
-
-
 
 
 # Reference
