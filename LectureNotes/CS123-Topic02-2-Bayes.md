@@ -125,28 +125,28 @@ Here are the results:
 
 ### Setting a Decision Threshold
 
-Next we would calculate the odds of each post having negative sentiment. In other words we would do *inference* on our training data. Let's say these were the average of the probabilities for each type of post:  
+Next we would calculate the odds of each post having negative sentiment. In other words we would do *inference* on our training data. Let's say these were the average of the posterior probabilities for each type of post:  
 (We'd actually want to look at standard deviations, etc. as well. But let's keep this simple.)
 
-- Posts with negative sentiment: 235
-- Posts with positive sentiment: 24
+- Posts with negative sentiment: 125
+- Posts with positive sentiment: 25
 
 We might then decide that 75 is the threshold value for deciding the sentiment of a post.
 
 ## Inference
 
-*Inference* is the term we use to describe the process of making decisions based on the training. In this case, we want to make decisions based on *posterior odds* (in the form of a probability) which are calculated using the formula below. We are assuming the prior odds (odds of a post having negative sentiment) are 1:1 or a probability of 1.
+*Inference* is the term we use to describe the process of making decisions based on the training. In this case, we want to make decisions based on *posterior odds* (in the form of a probability) which are calculated using the formula below. We are assuming the prior odds (odds of a post having negative sentiment) are 1:1 or a probability of 0.5.
 $$
 probability = prior \times liklihood_1 \times likelihood_2 \times...\times likelihood_n
 $$
 Let's say we want to do inference on two new posts. The posts have these words (as well as others) in them:
 
 - Post 1: *blah blah <u>fine</u> blah <u>disappoint</u> blah <u>smart</u> blah blah.*
-  - Probability of negative sentiment: 1 x 0.4 x 11.67 x 0.5 = 2.33
-  - 2.33 < 75 so this will be classified as positive.
+  - Probability of negative sentiment: 0.5 x 0.4 x 11.67 x 0.5 = 1.16
+  - 1.16 < 75 so this will be classified as positive.
 - Post 2: *blah <u>disappoint</u> blah blah <u>fun</u> blah blah <u>frustrate</u>.*
-  - Probability of negative sentiment: 1 x 11.67 x 0.5 x 34 = 198.39
-  - 198.39 > 75 so this will be classified as negative.
+  - Probability of negative sentiment: 0.5 x 11.67 x 0.5 x 34 = 99.19
+  - 99.9 > 75 so this will be classified as negative.
 
 
 
@@ -165,3 +165,5 @@ Let's say we want to do inference on two new posts. The posts have these words (
 ---
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+
+MS Copilot GPT-4 was used to draft parts of these notes.

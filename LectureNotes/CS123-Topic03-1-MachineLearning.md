@@ -112,7 +112,7 @@ Inference (classification in this case): A home that hasn't sold yet can have it
 **Example:** Character recognition.
 
 <details>
-  <summary>What do you think the steps would be to train a model for Handwritten Character Recognitions(HCR) using the MNIST data set?<br>(Click to expand)</summary>
+  <summary>What do you think the steps would be to train a model for Handwritten Character Recognition (HCR) using the MNIST data set?<br>(Click to expand)</summary>
 <h4>Training the Model</h4>
 <ul>
   <li><b>Data Collection:</b> Gather a large dataset of handwritten characters, each labeled with their correct character (such as the MNIST).</li>
@@ -157,6 +157,8 @@ We have already seen an application of naive Bayes classification. There are oth
 
 
 
+### Artificial Neural Networks
+
 
 
 # Reference
@@ -174,3 +176,5 @@ We have already seen an application of naive Bayes classification. There are oth
 ---
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+
+MS Copilot GPT-4 was used to draft parts of these notes.
