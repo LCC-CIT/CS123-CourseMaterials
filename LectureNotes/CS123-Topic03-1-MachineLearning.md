@@ -36,7 +36,12 @@ author: Brian Bird
 
 **Next week:**
 
-The midterm quiz will be given in class on Thursday and be available in the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services), Center Building, Room 311, on Wednesday and Thursday, 9:00am to 5:00pm (but start the quiz at 3:00pm at the latest).
+- No reading, exercises, or quiz.
+- Tuesday: We will cover the history of AI. Some questions about the history of AI will be on the midterm.
+  - A practice midterm will be available.
+
+- Thursday: the midterm quiz will be given in the classroom.
+- Wednesday and Thursday: the midterm will be available in the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services), Center Building, Room 311, from 9:00am to 5:00pm (but start the quiz at 3:00pm at the latest).
 
 ## Review
 
