@@ -143,9 +143,26 @@ We have already seen an application of naive Bayes classification. There are oth
 
 ##### Linear Regression
 
-
+Covered in class lecture on Tuesday 7/9/24
 
 ##### Logistic Regression
+
+Logistic regression (logarithmic odds regression) is a methodology used mainly for binary classification. It predicts the probability that an instance belongs to a given class. For example, it can be used to identify whether an email is spam or not, or to diagnose diseases by assessing the presence or absence of specific conditions based on patient test results. 
+
+In binary logistic regression, a curve is produced by a mathematical function called a *sigmoid function* which squeezes output values into a range between 0 and 1 in a smooth and gradual manner. It’s like a soft switch: instead of abruptly turning ON or OFF, it gradually transitions between the two states.
+
+In the example below, the input, on the x-axis, is the number of hours students studied for an exam. The output, on the y-axis, is probability of passing the exam.
+
+<img src="Images/EoAI-Ch4-Ex19.png" alt="logistic regression graph" style="zoom:30%;" />
+
+[logistic regression graph on Desmos](https://www.desmos.com/calculator/zxs34s4tbd)
+
+**Other types of logistic regression**
+
+Besides *binary* logistic regression, where data are classified into two categories there are other types of logistic regression that classify data into more than two categories.
+
+- **Multinomial:** There can be 3 or more possible *unordered* categories, such as “cats”, “dogs”, or "sheep".
+- **Ordinal:** There can be 3 or more possible *ordered* categories, such as “low”, “Medium”, or "High".
 
 
 
@@ -153,13 +170,44 @@ We have already seen an application of naive Bayes classification. There are oth
 
 #### Decision Trees
 
+A *decision tree* is a flowchart-like structure where each internal node represents a feature (or attribute), each branch represents a decision rule, and each leaf node (end of a branch) represents an outcome.
+
+The tree is built by a machine learning training algorithm. The ML algorithm works off of labeled data (this is supervised ML) to find features which it turns into conditions for making a decision (questions) at the decision nodes in the tree.
+
+**Movie recommendation example**
+
+Start with a dataset of movies that a person likes.
+
+1. **Feature extraction**: For each movie in the dataset, there are features, such as genre, director, length, and so on. These features are used to create the “questions” in the decision tree.
+2. **Tree construction**: The decision tree training algorithm builds a decision tree based on the features
+3. **Prediction**: When recommending a new movie, the decision tree algorithm uses these features to traverse the tree. At each decision node, it checks the feature of the movie and follows the corresponding branch. This process continues until it reaches a leaf node, which gives the final prediction (e.g., “the user will like this movie” or “the user will not like this movie”).
+4. **Recommendation**: The system can then recommend the movies that were predicted to be liked by the user.
+
+```mermaid
+flowchart TD
+    Start[Start] --> Genre{Is it an Action movie?}
+    Genre -->|Yes| Director{Is the director Christopher Nolan?}
+    Director -->|Yes| Rating{Is the IMDb rating above 8?}
+    Rating -->|Yes| Like[Recommend Movie]
+    Rating -->|No| DontLike[Don't Recommend Movie]
+    Director -->|No| Length{Is the movie length less than 2 hours?}
+    Length -->|Yes| Like
+    Length -->|No| DontLike
+    Genre -->|No| Actor{Does the movie star Leonardo DiCaprio?}
+    Actor -->|Yes| Like
+    Actor -->|No| DontLike
+
+```
+
+
+
 #### Random Forrests
 
-
+A Random Forest is a collection of Decision Trees. Each tree in the forest is built from a more or less random sample from the training data set. The final prediction of the Random Forest is made by averaging the predictions of each individual tree (for regression tasks) or by taking a majority vote (for classification tasks). This approach helps to overcome the overfitting problem of Decision Trees and generally results in a more robust and accurate model.
 
 ### Artificial Neural Networks
 
-
+An Artificial Neural Network (ANN) is a computational model inspired by the structure and function of neural networks in the brains. It consists of interconnected nodes or artificial neurons, which loosely model the neurons in a brain. These are connected in a way that models the synapses in a brain. Each artificial neuron receives signals from connected neurons, processes them, and sends a signal to other connected neurons. The strength of the signal at each connection is determined by a weight, which is adjusted during the learning process. They can learn from experience, and can derive conclusions from complex and seemingly unrelated sets of information.
 
 # Reference
 
