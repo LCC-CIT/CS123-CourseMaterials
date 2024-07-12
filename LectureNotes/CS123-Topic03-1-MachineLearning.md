@@ -92,7 +92,7 @@ A business might use data about their customers, such as age, location, and purc
 
 ### Reinforcement learning
 
-The AI system isn't given any training data, instead it acts as an autonomous agent that accumulates data from trial-and-error attempts to solve a problem or make a decision. It uses algorithms that learn from outcomes and decide which action to take next. After each action, the algorithm receives feedback that helps it determine whether the choice it made was correct, neutral or incorrect.
+The AI system isn't given any training data, instead it acts as an autonomous agent that accumulates data from trial-and-error attempts to solve a problem or make a decision. It uses algorithms that learn from outcomes to decide which action to take next. 
 
 **Example:** autonomous robots in industrial automation. 
 
@@ -106,7 +106,7 @@ We've already seen Bayes's rule, which is a statistical methodology (aka model).
 
 ### Nearest Neighbor (K-NN)
 
-K-NN, where K represents the number of "Nearest Neighbors" to consider". In this methodology, things (or people) are classified based on a number of predetermined features and grouped (classified) based on the similarity of those features.
+K-NN, where K represents the number of "Nearest Neighbors" to consider is a methodology in which things (or people) are classified based on a number of predetermined features and grouped (classified) based on the similarity of those features.
 
 **Example:** Real estate comparative market analysis.
 
@@ -121,7 +121,7 @@ Inference (classification in this case): A home that hasn't sold yet can have it
 <h4>Training the Model</h4>
 <ul>
   <li><b>Data Collection:</b> Gather a large dataset of handwritten characters, each labeled with their correct character (such as the MNIST).</li>
-  <li><b>Feature Extraction:</b> Convert each handwritten character into a feature vector. The features could include pixel locations, corner coordinates, location and nmuber of open spaces enclosed by loops, etc.</li>
+  <li><b>Feature Extraction:</b> Convert each handwritten character into a <i>feature vector</i>. The features could include pixel locations, corner coordinates, location and nmuber of open spaces enclosed by loops, etc.</li>
   <li><b>Model Training:</b> The K-NN algorithm doesn’t require an explicit training step. Instead, it stores all the feature vectors and their corresponding labels.</li>
 </ul>
 <h4>Classification Using the Trained Model</h4>
@@ -132,6 +132,7 @@ Inference (classification in this case): A home that hasn't sold yet can have it
   <li><b>Majority Voting:</b> The new character is assigned the label that is most common among its ‘k’ nearest neighbors.</li>
 </ul>
 </details>
+
 
 
 
@@ -175,9 +176,9 @@ Besides *binary* logistic regression, where data are classified into two categor
 
 #### Decision Trees
 
-A *decision tree* is a flowchart-like structure where each internal node represents a feature (or attribute), each branch represents a decision rule, and each leaf node (end of a branch) represents an outcome.
+A *decision tree* is a flowchart-like structure where each *internal node* (aka *decision node*) represents a point where a decision is made based on some feature (aka attribute) of the data item being classified. There is a branch for each outcome of the decision. A branch or series of branches will ultimately end in a *leaf node* that represents a final outcome.
 
-The tree is built by a machine learning training algorithm. The ML algorithm works off of labeled data (this is supervised ML) to find features which it turns into conditions for making a decision (questions) at the decision nodes in the tree.
+The tree is built by a machine learning training algorithm. The ML algorithm works off of labeled data (this is supervised ML) to find features which it turns into conditions for making a decision at the decision nodes in the tree.
 
 **Movie recommendation example**
 
