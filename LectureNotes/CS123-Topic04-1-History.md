@@ -25,23 +25,16 @@ author: Brian Bird
 
 # Introduction
 
-## What's Happening
+## What's Happening this Week
 
-- No class Thursday.
+- Midterm Quiz
+  -  In the Instructional Testing center Wednesday and Thursday
+  - In class on Thursday
 
-- Reading and exercises, any questions?
-
-  - You can the Discord exercise-questions channel too.
-  
 - Due this Sunday:
 
-  - Elements of AI Ch. 3 exercises
-  - Quiz over the lecture
-  
-  - Team project on applications of AI
-  - "Your turn" forum for online students
-
-## Review
+  - Week 4 questions, answers and comments forum posts
+    (Part of your participation grade)
 
 
 
@@ -150,6 +143,12 @@ The perceptron and connectionism were notably criticized by Marvin Minsky and Se
 
 1986: British-Canadian Carnegie Mellon professor and computer scientist Geoffrey Hinton, often referred to as the "godfather of AI", was among several researchers who helped make neural networks cool again by demonstrating that more than just a few of them could be trained using backpropagation for improved shape recognition and word prediction.
 
+## Deep Blue Beats the World Champion Chess Player
+
+1997: IBM's Deep Blue was the first computer to defeat a reigning world chess champion, Garry Kasparov. Deep Blue's AI methodologies were primarily based on brute force symbolic computing power using techniques like preprogrammed chess rules, game trees and state-space searches. It did not use machine learning or neural networks. 
+
+It used 32 processors to perform a set of coordinated, high-speed computations in parallel. The system was capable of evaluating 200 million chess positions Per Second, achieving a processing speed of over 11 Gigaflops (11 billion Floating Point Operations per Second). 
+
 
 
 # Reference
@@ -159,8 +158,6 @@ The perceptron and connectionism were notably criticized by Marvin Minsky and Se
 [The Games that helped AI Evolve](https://www.ibm.com/history/early-games?mhsrc=ibmsearch_a&mhq=arthur%20samuel%20checkers)&mdash;IBM
 
 [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai)&mdash;Coursera
-
-[The History of Deep Learning](https://medium.com/@shivasaichakradhar/the-history-of-deep-learning-a91a25f78398)&mdash;Shiva Sai Chakradhar, Medium
 
 [The Quest for Artificial Intelligence: A History of Ideas and Achievements](http://ai.stanford.edu/%7Enilsson/QAI/qai.pdf)&mdash;Nils J. Nilsson, Cambridge University Press, 2010.
 
