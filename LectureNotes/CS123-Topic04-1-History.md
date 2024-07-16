@@ -40,9 +40,10 @@ author: Brian Bird
 
 # Key Events in the History of AI
 
+## Lady Ada Lovelace, the First Computer Programmer
 
-
-## Ada Lovelace, the First Computer Programmer
+<img src="Images/Carpenter_portrait_of_Ada_Lovelace.png" alt="Carpenter portrait of Lady Ada Lovelace" style="zoom:33%;" />
+*Margaret Sarah Carpenter's portrait of Lady Ada Lovelace*
 
 1843: Lady Ada Lovelace, often recognized as the world’s first computer programmer, foresaw some aspects of artificial intelligence. In her “Translator’s Note G,” (her translation from French of lectures by Charles Babbage) dubbed by Alan Turing as “Lady Lovelace’s Objection,” She envisioned machines capable of performing complex tasks beyond mere calculation, foreshadowing the capabilities of modern AI systems. However, she maintained that these machines would not have the ability to understand or originate anything. They would only be able to do what they were programmed to do.
 
