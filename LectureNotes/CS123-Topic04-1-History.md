@@ -59,7 +59,15 @@ author: Brian Bird
 
 
 
-1946: The ENIAC (Electronic Numerical Integrator and Computer) - was completed at the University of Pensilvania. It is considered by many[^4] to be the first *Turing complete* computing machine.
+
+
+1950: Alan Turing published a paper titled “Computing Machinery and Intelligence,” questioning whether or not machines could manifest human intelligence and proposed the "imitation game", aka the *Turing test*.
+
+1954: Alan Turing tragically committed suicide at the age of 42 after being prosecuted for being gay.
+
+## ENIAC and the First Computers
+
+1946: The ENIAC (Electronic Numerical Integrator and Computer) - was completed at the University of Pensilvania by a team led by John Mauchly and J. Presper Eckert. It is considered by many[^4] to be the first *Turing complete* computing machine. It used over 17,000 vacuum tubes which required a lot space and power and created a lot of heat.
 
 <img src="Images/ENIAC-1946.webp" alt="ENIAC-1946" style="zoom:33%;" />
 
@@ -67,9 +75,13 @@ author: Brian Bird
 
 **Why this matters**: The significance of the development of a computer that could be re-programed for different tasks was a prerequisite for developing AI software.
 
-1950: Alan Turing published a paper titled “Computing Machinery and Intelligence,” questioning whether or not machines could manifest human intelligence and proposed the "imitation game", aka the *Turing test*.
+### Transistorized Computers
 
-1954: Alan Turing tragically committed suicide at the age of 42 after being prosecuted for being gay.
+1962: The IBM 7094 was the first transistorized mainframe computer. It was a large, powerful computer using over 12,000 transistors and was designed for scientific and engineering applications.
+
+1967: The IBM 360 Model 95 was the first mainframe computer built using integrated circuits (ICs). It had over 12,000 ICs, with each contained many transistors. The total number of transistors was over 100,000. It had a clock speed of 1.9 MHz and 256 KB of memory. It was considered to be extremely high performance and was used for a variety of applications, including business processing, scientific simulations, and data processing.
+
+
 
 ## Claude Shannon and Game Theory
 
@@ -114,7 +126,7 @@ Marvin Lee Minsky was an American cognitive and computer scientist whois often r
 
 ## Frank Rosenblatt and  the Perceptron
 
-1957: The perceptron, based on the McCulloch–Pitts mathematical model of a neuron (1943), is an algorithm for supervised machine learning for binary classifiers. The first hardware implementation, known as the Mark I Perceptron, was built at the Cornell Aeronautical Laboratory by Frank Rosenblatt. 
+1957: The perceptron, designed by by Frank Rosenblatt, was based on the McCulloch–Pitts mathematical model of a neuron (1943). It was a system for supervised machine learning for binary classifiers. The first Perceptron, known as the Mark I, was a combination of software that ran on an IBM 7094 and custom hardware consisting of transisterized circuits. It was built at the Cornell Aeronautical Laboratory which was affiliated with Cornell University in New York. 
 
 This was an early example of connectionism which was a competing approach to symbolism the dominant approach to AI at the time.
 
@@ -143,7 +155,7 @@ The perceptron and connectionism were notably criticized by Marvin Minsky and Se
 
 1986: British-Canadian Carnegie Mellon professor and computer scientist Geoffrey Hinton, often referred to as the "godfather of AI", was among several researchers who helped make neural networks cool again by demonstrating that more than just a few of them could be trained using backpropagation for improved shape recognition and word prediction.
 
-## Deep Blue Beats the World Champion Chess Player
+## Deep Blue Beats a World Champion Chess Player
 
 1997: IBM's Deep Blue was the first computer to defeat a reigning world chess champion, Garry Kasparov. Deep Blue's AI methodologies were primarily based on brute force symbolic computing power using techniques like preprogrammed chess rules, game trees and state-space searches. It did not use machine learning or neural networks. 
 
