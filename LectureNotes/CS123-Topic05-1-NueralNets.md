@@ -40,7 +40,7 @@ Due this Sunday (the usual):
 
 ### Neural Networks in the Brain
 
-<img src="/Volumes/DataCard/Repos/CS123-CourseMaterials/LectureNotes/Images/BrainNeuralNetworkAndNeuron.jpg" alt="BrainNeuralNetworkAndNeuron" style="zoom:24%;" />
+<img src="Images/BrainNeuralNetworkAndNeuron.jpg" alt="BrainNeuralNetworkAndNeuron" style="zoom:24%;" />
 
 A biological neural network consists of interconnected neurons that communicate through axons, dendrites and synapses to process and transmit information. The dendrites are inputs to the neuron and the axon is the output of the neuron. The connection points are synapses. This intricate web of connections forms the basis for learning, memory, and behavior in living organisms.
 
@@ -50,30 +50,9 @@ A biological neural network consists of interconnected neurons that communicate 
 
 A perceptron is modeled on a single neuron. 
 
-<img src="/Volumes/DataCard/Repos/CS123-CourseMaterials/LectureNotes/Images/general-diagram-of-perceptron-for-supervised-learning_4.webp" alt="general-diagram-of-perceptron-for-supervised-learning_4" style="zoom:75%;" />
+<img src="Images/general-diagram-of-perceptron-for-supervised-learning_4.webp" alt="general-diagram-of-perceptron-for-supervised-learning_4" style="zoom:75%;" />
 
 ( &sum; is a the mathematical symbol for summation&mdash;aka addition.)
-
-### Training a Perceptron
-
-Training is done by assigning weights to the inputs.
-
-
-
-### Artificial Neural Networks (ANN)
-
-<img src="/Volumes/DataCard/Repos/CS123-CourseMaterials/LectureNotes/Images/ART_Artificial_intelligence_Neural_network_explain.png" alt="ART_Artificial_intelligence_Neural_network_explain" style="zoom:40%;" />
-
-An artificial neural network (ANN) is a computational model inspired by the structure and function of neural networks found in the brain. Each node, or "neuron", has multiple inputs, but one output. The nodes are arranged in layers and are interconnected layers. The input layer gets the input data to be processed, the hidden layers do processing and send data to an output layer.
-
-#### Subsymbolic Systems
-
-*Subsymbolic* refers to approaches and methods that do not rely on explicit symbolic representations, such as logic-based systems, to process information and make decisions. Instead, subsymbolic AI uses distributed representations where information is encoded in a non-symbolic way, often through patterns of activation across numerous simple processing units.
-
-#### Characteristics
-
-- Information processing and storage (memory) are both done in the same place instead of memory and processing being separated.
-- Processing is done simultaneously across many neurons instead of sequentially. 
 
 #### Mathematical Model
 
@@ -86,9 +65,59 @@ linear combination = intercept + weight1 × input1 + ... + weight6 × input6 (wh
 
 Once the linear combination has been computed, the neuron takes the linear combination and puts it through an activation function. Typical examples of the activation function include:
 
-- Identity function: do nothing and just output the linear combination
 - Step function: if the value of the linear combination is greater than zero, send a pulse (ON), otherwise do nothing (OFF)
-- Sigmoid function: a “soft” version of the step function.
+- Sign function: similar to the step function, but the output will be either +1 or -1.
+- Sigmoid (logistic) function: a “soft” version of the step function.
+
+<img src="Images\Activation-Functions.png" style="zoom:50%;" />
+
+
+
+## Artificial Neural Networks (ANN)
+
+<img src="Images/ART_Artificial_intelligence_Neural_network_explain.png" alt="ART_Artificial_intelligence_Neural_network_explain" style="zoom:40%;" />
+
+An artificial neural network (ANN) is a computational model inspired by the structure and function of neural networks found in the brain. Each node, or "neuron", has multiple inputs, but one output. The nodes are arranged in layers and are interconnected layers. The input layer gets the input data to be processed, the hidden layers do processing and send data to an output layer.
+
+### Characteristics
+
+- Information processing and storage (memory) are both done in the same place instead of memory and processing being separated.
+- Processing is done simultaneously (in parallel) across many neurons instead of sequentially. 
+
+#### Discussion
+
+- How is parallel processing in an ANN done?
+
+  - Parallel processing in digital computers:
+    - Time-slice
+    - Multiple cores
+
+  - Different types of processing units in consumer PCs:
+    - CPU: typically 4 to 16 cores
+      - GPU: NVIDIA GPUs can have hundreds or thousands of CUDA (Compute Unified Device Architecture) cores.
+      - NPU: Typically have 10 to 20 cores.
+
+- Where is data in an ANN stored?
+
+  - In a biological neural network, it is stored in the neurons
+  - In an ANN it is ultimately stored in the computer's memory.
+
+
+
+### Elements of AI Examples
+
+- Discuss the X and O classifier
+
+  - Are some of the O pixels the same as some of the X pixels?
+  - How would the neurons be connected?
+  - Could this be done with a perceptron?
+
+- Discuss the happy or sad face classifier
+
+  - Does it make a difference whether faces are drawn so they fill the whole grid?
+  - What if faces have different proportions?
+
+  
 
 
 
@@ -96,7 +125,7 @@ Once the linear combination has been computed, the neuron takes the linear combi
 
 ### In a Perceptron
 
-![Perceptron_work](/Volumes/DataCard/Repos/CS123-CourseMaterials/LectureNotes/Images/Perceptron_work.webp)
+![Perceptron_work](Images/Perceptron_work.webp)
 
 ### In an ANN
 
@@ -120,7 +149,11 @@ Their key property is that they can detect image features such as bright or dark
 
  two networks compete against each other. One of the networks is trained to generate images like the ones in the training data – it is called the generative network. The other network’s task is to separate images generated by the first network from real images from the training data – this one is called the adversarial network. These two combined then make up a generative adversarial network or a GAN.
 
+
+
 # Reference
+
+## Articles and Tutorials
 
 [What is a Perceptron: A Beginners Guide for Perceptron](https://www.simplilearn.com/tutorials/deep-learning-tutorial/perceptron)&mdash;Mayank Banoula, SimpliLearn, 2023.
 
@@ -128,13 +161,19 @@ Their key property is that they can detect image features such as bright or dark
 
 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)&mdash;Michael A. Nielsen, Determination Press, 2015
 
+## Interactive Web Pages
+
 [Tensorflow Playground](http://playground.tensorflow.org/)&mdash;Tinker with a neural network in your browser.
 
 - [Understanding neural networks with TensorFlow Playground](https://cloud.google.com/blog/products/ai-machine-learning/understanding-neural-networks-with-tensorflow-playground)&mdash;Kaz Sato, Google Cloud, 2016.
 
 [Machine Learning Playground](https://ml-playground.com)&mdash;Experiment with multiple ML models
 
+[Perceptron Visualizer](https://perceptrondemo.com/)
+
 [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
+
+
 
 ---
 
