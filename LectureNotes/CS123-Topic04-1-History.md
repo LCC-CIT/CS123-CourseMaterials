@@ -68,7 +68,7 @@ author: Brian Bird
 
 ## ENIAC and the First Computers
 
-1946: The ENIAC (Electronic Numerical Integrator and Computer) - was completed at the University of Pensilvania by a team led by John Mauchly and J. Presper Eckert. It is considered by many[^4] to be the first *Turing complete* computing machine. It used over 17,000 vacuum tubes which required a lot space and power and created a lot of heat.
+1946: The ENIAC (Electronic Numerical Integrator and Computer) - was completed at the University of Pensilvania by a team led by John Mauchly and J. Presper Eckert. It is considered by many[^4] to be the first *Turing complete* machine. It used over 17,000 vacuum tubes which required a lot space and power and created a lot of heat.
 
 <img src="Images/ENIAC-1946.webp" alt="ENIAC-1946" style="zoom:33%;" />
 
@@ -80,7 +80,7 @@ author: Brian Bird
 
 1962: The IBM 7094 was the first transistorized mainframe computer. It was a large, powerful computer using over 12,000 transistors and was designed for scientific and engineering applications.
 
-1967: The IBM 360 Model 95 was the first mainframe computer built using integrated circuits (ICs). It had over 12,000 ICs, with each contained many transistors. The total number of transistors was over 100,000. It had a clock speed of 1.9 MHz and 256 KB of memory. It was considered to be extremely high performance and was used for a variety of applications, including business processing, scientific simulations, and data processing.
+1967: The IBM 360 Model 95 was the first mainframe computer built using integrated circuits (ICs). It had over 12,000 ICs, with each contained many transistors. The total number of transistors was over 100,000. It had a clock speed of 1.9 MHz and 256 KB of memory. It was considered to be extremely high performance in its day and was used for a variety of applications, including business processing, scientific simulations, and data processing.
 
 
 
@@ -123,9 +123,7 @@ Marvin Lee Minsky was an American cognitive and computer scientist whois often r
 
 1959: He co-founded the Massachusetts Institute of Technology's AI laboratory.
 
-
-
-## Frank Rosenblatt and  the Perceptron
+## Frank Rosenblatt and the Perceptron
 
 1957: The perceptron, designed by by Frank Rosenblatt, was based on the McCulloch–Pitts mathematical model of a neuron (1943). It was a system for supervised machine learning for binary classifiers. The first Perceptron, known as the Mark I, was a combination of software that ran on an IBM 7094 and custom hardware consisting of transisterized circuits. It was built at the Cornell Aeronautical Laboratory which was affiliated with Cornell University in New York. 
 
