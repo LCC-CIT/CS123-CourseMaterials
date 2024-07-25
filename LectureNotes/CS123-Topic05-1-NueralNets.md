@@ -189,7 +189,7 @@ Here is a simplified description of the process (provided by MS Copilot):
 
 ### History of CNN Development
 
-Convolutional Neural Networks (CNNs) were first developed and used in the 1980². The foundational work was done by Kunihiko Fukushima and Yann LeCun. 
+Convolutional Neural Networks (CNNs) were first developed and used in the 1980s. The foundational work was done by Kunihiko Fukushima and Yann LeCun. 
 
 Yann LeCun, in 1989, proposed a neural network architecture known as LeNet-5. This was the first successful implementation of a network that utilized the backpropagation algorithm for training, which is a standard method for training CNNs today. LeNet-5 was used for digit recognition tasks.
 
