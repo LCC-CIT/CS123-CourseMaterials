@@ -71,15 +71,27 @@ Once the linear combination has been computed, the neuron takes the linear combi
 
 <img src="Images\Activation-Functions.png" style="zoom:50%;" />
 
+### Limitations of Perceptrons
 
+Perceptrons seemed to some, like Rosenblatt, the developer of the perceptron (1957,) to be the best way to advance the field of AI. But there were obstacles, which were publicized in detail by Minsky (who ironically developed the first neural network in 1951[^1]) and Pappert in their book *Perceptrons* (1969). These were two of the main obstacles:
 
-## Artificial Neural Networks (ANN)
+- Since there was only a single layer of nodes (neurons), they could only do linear classification (much like regression or Bayesian machine learning techniques).
+- There was no known way to write an algorithm for automatically learning the optimal weights for the connections.
+
+## Artificial Neural Networks
 
 <img src="Images/ART_Artificial_intelligence_Neural_network_explain.png" alt="ART_Artificial_intelligence_Neural_network_explain" style="zoom:40%;" />
 
-An artificial neural network (ANN) is a computational model inspired by the structure and function of neural networks found in the brain. Each node, or "neuron", has multiple inputs, but one output. The nodes are arranged in layers and are interconnected layers. The input layer gets the input data to be processed, the hidden layers do processing and send data to an output layer.
+An artificial neural network (ANN) is a computational model inspired by the structure and function of neural networks in the brain. Each node, or "neuron", has multiple inputs, but one output. The nodes are arranged in layers and are interconnected. The input layer gets input data to be processed, the hidden layers do the processing and send data to an output layer (which could have more than one node.
 
-### Characteristics
+### Deep Learning
+
+Techniques were developed to overcome some of the main the limitations identified by Minsky and Pappert.
+
+- **Multiple Layers**: The term “deep” refers to the use of multiple layers in the network&mdash;the *hidden layers*. These layers transform the input data into a more abstract and composite representation that goes beyond simple linear classification.
+- **Self-learning**: A number of algorithms were developed to set the weights on the connections in the ANN. One of these was Hebbian Learning, named after the psychologist Donald Hebb, it is based on a rule which states that if two neurons fire together, then the connection between them strengthens. This is often summarized as “Cells that fire together, wire together.” 
+
+### Characteristics of ANNs
 
 - Information processing and storage (memory) are both done in the same place instead of memory and processing being separated.
 - Processing is done simultaneously (in parallel) across many neurons instead of sequentially. 
@@ -94,15 +106,13 @@ An artificial neural network (ANN) is a computational model inspired by the stru
 
   - Different types of processing units in consumer PCs:
     - CPU: typically 4 to 16 cores
-      - GPU: NVIDIA GPUs can have hundreds or thousands of CUDA (Compute Unified Device Architecture) cores.
-      - NPU: Typically have 10 to 20 cores.
+    - GPU: NVIDIA GPUs can have hundreds or thousands of CUDA (Compute Unified Device Architecture) cores.
+    - NPU: Typically have 10 to 20 cores.
 
 - Where is data in an ANN stored?
 
   - In a biological neural network, it is stored in the neurons
   - In an ANN it is ultimately stored in the computer's memory.
-
-
 
 ### Elements of AI Examples
 
@@ -119,35 +129,75 @@ An artificial neural network (ANN) is a computational model inspired by the stru
 
   
 
+## Backpropagation
+
+One of the main breakthroughs that led to progress on ANNs was the development of *backpropagation* in 1986 by Geoffrey Hinton, who is often referred to as the "godfather of AI". 
+
+Backpropagation, short for "backward propagation of errors," is an algorithm used to train ANNs by setting the weights on the connections. 
+
+### Backpropagation in a Perceptron
+
+Backpropagation is a method used set the weights and improve accuracy. This is a summary of the steps:
+
+1. **Forward Pass**: The perceptron processes training data to produce an output.
+2. **Error Calculation**: The output is compared to the actual target to find the error.
+3. **Backward Pass**: The error is used to adjust the weights, reducing the error.
+
+This process repeats until the perceptron's predictions become accurate.
 
 
-## Backpropegation
-
-### In a Perceptron
 
 ![Perceptron_work](Images/Perceptron_work.webp)
 
-### In an ANN
+### Backpropagation in an ANN
 
-Backpropagation is a method used in artificial neural networks to improve their accuracy. It works in the following steps:
+Here is a simplified summary of the steps in the algorithm:
 
-1. **Forward Pass**: The network processes input data to produce an output.
-2. **Error Calculation**: The network's output is compared to the actual target to find the error.
-3. **Backward Pass**: The error is sent back through the network to adjust the weights, reducing the error.
+1. **Forward Propagation**: Training data is passed through the network, from the input layer through the hidden layers to the output layer, to generate a prediction. This process is known as forward propagation.
 
-This process repeats until the network's predictions become accurate.
+2. **Compute Loss** (error): The prediction is compared with the actual target value to compute the loss (error). The loss function quantifies how far off the predictions are from the actual target values.
 
+3. **Backward Propagation**: The loss is then propagated back through the network. This involves computing the gradient (slope) of the loss function with respect to the weights and biases in each layer of the network. 
 
+4. **Update Weights and Biases**: The weights and biases of the network are updated in the opposite direction to the gradient (in the opposite direction of the error). This is done to minimize the loss. The size of the update is determined by the learning rate, a hyperparameter that controls how fast the network learns.
+
+5. **Iterative Process**: This process is repeated for many epochs (an epoch is one pass through the entire training dataset) until the network is adequately trained and the loss is minimized.
 
 
 
 ## Convolutional Neural Networks (CNN)
 
-Their key property is that they can detect image features such as bright or dark (or specific color) spots, edges in various orientations, patterns, and so on
+When we tried to assign weights to an ANN that classified happy and sad faces, we discovered that the ANN had difficulty with:
+
+- Different sizes of faces
+- Faces that were positioned higher or lower in the input grid
+- Features (mouth size and position) that varied from face to face
+
+CNNs resolves these problems and more using a *convolution operation*. This operation involves sliding a filter  over the input data and performing element-wise multiplication followed by a sum. This process helps in extracting features from the input.
+
+Here is a simplified description of the process (provided by MS Copilot):
+
+> Think of an image as a large field of different colored flowers. Now, suppose you want to identify patterns or features in this field, like areas of certain colors or color combinations.
+>
+> The convolution operation is like using a small magnifying glass to look at one small area of the field at a time. This magnifying glass is what we call a "filter" or "kernel" in a Convolutional Neural Network (CNN).
+>
+> As you move the magnifying glass across the field (or the image), you're focusing on one small area at a time. For each area, you're asking, "What's interesting here?" The answer could be "a lot of red flowers," "mostly blue flowers," "a mix of red and blue flowers," and so on. These are the "features" that the filter is learning to recognize.
+>
+> The interesting thing is, you use the same magnifying glass (the same filter) to look at the entire field. This means you're looking for the same kind of features everywhere in the image. This is what gives CNNs their power: they can recognize the same features no matter where they appear in the image.
+>
+> In summary, the convolution operation in a CNN is like using a magnifying glass to systematically scan across an image, looking for interesting features one small area at a time.
+
+### History of CNN Development
+
+Convolutional Neural Networks (CNNs) were first developed and used in the 1980². The foundational work was done by Kunihiko Fukushima and Yann LeCun. 
+
+Yann LeCun, in 1989, proposed a neural network architecture known as LeNet-5. This was the first successful implementation of a network that utilized the backpropagation algorithm for training, which is a standard method for training CNNs today. LeNet-5 was used for digit recognition tasks.
+
+The significant breakthrough in the field of CNNs came in 2012 with the development of AlexNet by Alex Krizhevsky. AlexNet significantly outperformed previous image recognition algorithms and won the 2012 ImageNet contest with 85% accuracy. 
 
 ## Generative Adversarial Networks (GAN)
 
- two networks compete against each other. One of the networks is trained to generate images like the ones in the training data – it is called the generative network. The other network’s task is to separate images generated by the first network from real images from the training data – this one is called the adversarial network. These two combined then make up a generative adversarial network or a GAN.
+In this technique, two networks compete against each other. One of the networks is trained to generate images like the ones in the training data&mdash;it is called the generative network. The other network’s task is to separate images generated by the first network from real images from the training data – this one is called the adversarial network. These two combined then make up a generative adversarial network or a GAN.
 
 
 
@@ -174,6 +224,8 @@ Their key property is that they can detect image features such as bright or dark
 [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
 
 
+
+[^1]: Marvin Minsky, in collaboration with Dean Edmonds, developed the first artificial neural network in 1951, known as the Stochastic Neural Analog Reinforcement Calculator (SNARC). It was not implemented in software and did not use a computer. Its 40 artificial neurons were built with mechanical and electronic components. It was about the size of a grand piano and included a plugboard for interconnecting the neurons. It was designed for a single task: to learn a path through a maze using Hebbian Learning.
 
 ---
 
