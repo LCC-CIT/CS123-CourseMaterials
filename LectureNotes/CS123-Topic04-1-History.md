@@ -172,6 +172,8 @@ It used 32 processors to perform a set of coordinated, high-speed computations i
 
 [The Quest for Artificial Intelligence: A History of Ideas and Achievements](http://ai.stanford.edu/%7Enilsson/QAI/qai.pdf)&mdash;Nils J. Nilsson, Cambridge University Press, 2010.
 
+[Timeline of AI](https://www.theainavigator.com/ai-timeline)&mdash;an interactive timeline of the history of AI
+
 
 
 [^1]:The Entscheidungsproblem, which translates to "decision problem" in German, was a mathematical question proposed by David Hilbert in the early 1900s. It asked: "Is there a mechanical procedure (algorithm) that can decide whether any given statement in mathematics is true or false?"
