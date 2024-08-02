@@ -117,6 +117,8 @@ This technique helps guide the AI to respond in a manner consistent with the ass
 
 # Examples
 
+## Moodle Quiz Prompt Template
+
 This is a prompt template I use for generating quiz questions for Moodle:
 
 ```                
@@ -159,6 +161,8 @@ Which formula correctly represents Bayes' Rule? {
 
 
 
+## LCC Fusion Lab Prompt Library
+
 [Prompt library](https://docs.google.com/spreadsheets/d/1wnHdO_IOPz2FOViICvIti1sxhK4A8vA-rL4oCPVIkuA/edit?gid=964683428#gid=964683428) in the LCC [Fusion Lab](https://sites.google.com/lanecc.edu/fusionlab/home) 
 
 
@@ -166,15 +170,7 @@ Which formula correctly represents Bayes' Rule? {
 
 # References
 
-[The Anatomy of a Good Prompt in AI](https://system.tips/blog/prompt-engineering/the-anatomy-of-a-good-prompt-in-ai/)—System Tips, 2023
-
-[Master Prompt Engineering: Demystifying Prompting Through a Structured Approach](https://promptengineering.org/master-prompt-engineering-demystifying-prompting-through-a-structured-approach/)—Sunil Ramlochan, Prompt Engineering, 2023
-
-[How to Write Good AI Prompts: A Beginner’s Guide (+12 Templates)](https://www.getmagical.com/blog/how-to-write-good-ai-prompts)—GetMagical, 2024
-
 [Effective Prompts for AI: The Essentials](https://mitsloanedtech.mit.edu/ai/basics/effective-prompts/)—MIT Sloan Teaching, 2023
-
-[Best practices for prompt engineering with the OpenAI API](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api)—OpenAI, 2023
 
 [Prompt engineering - OpenAI API](https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering)—OpenAI, 2023
 
@@ -183,10 +179,6 @@ Which formula correctly represents Bayes' Rule? {
 [What is Chain of Thoughts (CoT)?](https://www.ibm.com/topics/chain-of-thoughts)—IBM, 2023
 
 [Comprehensive Guide to Chain-of-Thought Prompting](https://www.mercity.ai/blog-post/guide-to-chain-of-thought-prompting)—Maithili Badhan, Mercity, 2023
-
-[Chain-of-Thought Prompting](https://www.promptingguide.ai/techniques/cot)—Prompt Engineering Guide, 2022
-
-[Master Prompting Concepts: Chain of Thought Prompting](https://promptengineering.org/master-prompting-concepts-chain-of-thought-prompting/.)—Prompt Engineering, 2023              
 
 
 
