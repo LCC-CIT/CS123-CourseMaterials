@@ -32,13 +32,15 @@ Prompt engineering is the process of designing and refining inputs (prompts) to 
 A good prompt for AI is most effective if it has:
 
 1. **Clarity**: The prompt should be clear, specific and unambiguous, making it easy for the AI to understand what is being asked.
-   - **Example**: Instead of asking “Tell me about AI,” you can ask “Explain the key differences between supervised and unsupervised learning in AI.”
+   - **Example**: Instead of asking “Tell me about AI,” you can ask “Give me a summary of the latest advances in AI.”
 
-2. **Relevance**: It must be relevant to the task at hand, ensuring that the AI's response is on-topic and useful.
+2. **Relevance**: use relevant keywords or phrases. This helps the AI understand your intent and deliver relevant results.
 
-3. **Conciseness**: A prompt should be as brief as possible while still conveying all necessary information³.
+   - **Example**: Instead of asking: “Tell me about cloud computing”, you can ask  “I’m researching cloud computing trends in the IT industry. Provide recent reports and articles on the topic.”
 
-4. **Context**: Providing relevant context helps the AI understand the background or situation related to the prompt.
+3. **Conciseness**: A prompt should be as brief as possible while still conveying all necessary information.
+
+4. **Context**: Providing relevant context helps the AI understand the background of the thing you're asking for. 
 
    - **Example**: “Given the recent advancements in AI, what are the potential ethical concerns?”
 
@@ -56,7 +58,7 @@ A good prompt for AI is most effective if it has:
 
 3. **Provide Examples**:
 
-   - **Example**: “Generate a short story about a robot learning to paint. Example: ‘Once upon a time, in a small workshop, there was a robot named Artie who loved colors…’”
+   - **Example**: “Generate a short story about a robot learning to paint, for example: ‘Once upon a time, in a small workshop, there was a robot named Artie who loved colors…’”
 
    - **Result**: The AI uses the example to generate a coherent and creative story.
 
@@ -77,12 +79,11 @@ A good prompt for AI is most effective if it has:
 
 ## One-Shot Prompting
 
-**Explanation**: One-shot prompting provides the AI with a single example to guide its response. This helps the AI understand the task better.
+**Explanation**: One-shot prompting provides the AI with a single example to guide its response. This helps the AI understand the task better. For example:
 
-**Example**:
+- **Zero-shot prompt**: “Generate a marketing email.”,
 
-- **Prompt**: “Translate the following sentence to French: ‘Good morning.’ Example: ‘Good night’ translates to ‘Bonne nuit.’”
-- **Response**: “‘Good morning’ translates to ‘Bonjour.’”
+- **One-shot Prompt**: “Generate a marketing email for a new eco-friendly water bottle, highlighting its features. Example: ‘Introducing our latest eco-friendly water bottle! Made from sustainable materials, this bottle is not only durable but also stylish. Perfect for those who care about the environment and want a sleek design.’”
 
 ## Few-Shot Prompting
 
@@ -90,8 +91,13 @@ A good prompt for AI is most effective if it has:
 
 **Example**:
 
-- **Prompt**: “Translate the following sentences to French: 1. ‘Good night’ translates to ‘Bonne nuit.’ 2. ‘Thank you’ translates to ‘Merci.’ 3. ‘Good morning’ translates to ‘Bonjour.’”
-- **Response**: “‘Goodbye’ translates to ‘Au revoir.’”
+- **One-shot Prompt**: “Generate a name for a new eco-friendly water bottle. Example: ‘EcoSip’”
+- **Few-shot Prompt**: "Generate a name for a new eco-friendly water bottle. Examples:
+
+  ‘EcoSip’
+  ‘GreenHydrate’
+  ‘SustainSip’
+  ‘NatureQuench’"
 
 ## Chain-of-Thought Prompting
 
