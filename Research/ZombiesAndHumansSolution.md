@@ -1,10 +1,9 @@
 ---
-title: Zombies and Humans
+title: Zombies
 description: Zombie and human river crossing problem.
 keywords: Logic problem, AI test, state-space, transitions
 generator: Typora
 author: Brian Bird
-
 ---
 
 <h1>Solution to the Zombies and Humans Problem</h1>

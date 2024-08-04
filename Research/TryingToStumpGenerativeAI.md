@@ -1,3 +1,11 @@
+---
+title: Stump GPT
+description: Exploring the types of problems GTP-4 can't solve.
+keywords: Logic problem, AI test, GPT test
+generator: Typora
+author: Brian Bird
+---
+
 <h1>Trying to Stump Generative AI</h1>
 
 Questions and answers by category
