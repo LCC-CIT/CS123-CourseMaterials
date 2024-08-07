@@ -25,7 +25,9 @@ author: Brian Bird
 
 # Introduction
 
-## What's Happening
+## What's Happening This Week
+
+Week 1: 6/25&mdash;6/30
 
 - Reading and exercises, any questions?
 
@@ -33,8 +35,8 @@ author: Brian Bird
   
 - This week's due dates:
 
-  - Introduce yourself survey: **Today**
-  - Join a team: Sunday **or sooner!** 
+  - Introduce yourself survey: **Today** (6/28/2024)
+  - Join a team: Sunday (6/30/2024) **or sooner!** 
     - **Join the Discord server** so you can communicate with your team.
     
   - Elements of AI Ch. 1 and 2 exercises: Sunday
@@ -42,7 +44,7 @@ author: Brian Bird
     This is mainly for online students or anyone who wasn't able to participate in the live classroom discussion.
   - Quiz over the lectures: Sunday
 
-- Next week  
+- Next week (week 2)  
   History of AI (lecture), Real world applications of AI (reading)
 
   - No class on Thursday, July 4th

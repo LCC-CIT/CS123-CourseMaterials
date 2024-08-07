@@ -106,16 +106,23 @@ Letter grades for the course will be determined by the following percentages:
 
  
 
-<u>Exercises</u>
+### Exercises
 Weekly (except midterm an final quiz weeks) exercises give you practice with concepts learned during each week.
 
-<u>Quizzes</u>
+### Quizzes
 Weekly (except midterm an final quiz weeks) quizzes are given that cover learning material for that week. These quizzes are "open book".
 
-<u>Team Projects</u>
+### Participation
+
+Participation is assessed differently depending on whether you are taking the class online, on Zoom or in person.
+
+- In person and on Zoom (synchronous): Your grade is based on class attendance and participation in class discussions.
+- Online (asynchronous): You grade is based on participation in the Moodle forums and on Discord.
+
+### Team Projects
 You will work together with your team to either make a presentation or create an AI solution. Each team member will have a specific part to contribute and will be individually graded.
 
-<u>Midterm and Final Quizzes</u>
+### Midterm and Final Quizzes
 
 The midterm and final quizzes are given in weeks 4 and 8. See Moodle for exact dates and times. Quizzes are "closed book", but students may prepare a 8 1/2 x 11 sheet of notes to refer to during the quiz. These quizzes may be taken either:
 
@@ -133,9 +140,9 @@ While students are encouraged to discuss assignments and to use each other as re
 
 Generative AI tools such as GitHub Copilot or ChatGPT are useful resources and you are encouraged to use them, but don't use them to give you quiz answers or do your assignments for you. Use them to help you learn, to come up with ideas, or for drafts of text you write.
 
-## Participation and Attendance
+## Attendance
 
-While participation and attendance are essential to succeed in this class, they will not be graded.
+See the participation and attendance section under [Assessment and Grading](#Assessment and Grading) for grading criteria.
 
 ### No Show Drop
 

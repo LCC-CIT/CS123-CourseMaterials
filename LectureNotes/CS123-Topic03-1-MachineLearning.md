@@ -1,5 +1,5 @@
 ---
-title: ML
+title: Machine Learning
 description: Machine Learning
 keywords: ML
 generator: Typora
