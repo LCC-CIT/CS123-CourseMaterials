@@ -1,6 +1,6 @@
 ---
-title: Chatbot
-description: How to create a custom chatbot
+title: Custom Chatbot
+description: How to create a custom chatbot with Microsoft Copilot Studio
 keywords: AI, chatbot, copilot studio
 generator: Typora
 author: Brian Bird
