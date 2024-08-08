@@ -25,6 +25,14 @@ author: Brian Bird
 
 # Copilot Studio
 
+Full details on creating a custom GPT chatbot are provided in the [Microsoft documentation for Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio).
+
+There are essentially two ways to create a chatbot in Copilot Studio:
+
+- **Topics**: This approach is based on using keywords in the user's query to trigger topics that have branching conversation flows that follow a decision tree (remember this from symbolic logic?)
+
+- **Generative**: An LLM is used with RAG to generate responses to the user's queries.
+
 ## Tips
 
 ### Generative AI Responses
@@ -32,8 +40,6 @@ author: Brian Bird
 - To get your copilot to use generative AI to respond, go to Settings, Generative AI, and click the radio button labeled "Generative (preview)" 
 
 - In order to get the copilot to use my web site, in "Overview" I had to turn off "Allow the AI to use its own general knowledge (preview)".
-
-
 
 ### Greeting
 
