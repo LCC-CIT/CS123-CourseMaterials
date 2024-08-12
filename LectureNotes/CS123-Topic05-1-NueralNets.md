@@ -6,7 +6,7 @@ generator: Typora
 author: Brian Bird
 ---
 
-<h1>Artificial Neural Netowrks</h1>
+<h1>Artificial Neural Netoworks</h1>
 
 **CS123, Intro to AI**
 
