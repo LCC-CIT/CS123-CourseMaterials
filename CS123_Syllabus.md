@@ -89,14 +89,14 @@ The table below summarizes the possible points for each assessment task as well 
 
 | **Assessment Tasks**      | Number | **Each**                 | **Total** |
 | ------------------------- | ------ | ------------------------ | --------- |
-| Exercises                 | 6      | 40                       | 220       |
-| Quizzes                   | 6      | 20                       | 120       |
-| Participation             | 8      | 10                       | 80        |
-| Team projects             | 3      | 50, 80, 150              | 280       |
+| Exercises                 | 6      | 30                       | 180       |
+| Quizzes                   | 9      | 20                       | 180       |
+| Participation             | 10     | 10                       | 100       |
+| Projects                  | 6      | Variable                 | 240       |
 | Midterm and Final Quizzes | 2      | Midterm: 100, Final: 200 | 300       |
 | **Course Total**          |        |                          | **1000**  |
 
-## 
+### Grade Scale
 
 Letter grades for the course will be determined by the following percentages:                  
 
@@ -108,7 +108,7 @@ Letter grades for the course will be determined by the following percentages:
 | **D** | 69 to 68  | 67 to 62 | 61 to 60 |
 | **F** | Below 60  |          |          |
 
- Quizzes
+### Quizzes
 
 Weekly (except midterm an final quiz weeks) quizzes are given that cover learning material for that week. These quizzes are "open book".
 
@@ -132,8 +132,6 @@ The midterm and final quizzes are given in weeks 4 and 8. See Moodle for exact d
 - online students will take the quiz In the Instructional Testing Center in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures.  
 
   Students who live outside the Eugene/Springfield area can send an email to [online@lanecc.edu](mailto:online@lanecc.edu) well in advance of the test dates to arrange for your midterm and final to be proctored at a location near you.
-
-
 
 ### Academic Honesty
 
@@ -198,23 +196,23 @@ For upcoming closures, please visit the [Center for Accessible Resources webpage
 
 View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.  
 
-## Course Schedule
+### Course Schedule
 
 (Tentative, may be subject to change)
 
 | Week             | Topics                                  | Activities                                                   |
 | ---------------- | --------------------------------------- | ------------------------------------------------------------ |
 | **1**<br />9/30  | Intro to the course<br />Overview of AI | Introduce Yourself Survey<br /><br />Join a Team<br />Essentials of AI Ch. 1 exercises<br />Quiz |
-| **2**<br />10/7  | AI Problem Solving                      | Essentials of AI Ch. 2 exercises<br />Quiz                   |
+| **2**<br />10/7  | AI Problem Solving                      | Essentials of AI Ch. 2 exercises<br />Project: Applications of AI<br />Quiz |
 | **3**<br />10/14 | Real-World AI                           | Essentials of AI Ch. 3 exercises<br />Quiz                   |
-| **4**<br />10/21 | Machine Learning                        | TBD<br />Quiz                                                |
-| **5**<br />10/28 | History of AI and Midterm               | TBD<br />Midterm quiz                                        |
-| **6**<br />11/4  | Neural Netowrks and Deep Learning       | TBD<br />Quiz                                                |
+| **4**<br />10/21 | Machine Learning                        | Elements of AI Ch. 4 exercises<br />Quiz                     |
+| **5**<br />10/28 | History of AI and Midterm               | TBD<br />Midterm quiz:<br />- In the classroom on 10/30<br />- In the testing center 10/30&ndash;11/1 |
+| **6**<br />11/4  | Neural Netowrks and Deep Learning       | Elements of AI Ch. 5 exercises<br />Quiz                     |
 | **7**<br />11/11 | Generative AI                           | TBD<br />Quiz                                                |
-| **8**<br />11/18 | Prompt engineering                      | TBD<br />Quiz                                                |
-| **9**<br />11/25 | Custom GPT chatbots                     | TBD<br />Quiz                                                |
-| **10**<br />12/2 | Social and ethical issues of AI         | TBD<br />Quiz                                                |
-| **11**<br />12/9 | Final                                   | Final Quiz                                                   |
+| **8**<br />11/18 | Prompt engineering                      | TBD<br />Project: prompt engineering<br />Quiz               |
+| **9**<br />11/25 | Custom GPT chatbots                     | TBD<br />Project: Custom chat-bot<br />Quiz                  |
+| **10**<br />12/2 | Social and ethical issues of AI         | Elements of AI Ch. 6 exercises<br />Quiz                     |
+| **11**<br />12/9 | Final                                   | Final quiz:<br />- In the classroom on 12/9<br />- In the testing center 12/9&ndash;12/11 |
 
 <a href="#top">Go back to the top</a>
 
