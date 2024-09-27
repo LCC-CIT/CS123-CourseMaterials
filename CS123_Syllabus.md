@@ -11,7 +11,7 @@
 | **Course Number** | CS 123                                                       |      | **Name**          | Brian Bird                                                   |
 | **CRN**           | Hybrid (on campus) 21707<br />Online 21708                   |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)                  |
 | **Day & Time**    | M, W 2:00&ndash;3:50                                         |      | **Office Hours**  | Tu&mdash;Th 4:00&ndash;4:50                                  |
-| **Room**          | Building 19, Room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/99496384876) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/99496384876) |
+| **Room**          | Building 19, Room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/97035941496) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/94514229670) |
 
 <h2>Table of Contents</h2>
 
