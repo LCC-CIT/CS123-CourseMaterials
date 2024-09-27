@@ -1,6 +1,6 @@
 <h1>Introduction to Artificial Intelligence</h1>
 
-<h1><mark>Draft</mark></h1>
+<h2>CS 123 Syllabus for Fall 2024</h2>
 
 
 
@@ -9,8 +9,8 @@
 | <u>Class</u>      |                                                              |      | <u>Instructor</u> |                                                              |
 | ----------------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------------------------------------------ |
 | **Course Number** | CS 123                                                       |      | **Name**          | Brian Bird                                                   |
-| **CRN**           | Hybrid (on campus) 10276<br />Online 10277                   |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)                  |
-| **Day & Time**    | Tu, Th 10:00&dash;11:50                                      |      | **Office Hours**  | Tu&mdash;Th 10:00&ndash;11:50                                |
+| **CRN**           | Hybrid (on campus) 21707<br />Online 21708                   |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)                  |
+| **Day & Time**    | M, W 2:00&ndash;3:50                                         |      | **Office Hours**  | Tu&mdash;Th 4:00&ndash;4:50                                  |
 | **Room**          | Building 19, Room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/99496384876) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/99496384876) |
 
 <h2>Table of Contents</h2>
@@ -20,12 +20,6 @@
 ## Course Description
 
 This course provides an overview of the field of Artificial Intelligence. Students will learn what AI is and how machine learning  works. There will be a focus on generative AI and its practical  applications in the workplace such as prompt engineering and creating  custom chatbots. The risks and dangers of AI will be explored along with the potential benefits.
-
-**Time commitment**
-
-This is an eight-week course with 
-
- 
 
 ## Learning Outcomes
 
@@ -38,33 +32,13 @@ Upon successful completion of this course, students will be able to:
 5. Use prompt engineering to get more effective results from generative AI.
 6. Create a custom chatbot.
 
- 
 
-## Course Content
-
-1. Overview of AI
-
-2. History and application of AI
-
-3. Machine Learning
-
-4. Neural networks and deep learning
-
-5. Generative AI
-
-6. Prompt engineering
-
-7. Custom chatbot creation
-
-8. Social and ethical issues of AI
-
-   
 
 ### Online Resources
 
-#### Articles and Tutorials
+#### Course Materials
 
-There is no textbook for this class. There will be weekly assigned readings from online articles and tutorials.
+There is no textbook for this class. In place of a textbook you will read online tutorials and chapters in the free online course, [Elements of AI](https://www.elementsofai.com), a high-quality course provided by the The University of Helsinki.
 
 #### Learning Management System
 
@@ -76,13 +50,13 @@ Moodle is the Learning Management System (LMS) used for this course; LCC’s Moo
 
 All of the software required for this class is free.  You can use any operating system: Windows, Mac OS, or Linux. 
 
-#### Software Required for Lab Assignments
+#### Software Required for Course Work
 
-You will need to download these applications and install them on your computer. They are already installed on the computers in the classroom.
+See the [Getting Started Guide](https://lcc-cit.github.io/CS123-CourseMaterials/CS123_GettingStartedGuide_8wk.html) for a list of the software needed for this class.
 
-- A web browser.
+You will need to download and install any software you don't already have on your computer. The software has
 
-- Microsoft  Word (see the free Microsoft Office offer below) or a word processor that is compatible with Word, like the free, open source, [Libre Office](https://www.libreoffice.org).
+already been installed on the computers in the classroom and in the CIT computer lab.
 
 
 ####  Free and Discounted Software for Students
@@ -109,7 +83,20 @@ See the [LCC Tutoring Services](https://www.lanecc.edu/tutor) web page for infor
 
 ## Assessment and Grading
 
-Assignments and quizzes  are TBD.
+### Points for Each Graded Activity
+
+The table below summarizes the possible points for each assessment task as well as the course as a whole:
+
+| **Assessment Tasks**      | Number | **Each**                 | **Total** |
+| ------------------------- | ------ | ------------------------ | --------- |
+| Exercises                 | 6      | 40                       | 220       |
+| Quizzes                   | 6      | 20                       | 120       |
+| Participation             | 8      | 10                       | 80        |
+| Team projects             | 3      | 50, 80, 150              | 280       |
+| Midterm and Final Quizzes | 2      | Midterm: 100, Final: 200 | 300       |
+| **Course Total**          |        |                          | **1000**  |
+
+## 
 
 Letter grades for the course will be determined by the following percentages:                  
 
@@ -121,11 +108,30 @@ Letter grades for the course will be determined by the following percentages:
 | **D** | 69 to 68  | 67 to 62 | 61 to 60 |
 | **F** | Below 60  |          |          |
 
- 
+ Quizzes
 
-### Quizzes
+Weekly (except midterm an final quiz weeks) quizzes are given that cover learning material for that week. These quizzes are "open book".
 
-TBD
+### Participation
+
+Participation is assessed differently depending on whether you are taking the class online, on Zoom or in person.
+
+- In person and on Zoom (synchronous): Your grade is based on class attendance and participation in class discussions.
+- Online (asynchronous): You grade is based on participation in the Moodle forums and on Discord.
+
+### Team Projects
+
+You will work together with your team to either make a presentation or create an AI solution. Each team member will have a specific part to contribute and will be individually graded.
+
+### Midterm and Final Quizzes
+
+The midterm and final quizzes are given in weeks 4 and 8. See Moodle for exact dates and times. Quizzes are "closed book", but students may prepare a 8 1/2 x 11 sheet of notes to refer to during the quiz. These quizzes may be taken either:
+
+- On-campus students (hybrid modality) will take the quiz In the classroom during the normal class time.
+
+- online students will take the quiz In the Instructional Testing Center in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures.  
+
+  Students who live outside the Eugene/Springfield area can send an email to [online@lanecc.edu](mailto:online@lanecc.edu) well in advance of the test dates to arrange for your midterm and final to be proctored at a location near you.
 
 
 
@@ -133,9 +139,13 @@ TBD
 
 While students are encouraged to discuss assignments and to use each other as resources, each student is responsible for his/her own work. In other words you can help each other, but you can’t copy any part of someone else’s work. The end product must be each student’s own individual work.
 
-### Participation and Attendance
+### Use of AI
 
-While participation and attendance are essential to succeed in this class, they will not be graded.
+Generative AI tools such as GitHub Copilot or ChatGPT are useful resources and you are encouraged to use them, but don't use them to give you quiz answers or do your assignments for you. Use them to help you learn, to come up with ideas, or for drafts of text you write.
+
+## Attendance
+
+See the participation and attendance section under [Assessment and Grading](#Assessment and Grading) for grading criteria.
 
 ### No Show Drop
 
@@ -175,16 +185,38 @@ For upcoming closures, please visit the [Center for Accessible Resources webpage
 
 ## Schedules
 
-## Academic Calendar for Summer Term 2024
+### Academic Calendar for Fall Term 2024
 
-| Event                                      | Date          |
-| ------------------------------------------ | ------------- |
-| Summer term classes begin                  | 6/24, Monday  |
-| Last day to drop and receive a full refund | 7/1, Monday   |
-| Independence Day Holiday, no class         | 7/4/ Thursday |
-| End of eight-week term                     | 8/16, Friday  |
+| Event                                                        | Date             |
+| ------------------------------------------------------------ | ---------------- |
+| Fall term classes begin                                      | 9/30 Monday      |
+| Last day to receive refund                                   | 10/7 Monday      |
+| Veteran’s Day&mdash;college closed                           | 11/11 Monday     |
+| Last day for schedule changes                                | 11/22 Friday     |
+| Thanksgiving Vacation – college closed on Thursday and Friday | 11/28&ndash;12/1 |
+| Final exam                                                   | 12/10 Tuesday    |
 
 View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.  
+
+## Course Schedule
+
+(Tentative, may be subject to change)
+
+| Week             | Topics                                  | Activities                                                   |
+| ---------------- | --------------------------------------- | ------------------------------------------------------------ |
+| **1**<br />9/30  | Intro to the course<br />Overview of AI | Introduce Yourself Survey<br /><br />Join a Team<br />Essentials of AI Ch. 1 exercises<br />Quiz |
+| **2**<br />10/7  | AI Problem Solving                      | Essentials of AI Ch. 2 exercises<br />Quiz                   |
+| **3**<br />10/14 | Real-World AI                           | Essentials of AI Ch. 3 exercises<br />Quiz                   |
+| **4**<br />10/21 | Machine Learning                        | TBD<br />Quiz                                                |
+| **5**<br />10/28 | History of AI and Midterm               | TBD<br />Midterm quiz                                        |
+| **6**<br />11/4  | Neural Netowrks and Deep Learning       | TBD<br />Quiz                                                |
+| **7**<br />11/11 | Generative AI                           | TBD<br />Quiz                                                |
+| **8**<br />11/18 | Prompt engineering                      | TBD<br />Quiz                                                |
+| **9**<br />11/25 | Custom GPT chatbots                     | TBD<br />Quiz                                                |
+| **10**<br />12/2 | Social and ethical issues of AI         | TBD<br />Quiz                                                |
+| **11**<br />12/9 | Final                                   | Final Quiz                                                   |
+
+<a href="#top">Go back to the top</a>
 
 
 
