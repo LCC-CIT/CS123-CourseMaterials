@@ -43,7 +43,9 @@ Moodle is the learning management system used by Lane Community College. To lear
 
 ## Class Meetings and Office Hours
 
-Come to class in person or via Zoom or watch the class recordings.
+### Class Meetings in person, on Zoom and Recordings
+
+Come to class in person, via Zoom or watch the class recordings.
 
 - There is a Zoom link in the syllabus.
 - The Zoom widget at the top of the Moodle page has links for class meeting, recordings, and my office hours 
