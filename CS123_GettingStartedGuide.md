@@ -24,7 +24,7 @@ Here are the things you should do to get ready for this course:
 
 2. Read the [Syllabus](https://lcc-cit.github.io/CS123-CourseMaterials/CS123_Syllabus.html).
 
-   - Take note of class time and location (for online, the Zoom link).
+   - Take note of class time and location (for online students, the Zoom link).
    - Sign up for the free online course that will be your "textbook".
 
 3. Look at the [Software You Will Need](# Software You Will Need) section below and install any software you don't already have on your computer.
@@ -39,16 +39,16 @@ Here are the things you should do to get ready for this course:
 
 ## Introduction to Moodle
 
-Moodle is the learning management system used by Lane Community College. To learn how to use Moodle, go to the LCC Moodle home page. Near the bottom of the page, click on "Training", then "Moodle for Students".
+Moodle is the learning management system used by Lane Community College. To learn how to use Moodle, go to the Moodle home page. Near the bottom of the page, click on "Training", then "Moodle for Students".
 
 ## Class Meetings and Office Hours
 
-Come to class in person or via Zoom or watch the class recordings.
+Come to class in person or via Zoom or watch the class Zoom recordings.
 
-- There is a Zoom link in the syllabus.
-- The Zoom widget at the top of the Moodle page has links for class meeting, recordings, and my office hours 
+- There are Zoom links in the syllabus.
+- The Zoom widget at the top of the Moodle page has links for class meeting, recordings, and office hours.
 
-Come see me during office hours&mdash;Drop in! No appointment needed. Come get help with assignments, discuss AI, or just to say "hi".
+Come see me during office hours&mdash;Drop in! No appointment needed. Come get help with assignments, discuss AI, or just to say "hi". If you would like to come to my office at another tiime you can message me to make an appointment.
 
 
 
@@ -103,9 +103,9 @@ All course communication (via e-mail, Moodle Messages, discussion forums, video,
 
 [The Core Rules of Netiquette](http://www.albion.com/netiquette/corerules.html) is a guide to the proper protocol for participating in online classes and writing emails.
 
-Questions about the course should be posted to the discussion channel on Discord. Questions of a more personal nature, such as grades or extensions, should be sent to your instructor via e-mail. E-mails to your instructor or e-mails to another department regarding support issues should include your course number and section.
+Questions about the course should be posted to the *discussion* channel on Discord. Questions of a more personal nature, such as grades or due date extensions, should be sent to your instructor via e-mail or direct messages. E-mails to your instructor or e-mails to another department regarding support issues should include your course number and section.
 
-All course announcements will be posted by the instructor to Discord General channel. Enable notifications for that channel and watch for them on a daily basis. 
+All course announcements will be posted by the instructor to Discord *announcements* channel. Enable notifications for that channel and watch for them on a daily basis. 
 
 
 
