@@ -10,12 +10,12 @@ author: Brian Bird
 
 **CS123, Intro to AI**
 
-| Topics                                                       |                                 |
-| ------------------------------------------------------------ | ------------------------------- |
-| Overview of AI                                               | Generative AI                   |
-| <s>History and applications of AI</s> <br /><mark>AI Problem Solving Revisited</mark><br />Machine Learning&mdash;Part 1<br />Applications of AI | Prompt engineering              |
-| History of AI <br />Machine Learning&mdash;Part 2            | Custom chatbot creation         |
-| Neural networks and deep learning                            | Social and ethical issues of AI |
+| Topics                            |                                 |
+| --------------------------------- | ------------------------------- |
+| Overview of AI                    | Generative AI                   |
+| AI Problem Solving                | Prompt engineering              |
+| Machine Learning                  | Custom chatbot creation         |
+| Neural networks and deep learning | Social and ethical issues of AI |
 
 
 
@@ -47,8 +47,6 @@ author: Brian Bird
   - What is the *Turing test*?
   - What is the point of the *octopus test*?  
     
-    **Error correction:**
-    There was an AI hallucination (I used AI to get a rough draft) in the original version of last week's notes on the octopus test. I've corrected that part of the notes. Take a look at [the new version](https://lcc-cit.github.io/CS123-CourseMaterials/LectureNotes/CS123-Topic01-3-OverviewPart2.html).
 - What are some concerns about AI in these categories:
   - Ethical Issues
   - Social Issues
@@ -57,9 +55,9 @@ author: Brian Bird
 
   - Philosophical Issues of Personhood and Humanity
 
-# Problem Solving Revisited
+# Problem Solving
 
-Since quite a few students had difficulty with the AI problems solving exercise in ch. 2 of *Elements of AI*, we are going to go over those concepts again.
+This is based on Ch. 2 of *Elements of AI*
 
 ## Search and Problem Solving
 
