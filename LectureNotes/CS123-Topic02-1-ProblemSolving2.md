@@ -27,33 +27,13 @@ author: Brian Bird
 
 ## What's Happening
 
-- No class Thursday.
-- Reading and exercises, any questions?
+All activities are due Sunday night, 10/13/24
 
-  - Use Discord exercise-questions channel to get and give help!
-- Due this Sunday:
+- Exercises for Ch. 2, "Problem Solving" in *Elements of AI*
+- Lecture Q and A forum for online students
+- Lecture quiz for everyone.
 
-  - "Your turn" forum for online students.
-  - Quiz over the lecture (lecture notes).
-  - Extra credit quiz on problem solving.
-  - Elements of AI Ch. 3 exercises
-  - Team project on applications of AI.
-
-## Review and Errata
-
-- Tests of AI systems:
-  - What is meant by "reasoning"?
-  - What are some reasoning tests.
-  - What is the *Turing test*?
-  - What is the point of the *octopus test*?  
-    
-- What are some concerns about AI in these categories:
-  - Ethical Issues
-  - Social Issues
-
-  - Privacy Issues
-
-  - Philosophical Issues of Personhood and Humanity
+Next week the first project will be due.
 
 # Problem Solving
 
