@@ -116,7 +116,7 @@ A mathematics professor at Dartmouth College who coined the term *Artificial Int
 
 GPS used a technique called means-ends analysis. This involved identifying differences between the current state and the goal state, then finding and applying operators that would reduce these differences. In other words, it created a *state-space* and used transitions to move from one state to another.
 
-It’s worth noting that while GPS was groundbreaking, it was limited by the computational power of the time and the complexity of many real-world problems. Nevertheless, GPS laid the foundation for many future developments in AI and problem-solving methodologies.
+It’s worth noting that while GPS was groundbreaking, it was limited by the computational power of the time and the complexity of many real-world problems. Nevertheless, GPS laid the foundation for many future developments in AI including the Soar archtecture which was developed by Newell and others and is still used for commercial applications and is avialable as open source software.
 
 ## Marvin Minsky, ANNs and the MIT AI Lab
 
@@ -168,6 +168,8 @@ It used 32 processors to perform a set of coordinated, high-speed computations i
 [Alan Turing and the Birth of the Modern Computer](https://www.cbsnews.com/pictures/alan-turing-and-the-birth-of-modern-computing/3/)&mdash;CBS News
 
 [The Games that helped AI Evolve](https://www.ibm.com/history/early-games?mhsrc=ibmsearch_a&mhq=arthur%20samuel%20checkers)&mdash;IBM
+
+[Soar (Cognitive Archigtecture)](https://en.wikipedia.org/wiki/Soar_(cognitive_architecture))&mdash;Wikipedia
 
 [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai)&mdash;Coursera
 
