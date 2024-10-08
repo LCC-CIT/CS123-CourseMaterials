@@ -39,6 +39,10 @@ Next week the first project will be due.
 
 # Key Events in the History of AI
 
+This is part 1 of the history of AI. It starts with the first computer programmer in 1843 and continues on up through the development of symbolic AI (also known as Good Old Fashioned AI) ending in 1997 with a computer beating the world chess champion.
+
+
+
 ## Lady Ada Lovelace, the First Computer Programmer
 
 <img src="Images/Carpenter_portrait_of_Ada_Lovelace.png" alt="Carpenter portrait of Lady Ada Lovelace" style="zoom:33%;" />
