@@ -52,6 +52,8 @@ Two types of search problems (there are more than two) are:
 
 ### Single-Agent Problems
 
+Just one agent (would be person if it wasn't AI) is making decisions.
+
 **River Crossing Problems**
 
 If you search the internet you will find a lot of different logic puzzles involving getting things (or people, animals or other entities) across a river. These are examples of *single agent* problems since there is only one agent (you, the problem solver) directing the action. 
@@ -63,12 +65,40 @@ They are search problems since you search the *state-space*[^3] to find the mini
 
 ### Two-Agent Problems
 
+Two agents are making decisions. It could be two AI systems or an AI system and a human.
+
 **Game Playing Problems**
 
 Two-player games are examples of *two-agent* problems.
 
 - Ch. 2 of Elements of AI describes making a game tree for tic-tac toe that can be searched using the *minimax algorithm*[^5] in order to find winning moves.
 - These [notes from the Australian National University](https://gitlab.cecs.anu.edu.au/pages/2021-S1/courses/comp1100/lectures/09-2-Game_Trees.pdf) describe making a game tree for the game of nim, assigning values to nodes, and searching the tree for winning moves.
+
+**Real World Problems**
+
+- Autonomous Vehicles: In scenarios where two drivers of two vehicles need to interact, such as at an intersection or during lane changes.
+- Customer Service: AI chatbots can interact with human customers to resolve issues, answer questions, and provide support.
+- Collaborative Robotics: In manufacturing or warehouse settings, AI-powered robots can work alongside human workers or other robots to complete tasks.
+
+#### Game/Search Trees
+
+[See the tictactoe search tree in Elements of AI, Ch. 2](https://course.elementsofai.com/2/3)
+
+#### MiniMax Algorithm
+
+he minimax algorithm is a recursive (repetative) decision-making algorithm used in two-player zero-sum games, where one player’s gain is the other player’s loss. The goal is to <u>min</u>imize the <u>max</u>imum possible loss for a worst-case scenario (hence “minimax”).
+
+#### Steps of the Minimax Algorithm:
+
+1. **Generate the Game Tree**: Create a tree of all possible moves from the current state to the terminal states (end of the game).
+2. **Evaluate Terminal States**: Assign a value to each terminal state based on the outcome:
+   - Positive value for a win.
+   - Negative value for a loss.
+   - Zero for a draw.
+3. **Backpropagate Values**:  
+   Starting from the terminal nodes, the algorithm moves up the tree, level by level, to the root. At each level, it applies the minimax decision rule:
+   - **Maximizing Player’s Turn**: Choose the value from the move with the highest value from the child nodes.
+   - **Minimizing Player’s Turn**: Choose the value from the move with the lowest value from the child nodes.
 
 
 
@@ -85,6 +115,8 @@ Two-player games are examples of *two-agent* problems.
 [^5]: The *minimax algorithm* is used to search a tree (a type of computer data structure) to find paths through branches with either minim or maximum values.
 
 
+
+Note: Microsoft Copilot (GPT 4) was used to draft parts of these notes.
 
 ---
 
