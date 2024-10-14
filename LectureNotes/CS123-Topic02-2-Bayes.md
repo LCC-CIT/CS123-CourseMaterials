@@ -8,14 +8,15 @@ author: Brian Bird
 
 <h1>Bayes' Rule</h1>
 
-**CS123, Intro to AI**
+**CS123, Intro to AI****
 
-| Topics                                                       |                                 |
-| ------------------------------------------------------------ | ------------------------------- |
-| Overview of AI                                               | Generative AI                   |
-| AI Problem Solving Revisited<br /><mark>Machine Learning&mdash;Part 1</mark><br />Applications of AI | Prompt engineering              |
-| History of AI <br />Machine Learning&mdash;Part 2            | Custom chatbot creation         |
-| Neural networks and deep learning                            | Social and ethical issues of AI |
+| Weeks                              |                                                     |
+| ---------------------------------- | --------------------------------------------------- |
+| 1. Overview of AI                  | 6. Neural networks, deep learning and Generative AI |
+| 2. History and applications of AI  | 7. Prompt engineering                               |
+| 3. Bayes Rule and Machine Learning | 8. Custom chatbot creation                          |
+| 4. More Machine Learning           | 9. Social and ethical issues of AI                  |
+| 5. Midterm                         | 11. Final                                           |
 
 
 
@@ -23,11 +24,29 @@ author: Brian Bird
 
 [TOC]
 
+# What's Due This Week
+
+- Exercises based on Elements of AI, Ch. 3: Sunday
+- Quiz over the lectures: Sunday
+- Your report on AI applications in your field of interest: Sunday
+
 # Bayes' Rule
 
-Bayes’ Rule is a theorem in probability and statistics that describes a way to update the probabilities of predictions when given new evidence. It’s named after Thomas Bayes, who provided the first mathematical formulation of the rule in the eighteenth century.
+*Bayes’ Rule* is a theorem in probability and statistics that describes a way to update the probabilities of predictions when given new evidence. It’s named after Thomas Bayes, who provided the first mathematical formulation of the rule in the eighteenth century (1763).
 
-At its core, Bayes’ Rule is about learning from experience. It provides a mathematical framework for integrating new evidence (new likelihoods) into our prior beliefs and predictions (prior odds). It is used in a wide range of disciplines, including medicine, psychology, and artificial intelligence.
+At its core, Bayes’ Rule is about learning from experience. It provides a mathematical framework for integrating new evidence (a new *likelihood*) into our prior beliefs and predictions (*prior odds*). It is used in a wide range of disciplines, including medicine, psychology, and artificial intelligence.
+
+### Odds vs. Probabilities
+
+These are different ways of representing the concpet&mdash;the chances of something happening.
+
+#### Probability
+
+This is written as a fraction or a percent representing the the number of times a thing happens divided by the total number of occurance. For thowing a die, the probability of rolling a 6 is 1/6 or about 16.7%.
+
+#### Odds
+
+This is another way of representing the same thing, but we write the ratio the number of times a thing happens to the number of times it doesn't happen. For the example above, we would write the odds as: 1:5.
 
 ## Prior odds
 
