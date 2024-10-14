@@ -8,7 +8,7 @@ author: Brian Bird
 
 <h1>Bayes' Rule</h1>
 
-**CS123, Intro to AI****
+**CS123, Intro to AI**
 
 | Weeks                              |                                                     |
 | ---------------------------------- | --------------------------------------------------- |
@@ -26,6 +26,7 @@ author: Brian Bird
 
 # What's Due This Week
 
+- Answer week 3 lecture questions (for online students): Sunday
 - Exercises based on Elements of AI, Ch. 3: Sunday
 - Quiz over the lectures: Sunday
 - Your report on AI applications in your field of interest: Sunday
