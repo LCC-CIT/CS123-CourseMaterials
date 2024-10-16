@@ -37,25 +37,25 @@ author: Brian Bird
 
 At its core, Bayes’ Rule is about learning from experience. It provides a mathematical framework for integrating new evidence (a new *likelihood*) into our prior beliefs and predictions (*prior odds*). It is used in a wide range of disciplines, including medicine, psychology, and artificial intelligence.
 
-### Odds vs. Probabilities
+## Odds vs. Probabilities
 
 These are different ways of representing the concpet&mdash;the chances of something happening.
 
-#### Probability
+### Probability
 
-This is written as a fraction or a percent representing the the number of times a thing happens divided by the total number of occurance. For thowing a die, the probability of rolling a 6 is 1/6 or about 16.7%.
+This is written as a fraction or a percent representing the the number of times a thing happens divided by the total number of occurance. For thowing a die, the probability of rolling a 6 (or any specific number) is 1/6 or about 16.7%.
 
-#### Odds
+### Odds
 
-This is another way of representing the same thing, but we write the ratio the number of times a thing happens to the number of times it doesn't happen. For the example above, we would write the odds as: 1:5.
+This is another way of representing the same thing, but we write the ratio the number of times a thing happens to the number of times it doesn't happen. For the example above, we would write the odds as: 1:5 (one to five).
 
 ## Prior odds
 
 **Definition**
-assessment of odds before adding new information.
+Assessment of odds before adding new information. In other words, records of past events were used to calculate the odds.
 
 **Example**  
-The odds of rain in Eugene[^1] are 146:219.
+The odds of rain on any given day in Eugene[^1] are 146:219. This is based on past rainfall records.
 
 ## Likelihood ratio
 
@@ -74,18 +74,18 @@ The new information is: the probability that clouds in the morning predict rain 
 
 (This is not real data and is different from the example in the book)
 
-- Odds of rain after clouds are 7:2  
-   (7 out of 9 chance of a correct prediction).
-- Odds of rain after a clear sky are 1:8  
-  (1 out of 9 chance of a false positive).
+- Odds of rain after morning clouds are 7:2  
+   (7 out of 9 out of nine times when it's cloudy, it rains).
+- Odds of rain after a clear sky in the morning are 1:8  
+  (1 out of 9 times it's not cloudy it rains).
 
 Likelihood of rain on days it is cloudy is:  7/9 &divide; 1/9 = 7
-(I chose the odds so that the math is easy, the denominators don't always have to be the same.)
+(I chose the odds to have the same denominators so that the math would be easy, but the denominators don't have to be the same.)
 
 ## Posterior odds
 
 **Definition**
-This is the end result. The new odds that are calculated after the new information has been added.
+This is the end result. The new odds that are calculated after the new information (liklihood) has been added.
 
 Bayes' Formula:
 posteriorOdds = priorOdds * likelihoodRatio
