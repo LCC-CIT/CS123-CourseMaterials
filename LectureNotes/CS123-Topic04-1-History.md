@@ -119,6 +119,10 @@ In 2009 she and her team created ImageNet, a large-scale dataset that has been i
 
 CNNs were pioneered by Yann LeCun in the late 1980s and early 1990s. He developed the LeNet-5 architecture, which was designed to recognize handwritten digits. This work laid the foundation for modern deep learning and computer vision applications. Yann LeCun and Geoffrey Hinton are often referred to as “godfathers of AI”.
 
+## Ian Goodfellow and Genertive Adversarial Networks (GANs)
+
+In 2014 Ian Goodfellow developed Generative Adversarial Networks (GANs) which have been foundational in advancing AI’s ability to generate realistic images.
+
 
 
 # Reference
