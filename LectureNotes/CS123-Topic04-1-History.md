@@ -73,17 +73,53 @@ The perceptron and connectionism were notably criticized by Marvin Minsky and Se
 
 ## Geoffrey Hinton makes ANNs Cool Again
 
-1986: British-Canadian Carnegie Mellon professor and computer scientist Geoffrey Hinton, often referred to as the "godfather of AI", was among several researchers who helped make neural networks cool again by demonstrating that more than just a few of them could be trained using backpropagation for improved shape recognition and word prediction.
+1986: British-Canadian Carnegie Mellon professor and computer scientist Geoffrey Hinton, often referred to as the "godfather of AI", was among several researchers who helped make neural networks cool again by demonstrating that they could be trained using *backpropagation* for improved image recognition and word prediction.
 
 <img src="Images/Geoffrey_Hinton_at_Collision_2024_in_Toronto.jpg" alt="Geoffrey_Hinton_at_Collision_2024_in_Toronto" style="zoom:50%;" />
 
 *Photo by Vaughn Ridley/Collision via Sportsfile - [Collision Conf](https://www.flickr.com/photos/collisionconf/53803195889/), [CC BY 2.0](https://commons.wikimedia.org/w/index.php?curid=153696453)*
 
-The 2024 Nobel Prize in physics has been awarded to John Hopfield and Geoffrey Hinton for their fundamental discoveries in machine learning, which paved the way for modern AI.
+The 2024 Nobel Prize in physics was awarded to John Hopfield and Geoffrey Hinton for their fundamental discoveries in machine learning, which paved the way for modern AI.
+
+Hinton has frequently spoken publicly about the potential risks and benefits of AI. Here are some of the risks:
+
+- Autonomous Control: AI systems might write and execute their own code, potentially escaping human control.
+- Manipulation: AI could manipulate people using knowledge from literature and political strategies.
+- Unemployment: AI could lead to widespread job loss, devaluing human labor.
+- Bias and Misuse: Risks include fake news, bias in employment and policing, and autonomous battlefield robots.
+
+Hinton emphasizes the potential for AI to do enormous good, here are some of the good things AI could do:
+
+- Healthcare: AI is already comparable to radiologists in interpreting medical images and is effective in designing drugs.
+- Efficiency: AI can perform tasks more efficiently, potentially leading to advancements in various fields.
+- Learning: AI systems have a better way of acquiring knowledge, which can lead to improved problem-solving and innovation.
 
 
+
+## IBM Watson becomes a Jeopardy Champion
+
+In 2011, An IBM computer system named Watson beat two of the show’s all-time champions, Ken Jennings and Brad Rutter.  
+
+The original Watson was a room-size computer consisting of 10 racks holding 90 servers, with a total of 2,880 processor cores. Watson was trained on information from Wikipedia, encyclopedias, dictionaries, religious texts, novels, plays, and books from Project Gutenberg, among other sources.
+
+Watson’s architecture, known as DeepQA, utilized over 100 different algorithms and techniques to analyze questions, generate hypotheses, and evaluate evidence. The more of its algorithms that independently arrived at the same answer, the higher Watson’s confidence level. If the confidence level was high enough, Watson was programmed to buzz in during a game of Jeopardy. It took Watson an average of 3 seconds to come up with an answer. 
+
+## Siri, Alexa and Google Assistant
+In 2011, Apple demoed a virtual assistant named Siri. In 2014, Amazon released its virtual assistant named Alexa and in 2016 Google released Google Assistant. All three had natural language processing capabilities and could understand a spoken question and respond with an answer. But, they contained limitations&mdash;they used “command-and-control systems,” which are programmed to understand a long list of questions but cannot answer anything that falls outside their programming. 
+
+## Fei Fei Lee
+
+Fei-Fei Li is a, Chinese-American computer scientist is known as the "godmother of artificial intelligence"
+
+In 2009 she and her team created ImageNet, a large-scale dataset that has been instrumental in advancing computer vision and deep learning neural networks. She is also a strong advocate for diversity and ethical considerations in AI, and in 2017 she co-founded AI4ALL, an organization dedicated to increasing diversity and inclusion in AI.
+
+<img src="Images/FeiFeiLee.jpg" alt="FeiFeiLee" style="zoom:67%;" />
 
 # Reference
+
+["Godfather of Artificial Intelligence" Geoffrey Hinton on the promise, risks of advanced AI](https://www.cbsnews.com/news/geoffrey-hinton-ai-dangers-60-minutes-transcript/)&mdash;CBS, 60 Minutes.
+
+[Watson, ‘Jeopardy!’ champion](https://www.ibm.com/history/watson-jeopardy)&mdash;IBM
 
 [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai)&mdash;Coursera
 
