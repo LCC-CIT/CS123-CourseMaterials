@@ -107,13 +107,19 @@ Watson’s architecture, known as DeepQA, utilized over 100 different algorithms
 ## Siri, Alexa and Google Assistant
 In 2011, Apple demoed a virtual assistant named Siri. In 2014, Amazon released its virtual assistant named Alexa and in 2016 Google released Google Assistant. All three had natural language processing capabilities and could understand a spoken question and respond with an answer. But, they contained limitations&mdash;they used “command-and-control systems,” which are programmed to understand a long list of questions but cannot answer anything that falls outside their programming. 
 
-## Fei Fei Lee
+## Fei Fei Lee and ImageNet
 
 Fei-Fei Li is a, Chinese-American computer scientist is known as the "godmother of artificial intelligence"
 
 In 2009 she and her team created ImageNet, a large-scale dataset that has been instrumental in advancing computer vision and deep learning neural networks. She is also a strong advocate for diversity and ethical considerations in AI, and in 2017 she co-founded AI4ALL, an organization dedicated to increasing diversity and inclusion in AI.
 
 <img src="Images/FeiFeiLee.jpg" alt="FeiFeiLee" style="zoom:67%;" />
+
+## Yann LeCun and Convolutional Neural Networks (CNNs) 
+
+CNNs were pioneered by Yann LeCun in the late 1980s and early 1990s. He developed the LeNet-5 architecture, which was designed to recognize handwritten digits. This work laid the foundation for modern deep learning and computer vision applications. Yann LeCun and Geoffrey Hinton are often referred to as “godfathers of AI”.
+
+
 
 # Reference
 
