@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perceptron Simulator</title>
+    <script src="PerceptronSimulator.js"></script>
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        table {
+            display: inline-block;
+        }
+
+        .recognized {
+            opacity: 1;
+        }
+
+        .face td {
+            width: 10px;
+            height: 10px;
+        }
+
+
+        .happy {
+            background-color: green;
+        }
+
+        .sad {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Perceptron Simulator</h1>
+    <h2>Perceptron Weights</h2>
+    <table id="weights" border="1">
+        <tbody>
+            <tr>
+                <td id="cell-0-0"></td>
+                <td id="cell-0-1"></td>
+                <td id="cell-0-2"></td>
+                <td id="cell-0-3"></td>
+                <td id="cell-0-4"></td>
+            </tr>
+            <tr>
+                <td id="cell-1-0"></td>
+                <td id="cell-1-1"></td>
+                <td id="cell-1-2"></td>
+                <td id="cell-1-3"></td>
+                <td id="cell-1-4"></td>
+            </tr>
+            <tr>
+                <td id="cell-2-0"></td>
+                <td id="cell-2-1"></td>
+                <td id="cell-2-2"></td>
+                <td id="cell-2-3"></td>
+                <td id="cell-2-4"></td>
+            </tr>
+            <tr>
+                <td id="cell-3-0"></td>
+                <td id="cell-3-1"></td>
+                <td id="cell-3-2"></td>
+                <td id="cell-3-3"></td>
+                <td id="cell-3-4"></td>
+            </tr>
+            <tr>
+                <td id="cell-4-0"></td>
+                <td id="cell-4-1"></td>
+                <td id="cell-4-2"></td>
+                <td id="cell-4-3"></td>
+                <td id="cell-4-4"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Input Data</h2>
+
+    <h3>Happy Faces</h3>
+
+    <table id="h1" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="happy1-0-0" class="happy"></td>
+                <td id="happy1-0-1"></td>
+                <td id="happy1-0-2"></td>
+                <td id="happy1-0-3"></td>
+                <td id="happy1-0-4" class="happy"></td>
+            </tr>
+            <tr>
+                <td id="happy1-1-0"></td>
+                <td id="happy1-1-1"></td>
+                <td id="happy1-1-2" class="happy"></td>
+                <td id="happy1-1-3"></td>
+                <td id="happy1-1-4"></td>
+            </tr>
+            <tr>
+                <td id="happy1-2-0"></td>
+                <td id="happy1-2-1"></td>
+                <td id="happy1-2-2" class="happy"></td>
+                <td id="happy1-2-3"></td>
+                <td id="happy1-2-4"></td>
+            </tr>
+            <tr>
+                <td id="happy1-3-0" class="happy"></td>
+                <td id="happy1-3-1"></td>
+                <td id="happy1-3-2"></td>
+                <td id="happy1-3-3"></td>
+                <td id="happy1-3-4" class="happy"></td>
+            </tr>
+            <tr>
+                <td id="happy1-4-0"></td>
+                <td id="happy1-4-1" class="happy"></td>
+                <td id="happy1-4-2" class="happy"></td>
+                <td id="happy1-4-3" class="happy"></td>
+                <td id="happy1-4-4" </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="h2" class="face" style="opacity:.5"">
+            <tbody>
+                <tr>
+                    <td id=" happy2-0-0" class="happy">
+        </td>
+        <td id="happy2-0-1"></td>
+        <td id="happy2-0-2"></td>
+        <td id="happy2-0-3"></td>
+        <td id="happy2-0-4" class="happy"></td>
+        </tr>
+        <tr>
+            <td id="happy2-1-0"></td>
+            <td id="happy2-1-1"></td>
+            <td id="happy2-1-2" class="happy"></td>
+            <td id="happy2-1-3"></td>
+            <td id="happy2-1-4"></td>
+        </tr>
+        <tr>
+            <td id="happy2-2-0" class="happy"></td>
+            <td id="happy2-2-1"></td>
+            <td id="happy2-2-2"></td>
+            <td id="happy2-2-3"></td>
+            <td id="happy2-2-4" class="happy"></td>
+        </tr>
+        <tr>
+            <td id="happy2-3-0" class="happy"></td>
+            <td id="happy2-3-1" class="happy"></td>
+            <td id="happy2-3-2" class="happy"></td>
+            <td id="happy2-3-3" class="happy"></td>
+            <td id="happy2-3-4" class="happy"></td>
+        </tr>
+        <tr>
+            <td id="happy2-4-0"></td>
+            <td id="happy2-4-1"></td>
+            <td id="happy2-4-2"></td>
+            <td id="happy2-4-3"></td>
+            <td id="happy2-4-4"></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table id="h3" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="happy3-0-0"></td>
+                <td id="happy3-0-1" class="happy"></td>
+                <td id="happy3-0-2"></td>
+                <td id="happy3-0-3" class="happy"></td>
+                <td id="happy3-0-4"></td>
+            </tr>
+            <tr>
+                <td id="happy3-1-0"></td>
+                <td id="happy3-1-1"></td>
+                <td id="happy3-1-2"></td>
+                <td id="happy3-1-3"></td>
+                <td id="happy3-1-4"></td>
+            </tr>
+            <tr>
+                <td id="happy3-2-0"></td>
+                <td id="happy3-2-1"></td>
+                <td id="happy3-2-2" class="happy"></td>
+                <td id="happy3-2-3"></td>
+                <td id="happy3-2-4"></td>
+            </tr>
+            <tr>
+                <td id="happy3-3-0" class="happy"></td>
+                <td id="happy3-3-1"></td>
+                <td id="happy3-3-2"></td>
+                <td id="happy3-3-3"></td>
+                <td id="happy3-3-4" class="happy"></td>
+            </tr>
+            <tr>
+                <td id="happy3-4-0"></td>
+                <td id="happy3-4-1" class="happy"></td>
+                <td id="happy3-4-2" class="happy"></td>
+                <td id="happy3-4-3" class="happy"></td>
+                <td id="happy3-4-4"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="h4" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="happy4-0-0"></td>
+                <td id="happy4-0-1" class="happy"></td>
+                <td id="happy4-0-2"></td>
+                <td id="happy4-0-3" class="happy"></td>
+                <td id="happy4-0-4"></td>
+            </tr>
+            <tr>
+                <td id="happy4-1-0"></td>
+                <td id="happy4-1-1"></td>
+                <td id="happy4-1-2" class="happy"></td>
+                <td id="happy4-1-3"></td>
+                <td id="happy4-1-4"></td>
+            </tr>
+            <tr>
+                <td id="happy4-2-0" class="happy"></td>
+                <td id="happy4-2-1"></td>
+                <td id="happy4-2-2"></td>
+                <td id="happy4-2-3"></td>
+                <td id="happy4-2-4" class="happy"></td>
+            </tr>
+            <tr>
+                <td id="happy4-3-0" class="happy"></td>
+                <td id="happy4-3-1" class="happy"></td>
+                <td id="happy4-3-2" class="happy"></td>
+                <td id="happy4-3-3" class="happy"></td>
+                <td id="happy4-3-4" class="happy"></td>
+            </tr>
+            <tr>
+                <td id="happy4-4-0"></td>
+                <td id="happy4-4-1"></td>
+                <td id="happy4-4-2"></td>
+                <td id="happy4-4-3"></td>
+                <td id="happy4-4-4"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="h5" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="happy5-0-0" class="happy"></td>
+                <td id="happy5-0-1"></td>
+                <td id="happy5-0-2"></td>
+                <td id="happy5-0-3"></td>
+                <td id="happy5-0-4" class="happy"></td>
+            </tr>
+            <tr>
+                <td id="happy5-1-0"></td>
+                <td id="happy5-1-1"></td>
+                <td id="happy5-1-2" class="happy"></td>
+                <td id="happy5-1-3"></td>
+                <td id="happy5-1-4"></td>
+            </tr>
+            <tr>
+                <td id="happy5-2-0"></td>
+                <td id="happy5-2-1" class="happy"></td>
+                <td id="happy5-2-2"></td>
+                <td id="happy5-2-3" class="happy"></td>
+                <td id="happy5-2-4"></td>
+            </tr>
+            <tr>
+                <td id="happy5-3-0"></td>
+                <td id="happy5-3-1" class="happy"></td>
+                <td id="happy5-3-2" class="happy"></td>
+                <td id="happy5-3-3" class="happy"></td>
+                <td id="happy5-3-4"></td>
+            </tr>
+            <tr>
+                <td id="happy5-4-0"></td>
+                <td id="happy5-4-1"></td>
+                <td id="happy5-4-2"></td>
+                <td id="happy5-4-3"></td>
+                <td id="happy5-4-4"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="h6" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="happy6-0-0"></td>
+                <td id="happy6-0-1"></td>
+                <td id="happy6-0-2"></td>
+                <td id="happy6-0-3"></td>
+                <td id="happy6-0-4"></td>
+            </tr>
+            <tr>
+                <td id="happy6-1-0" class="happy"></td>
+                <td id="happy6-1-1"></td>
+                <td id="happy6-1-2"></td>
+                <td id="happy6-1-3"></td>
+                <td id="happy6-1-4" class="happy"></td>
+            </tr>
+            <tr>
+                <td id="happy6-2-0"></td>
+                <td id="happy6-2-1"></td>
+                <td id="happy6-2-2" class="happy"></td>
+                <td id="happy6-2-3"></td>
+                <td id="happy6-2-4"></td>
+            </tr>
+            <tr>
+                <td id="happy6-3-0" class="happy"></td>
+                <td id="happy6-3-1"></td>
+                <td id="happy6-3-2"></td>
+                <td id="happy6-3-3"></td>
+                <td id="happy6-3-4" class="happy"></td>
+            </tr>
+            <tr>
+                <td id="happy6-4-0"></td>
+                <td id="happy6-4-1" class="happy"></td>
+                <td id="happy6-4-2" class="happy"></td>
+                <td id="happy6-4-3" class="happy"></td>
+                <td id="happy6-4-4"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="h7" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="happy7-0-0"></td>
+                <td id="happy7-0-1"></td>
+                <td id="happy7-0-2"></td>
+                <td id="happy7-0-3"></td>
+                <td id="happy7-0-4"></td>
+            </tr>
+            <tr>
+                <td id="happy7-1-0"></td>
+                <td id="happy7-1-1" class="happy"></td>
+                <td id="happy7-1-2"></td>
+                <td id="happy7-1-3" class="happy"></td>
+                <td id="happy7-1-4"></td>
+            </tr>
+            <tr>
+                <td id="happy7-2-0"></td>
+                <td id="happy7-2-1"></td>
+                <td id="happy7-2-2" class="happy"></td>
+                <td id="happy7-2-3"></td>
+                <td id="happy7-2-4"></td>
+            </tr>
+            <tr>
+                <td id="happy7-3-0"></td>
+                <td id="happy7-3-1" class="happy"></td>
+                <td id="happy7-3-2"></td>
+                <td id="happy7-3-3" class="happy"></td>
+                <td id="happy7-3-4"></td>
+            </tr>
+            <tr>
+                <td id="happy7-4-0"></td>
+                <td id="happy7-4-1" class="happy"></td>
+                <td id="happy7-4-2" class="happy"></td>
+                <td id="happy7-4-3" class="happy"></td>
+                <td id="happy7-4-4"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="h8" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="happy8-0-0" class="happy"></td>
+                <td id="happy8-0-1"></td>
+                <td id="happy8-0-2"></td>
+                <td id="happy8-0-3"></td>
+                <td id="happy8-0-4" class="happy"></td>
+            </tr>
+            <tr>
+                <td id="happy8-1-0"></td>
+                <td id="happy8-1-1"></td>
+                <td id="happy8-1-2"></td>
+                <td id="happy8-1-3"></td>
+                <td id="happy8-1-4"></td>
+            </tr>
+            <tr>
+                <td id="happy8-2-0"></td>
+                <td id="happy8-2-1"></td>
+                <td id="happy8-2-2" class="happy"></td>
+                <td id="happy8-2-3"></td>
+                <td id="happy8-2-4"></td>
+            </tr>
+            <tr>
+                <td id="happy8-3-0" class="happy"></td>
+                <td id="happy8-3-1"></td>
+                <td id="happy8-3-2"></td>
+                <td id="happy8-3-3"></td>
+                <td id="happy8-3-4" class="happy"></td>
+            </tr>
+            <tr>
+                <td id="happy8-4-0"></td>
+                <td id="happy8-4-1" class="happy"></td>
+                <td id="happy8-4-2" class="happy"></td>
+                <td id="happy8-4-3" class="happy"></td>
+                <td id="happy8-4-4"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Sad Faces</h3>
+
+    <table id="s1" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="sad1-0-0" class="sad"></td>
+                <td id="sad1-0-1"></td>
+                <td id="sad1-0-2"></td>
+                <td id="sad1-0-3"></td>
+                <td id="sad1-0-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad1-1-0"></td>
+                <td id="sad1-1-1"></td>
+                <td id="sad1-1-2" class="sad"></td>
+                <td id="sad1-1-3"></td>
+                <td id="sad1-1-4"></td>
+            </tr>
+            <tr>
+                <td id="sad1-2-0"></td>
+                <td id="sad1-2-1"></td>
+                <td id="sad1-2-2"></td>
+                <td id="sad1-2-3"></td>
+                <td id="sad1-2-4"></td>
+            </tr>
+            <tr>
+                <td id="sad1-3-0" class="sad"></td>
+                <td id="sad1-3-1" class="sad"></td>
+                <td id="sad1-3-2" class="sad"></td>
+                <td id="sad1-3-3" class="sad"></td>
+                <td id="sad1-3-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad1-4-0" class="sad"></td>
+                <td id="sad1-4-1"></td>
+                <td id="sad1-4-2"></td>
+                <td id="sad1-4-3"></td>
+                <td id="sad1-4-4" class="sad"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="s2" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="sad2-0-0" class="sad"></td>
+                <td id="sad2-0-1"></td>
+                <td id="sad2-0-2"></td>
+                <td id="sad2-0-3"></td>
+                <td id="sad2-0-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad2-1-0"></td>
+                <td id="sad2-1-1"></td>
+                <td id="sad2-1-2"></td>
+                <td id="sad2-1-3"></td>
+                <td id="sad2-1-4"></td>
+            </tr>
+            <tr>
+                <td id="sad2-2-0" class="sad"></td>
+                <td id="sad2-2-1" class="sad"></td>
+                <td id="sad2-2-2" class="sad"></td>
+                <td id="sad2-2-3" class="sad"></td>
+                <td id="sad2-2-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad2-3-0" class="sad"></td>
+                <td id="sad2-3-1"></td>
+                <td id="sad2-3-2""></td>
+                    <td id=" sad2-3-3"></td>
+                <td id="sad2-3-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad2-4-0"></td>
+                <td id="sad2-4-1"></td>
+                <td id="sad2-4-2"></td>
+                <td id="sad2-4-3"></td>
+                <td id="sad2-4-4"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="s3" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="sad3-0-0"></td>
+                <td id="sad3-0-1" class="sad"></td>
+                <td id="sad3-0-2"></td>
+                <td id="sad3-0-3" class="sad"></td>
+                <td id="sad3-0-4"></td>
+            </tr>
+            <tr>
+                <td id="sad3-1-0"></td>
+                <td id="sad3-1-1"></td>
+                <td id="sad3-1-2"></td>
+                <td id="sad3-1-3"></td>
+                <td id="sad3-1-4"></td>
+            </tr>
+            <tr>
+                <td id="sad3-2-0" class="sad"></td>
+                <td id="sad3-2-1" class="sad"></td>
+                <td id="sad3-2-2" class="sad"></td>
+                <td id="sad3-2-3" class="sad"></td>
+                <td id="sad3-2-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad3-3-0" class="sad"></td>
+                <td id="sad3-3-1"></td>
+                <td id="sad3-3-2"></td>
+                <td id="sad3-3-3"></td>
+                <td id="sad3-3-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad3-4-0"></td>
+                <td id="sad3-4-1"></td>
+                <td id="sad3-4-2"></td>
+                <td id="sad3-4-3"></td>
+                <td id="sad3-4-4"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="s4" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="sad4-0-0"></td>
+                <td id="sad4-0-1" class="sad"></td>
+                <td id="sad4-0-2"></td>
+                <td id="sad4-0-3" class="sad"></td>
+                <td id="sad4-0-4"></td>
+            </tr>
+            <tr>
+                <td id="sad4-1-0"></td>
+                <td id="sad4-1-1"></td>
+                <td id="sad4-1-2" class="sad"></td>
+                <td id="sad4-1-3"></td>
+                <td id="sad4-1-4"></td>
+            </tr>
+            <tr>
+                <td id="sad4-2-0"></td>
+                <td id="sad4-2-1"></td>
+                <td id="sad4-2-2"></td>
+                <td id="sad4-2-3"></td>
+                <td id="sad4-2-4"></td>
+            </tr>
+            <tr>
+                <td id="sad4-3-0" class="sad"></td>
+                <td id="sad4-3-1" class="sad"></td>
+                <td id="sad4-3-2" class="sad"></td>
+                <td id="sad4-3-3" class="sad"></td>
+                <td id="sad4-3-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad4-4-0" class="sad"></td>
+                <td id="sad4-4-1"></td>
+                <td id="sad4-4-2"></td>
+                <td id="sad4-4-3"></td>
+                <td id="sad4-4-4" class="sad"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="s5" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="sad5-0-0" class="sad"></td>
+                <td id="sad5-0-1"></td>
+                <td id="sad5-0-2"></td>
+                <td id="sad5-0-3"></td>
+                <td id="sad5-0-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad5-1-0"></td>
+                <td id="sad5-1-1"></td>
+                <td id="sad5-1-2""></td>
+                    <td id=" sad5-1-3"></td>
+                <td id="sad5-1-4"></td>
+            </tr>
+            <tr>
+                <td id="sad5-2-0"></td>
+                <td id="sad5-2-1"></td>
+                <td id="sad5-2-2" class="sad"></td>
+                <td id="sad5-2-3"></td>
+                <td id="sad5-2-4"></td>
+            </tr>
+            <tr>
+                <td id="sad5-3-0" class="sad"></td>
+                <td id="sad5-3-1" class="sad"></td>
+                <td id="sad5-3-2" class="sad"></td>
+                <td id="sad5-3-3" class="sad"></td>
+                <td id="sad5-3-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad5-4-0" class="sad"></td>
+                <td id="sad5-4-1"></td>
+                <td id="sad5-4-2"></td>
+                <td id="sad5-4-3"></td>
+                <td id="sad5-4-4" class="sad"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="s6" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="sad6-0-0"></td>
+                <td id="sad6-0-1"></td>
+                <td id="sad6-0-2"></td>
+                <td id="sad6-0-3"></td>
+                <td id="sad6-0-4"></td>
+            </tr>
+            <tr>
+                <td id="sad6-1-0" class="sad"></td>
+                <td id="sad6-1-1"></td>
+                <td id="sad6-1-2"></td>
+                <td id="sad6-1-3"></td>
+                <td id="sad6-1-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad6-2-0"></td>
+                <td id="sad6-2-1"></td>
+                <td id="sad6-2-2" class="sad"></td>
+                <td id="sad6-2-3"></td>
+                <td id="sad6-2-4"></td>
+            </tr>
+            <tr>
+                <td id="sad6-3-0" class="sad"></td>
+                <td id="sad6-3-1" class="sad"></td>
+                <td id="sad6-3-2" class="sad"></td>
+                <td id="sad6-3-3" class="sad"></td>
+                <td id="sad6-3-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad6-4-0" class="sad"></td>
+                <td id="sad6-4-1"></td>
+                <td id="sad6-4-2"></td>
+                <td id="sad6-4-3"></td>
+                <td id="sad6-4-4" class="sad"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="s7" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="sad7-0-0"></td>
+                <td id="sad7-0-1"></td>
+                <td id="sad7-0-2"></td>
+                <td id="sad7-0-3"></td>
+                <td id="sad7-0-4"></td>
+            </tr>
+            <tr>
+                <td id="sad7-1-0"></td>
+                <td id="sad7-1-1" class="sad"></td>
+                <td id="sad7-1-2"></td>
+                <td id="sad7-1-3" class="sad"></td>
+                <td id="sad7-1-4"></td>
+            </tr>
+            <tr>
+                <td id="sad7-2-0"></td>
+                <td id="sad7-2-1"></td>
+                <td id="sad7-2-2" class="sad"></td>
+                <td id="sad7-2-3"></td>
+                <td id="sad7-2-4"></td>
+            </tr>
+            <tr>
+                <td id="sad7-3-0" class="sad"></td>
+                <td id="sad7-3-1" class="sad"></td>
+                <td id="sad7-3-2" class="sad"></td>
+                <td id="sad7-3-3" class="sad"></td>
+                <td id="sad7-3-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad7-4-0" class="sad"></td>
+                <td id="sad7-4-1"></td>
+                <td id="sad7-4-2"></td>
+                <td id="sad7-4-3"></td>
+                <td id="sad7-4-4" class="sad"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="s8" class="face" style="opacity:.5">
+        <tbody>
+            <tr>
+                <td id="sad8-0-0" class="sad"></td>
+                <td id="sad8-0-1"></td>
+                <td id="sad8-0-2"></td>
+                <td id="sad8-0-3"></td>
+                <td id="sad8-0-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad8-1-0"></td>
+                <td id="sad8-1-1"></td>
+                <td id="sad8-1-2"></td>
+                <td id="sad8-1-3"></td>
+                <td id="sad8-1-4"></td>
+            </tr>
+            <tr>
+                <td id="sad8-2-0" class="sad"></td>
+                <td id="sad8-2-1" class="sad"></td>
+                <td id="sad8-2-2" class="sad"></td>
+                <td id="sad8-2-3" class="sad"></td>
+                <td id="sad8-2-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad8-3-0" class="sad"></td>
+                <td id="sad8-3-1"></td>
+                <td id="sad8-3-2"></td>
+                <td id="sad8-3-3"></td>
+                <td id="sad8-3-4" class="sad"></td>
+            </tr>
+            <tr>
+                <td id="sad8-4-0"></td>
+                <td id="sad8-4-1"></td>
+                <td id="sad8-4-2"></td>
+                <td id="sad8-4-3"></td>
+                <td id="sad8-4-4""></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Recognition Results</h2>
+    <span id="recognized">0</span> out of 16 recognized. <br>
+    Validation code: <span id="validation">AA</span>
+    <br><br>
+    <footer>
+        <hr>
+        Written by Brian Bird, 2024
+        <hr>
+    </footer>
+
+</body>
+
+</html>
