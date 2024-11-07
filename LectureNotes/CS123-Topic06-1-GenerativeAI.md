@@ -119,6 +119,8 @@ A *token* is a unit of text that the model processes. Tokens can be words, subwo
 
 [AI’s understanding and reasoning skills can’t be assessed by current tests](https://www.sciencenews.org/article/ai-understanding-reasoning-skill-assess)&mdash;Ananya, Science Direct, 2024.
 
+[GPT-4](https://openai.com/index/gpt-4-research/)&mdash;OpenAI
+
 
 
 [^1]: LLMs  don't actually "understand" text in the way humans do. Instead, they analyze and process text based on patterns they have learned from training data. They are sophisticated tools that excel at mimicking human-like text but do not possess genuine understanding, comprehension or awareness.
