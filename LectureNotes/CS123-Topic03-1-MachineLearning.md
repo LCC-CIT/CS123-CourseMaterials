@@ -176,7 +176,7 @@ Besides *binary* logistic regression, where data are classified into two categor
 
 #### Decision Trees
 
-A *decision tree* is a flowchart-like structure where each *internal node* (aka *decision node*) represents a point where a decision is made based on some feature (aka attribute) of the data item being classified. There is a branch for each outcome of the decision. A branch or series of branches will ultimately end in a *leaf node* that represents a final outcome.
+A *decision tree* is a flowchart-like structure where each *internal node* (aka *decision node*) represents a point where a decision is made based on a rule related to some feature (aka attribute) of the data item being classified. There is a branch for each outcome of the decision. A branch or series of branches will ultimately end in a *leaf node* that represents a final outcome.
 
 The tree is built by a machine learning training algorithm. The ML algorithm works off of labeled data (this is supervised ML) to find features which it turns into conditions for making a decision at the decision nodes in the tree.
 
@@ -207,7 +207,7 @@ flowchart TD
 
 
 
-#### Random Forrests
+#### Random Forests
 
 A Random Forest is a collection of Decision Trees. Each tree in the forest is built from a more or less random sample from the training data set. The final prediction of the Random Forest is made by averaging the predictions of each individual tree (for regression tasks) or by taking a majority vote (for classification tasks). This approach helps to overcome the overfitting problem of Decision Trees and generally results in a more robust and accurate model.
 
