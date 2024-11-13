@@ -1,7 +1,7 @@
 ---
 title: Gen AI
 description: Generative AI
-keywords: AI
+keywords: AI, LLM, GPT
 generator: Typora
 author: Brian Bird
 ---
@@ -10,12 +10,13 @@ author: Brian Bird
 
 **CS123, Intro to AI**
 
-| Topics                                                       |                                    |
-| ------------------------------------------------------------ | ---------------------------------- |
-| Overview of AI                                               | Neural networks<br />Deep learning |
-| History of AI&mdash;Part 1<br>AI Problem Solving             | <mark>Generative AI</mark>         |
-| Machine Learning&mdash;Part 1<br />Bayes' Rule               | Prompt engineering                 |
-| Machine Learning&mdash;Part 2<br />Regression and K-Nearest Neighbor | Custom chatbot creation            |
+| Topics                                                       |                                              |
+| ------------------------------------------------------------ | -------------------------------------------- |
+| Overview of AI                                               | Neural networks<br />Deep learning           |
+| History of AI&mdash;Part 1<br>AI Problem Solving             | <mark>Generative AI</mark>                   |
+| Machine Learning&mdash;Part 1<br />Bayes' Rule               | Prompt engineering                           |
+| Machine Learning&mdash;Part 2<br />Regression and K-Nearest Neighbor | Custom chatbot creation                      |
+| History of AI&mdash;Part 2<br />Midterm                      | Social and ethical issues of AI  <br />Final |
 
 
 
@@ -25,17 +26,14 @@ author: Brian Bird
 
 # What's Happening this Week
 
-- Due Monday 8/5 (I'm giving you an extra day):
+Due Sunday:
 
-  - Forum post with questions, answers and comments for online students
-    (Part of your participation grade)
+- Forum post with questions, answers and comments for online students
+  (Part of your participation grade)
 
-  - Exercises on Generative AI, based on the NY Times articles
+- Exercises on Generative AI, based on the NY Times articles
 
-  - Quiz over the lectures/recordings
-
-
-- Team project to engineer prompts for your career interest areas. Due Wednesday, 8/7.
+- Quiz over the lectures/recordings
 
 
 
@@ -86,7 +84,7 @@ A *token* is a unit of text that the model processes. Tokens can be words, subwo
 - Are my prompts used to train the LLM?
 - Is my feedback (thumbs up/down) used to train the LLM?
 - Are my prompts kept private?
-- Can any of my other data get sent to the chatBot server?
+- Can any of my data get sent to the chatBot server?
 - Have any of the current (summer 2024) GPT chatBots attained AGI?
   https://www.tomsguide.com/ai/chatgpt/openai-has-5-steps-to-agi-and-were-only-a-third-of-the-way-there
 - What are the top uses for GPT ChatBots?
