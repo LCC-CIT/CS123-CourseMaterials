@@ -6,7 +6,7 @@ generator: Typora
 author: Brian Bird
 ---
 
-<h1>Generative AI</h1>
+<h1>Generative AI, Part 2</h1>
 
 **CS123, Intro to AI**
 
@@ -30,10 +30,12 @@ Due Sunday:
 
 - Forum post with questions, answers and comments for online students
   (Part of your participation grade)
-
 - Exercises on Generative AI, based on the NY Times articles
-
 - Quiz over the lectures/recordings
+
+Due next Thursday:
+
+- Generative AI project
 
 ## Uses of Generative AI
 
