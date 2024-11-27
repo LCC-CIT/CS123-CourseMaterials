@@ -23,7 +23,7 @@ author: Brian Bird
 
 [TOC]
 
-# Copilot Studio
+## Copilot Studio
 
 Full details on creating a custom GPT chatbot are provided in the [Microsoft documentation for Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio).
 
@@ -43,26 +43,28 @@ There are essentially two ways to create a chatbot in Copilot Studio:
 
 ### Greeting
 
-The initial greeting comes from the topic: conversation start. You can edit it in the conversation flow.
+The initial greeting comes from the topic: "conversation start". You can edit it in "conversation flow".
 
 ### Authentication
 
-These are the options
+Click on the "Settings" button, "Security", "Authentication". These are the options
 
-- None
+- No authentication: *This is the reccomended option for our class assignment.*
 
-- Teams
+- Authenticate with Microsoft
 
-  If you want to use OneDrive as a knowledge source, you have to use Microsoft Entra ID,  
-  But, then you won't be able to publish to a web site!
-
-- Manual
+  If you want to use OneDrive as a knowledge source, you have to use this option, which uses *Microsoft Entra ID*[^1],  but, then you won't be able to publish to a web site!
+  
+- Authenticate manually
 
 ### Knowledge Sources
 
-The sources that are <u>not</u> enterprise data source are:
+Click on the  "Add Knowledge" button, there will be two options, choose "Featured". The sources shown here are sources that don *not* require a special *enterprise data connection*:
 
-- Public web sites (must be indexed by Bing)
+- Public web sites (must be indexed by Bing)  
+  - You can see if the site you want to use is indexed by Bing by using the `site:` search operator. For example, in the Bing search bar type:
+     `site:yourdomain.com`
+    This will show all the pages from your site that have been indexed.
 - Files
 - OneDrive folders&mdash;Requires Microsoft Entra ID (Teams and Office 365)
 
@@ -76,26 +78,36 @@ All knowledge source depend on the source for searching. This means the files ne
 - Files: will be made searchable by Dataverse.
 - OneDrive: Will be indexed by OneDrive almost immediately after upload.
 
-#### Document Types
+#### Document Types for Files
 
 - Markdown and html
-  - In a web site: just html will be indexed, citations open as a web page
+  - In a web site: just html will be indexed, citations (links in the response) open as a web page
   - In files: (stored in Dataverse) both will be indexed, citations open as text only
   - In OneDrive: neither will be indexed
+  
 - PDF and Word
   - PDFs and Word docs get indexed everywhere
   - PDF citations open as documents, Word docs get downloaded instead of opening
+  
 - Excel and .csv
   - Both can be searched and understood when uploaded as files.
+  
+
+## References
+
+[Microsoft Copilot Studio Documentation](https://learn.microsoft.com/en-us/microsoft-copilot-studio/)
 
 
 
 
 ---
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).  
 
 ---
 
-Note: Microsoft Copilot with GPT-4 was used to draft parts of these notes.
+Note: Microsoft Copilot with GPT-4 was used to draft parts of these notes. 
+[^1]: Microsoft Entra ID, formerly known as Azure Active Directory, is a cloud-based identity and access management system used by Microsoft Teams, Azure, Microsoft 365, and other Microsoft products and services.
+
+
 

@@ -1,12 +1,13 @@
 <!doctype html>
-<html>
+<html style='font-size:20px !important'>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<meta name="author" content="Brian Bird">
+<meta name="title" content="Custom Chatbot">
 <meta name="description" content="How to create a custom chatbot with Microsoft Copilot Studio">
 <meta name="keywords" content="AI, chatbot, copilot studio">
+<meta name="material" content="">
+<meta name="author" content="Brian Bird">
 <meta name="generator" content="Typora">
-<meta http-equiv="content-language" content="en-gb">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
@@ -24,7 +25,7 @@ a:active, a:hover { outline: 0px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
 .typora-export .task-list-item input { pointer-events: none; }
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
 }
@@ -49,7 +50,7 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
@@ -89,10 +90,10 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print { 
+@media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -115,7 +116,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -128,7 +129,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) { 
+@media screen and (max-width: 48em) {
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -140,7 +141,7 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; }
 a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
@@ -156,7 +157,7 @@ mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
-@media print { 
+@media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 .md-diagram-panel .messageText { stroke: none !important; }
@@ -169,19 +170,19 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
 .typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
 .typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
 }
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
   .typora-export-sidebar { display: none; }
 }
-.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
 .outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
-.outline-expander::before { content: ''; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
-.outline-expander:hover::before { content: ''; }
+.outline-expander:hover::before { content: ""; }
 .outline-h1 > .outline-item { padding-left: 0px; }
 .outline-h2 > .outline-item { padding-left: 1em; }
 .outline-h3 > .outline-item { padding-left: 2em; }
@@ -193,14 +194,14 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
 .outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
-.outline-item-open > .outline-item > .outline-expander::before { content: ''; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
 .typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
-.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: '−'; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
 .typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
@@ -612,10 +613,13 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 
- @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} h1,h2,h3,h4,h5 {white-space:pre-line}
 </style><title>Custom Chatbot</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><h1>Creating a Custom Chatbot</h1><p><strong><span>CS123, Intro to AI</span></strong></p><figure class='table-figure'><table><thead><tr><th><span>Topics</span></th><th>&nbsp;</th></tr></thead><tbody><tr><td><span>Overview of AI</span></td><td><span>Neural networks and deep learning</span></td></tr><tr><td><span>AI Problem Solving Revisited</span><br /><span>Machine Learning</span>&mdash;<span>Part 1</span><br /><span>Applications of AI</span></td><td><span>Generative AI +Prompt engineering</span></td></tr><tr><td><span>Machine Learning</span>&mdash;<span>Part 2</span></td><td><span>RAG &amp;  </span><mark><span>Custom chatbot creation</span></mark></td></tr><tr><td><span>History of AI + Midterm</span></td><td><span>Social and ethical issues of AI  </span><br /><span>Final</span></td></tr></tbody></table></figure><p>&nbsp;</p><h2>Contents</h2><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n180"><a class="md-toc-inner" style="" href="#copilot-studio">Copilot Studio</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n181"><a class="md-toc-inner" style="" href="#tips">Tips</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n182"><a class="md-toc-inner" style="" href="#generative-ai-responses">Generative AI Responses</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n189"><a class="md-toc-inner" style="" href="#greeting">Greeting</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n191"><a class="md-toc-inner" style="" href="#authentication">Authentication</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n201"><a class="md-toc-inner" style="" href="#knowledge-sources">Knowledge Sources</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n211"><a class="md-toc-inner" style="" href="#index-for-searching">Index for Searching</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n220"><a class="md-toc-inner" style="" href="#document-types">Document Types</a></span></p></div><h1 id='copilot-studio'><span>Copilot Studio</span></h1><p><span>Full details on creating a custom GPT chatbot are provided in the </span><a href='https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio'><span>Microsoft documentation for Copilot Studio</span></a><span>.</span></p><p><span>There are essentially two ways to create a chatbot in Copilot Studio:</span></p><ul><li><p><strong><span>Topics</span></strong><span>: This approach is based on using keywords in the user&#39;s query to trigger topics that have branching conversation flows that follow a decision tree (remember this from symbolic logic?)</span></p></li></ul><ul><li><p><strong><span>Generative</span></strong><span>: An LLM is used with RAG to generate responses to the user&#39;s queries.</span></p></li></ul><h2 id='tips'><span>Tips</span></h2><h3 id='generative-ai-responses'><span>Generative AI Responses</span></h3><ul><li><p><span>To get your copilot to use generative AI to respond, go to Settings, Generative AI, and click the radio button labeled &quot;Generative (preview)&quot; </span></p></li><li><p><span>In order to get the copilot to use my web site, in &quot;Overview&quot; I had to turn off &quot;Allow the AI to use its own general knowledge (preview)&quot;.</span></p></li></ul><h3 id='greeting'><span>Greeting</span></h3><p><span>The initial greeting comes from the topic: conversation start. You can edit it in the conversation flow.</span></p><h3 id='authentication'><span>Authentication</span></h3><p><span>These are the options</span></p><ul><li><p><span>None</span></p></li><li><p><span>Teams</span></p><p><span>If you want to use OneDrive as a knowledge source, you have to use Microsoft Entra ID,</span><br/><span>But, then you won&#39;t be able to publish to a web site!</span></p></li><li><p><span>Manual</span></p></li></ul><h3 id='knowledge-sources'><span>Knowledge Sources</span></h3><p><span>The sources that are </span><u><span>not</span></u><span> enterprise data source are:</span></p><ul><li><p><span>Public web sites (must be indexed by Bing)</span></p></li><li><p><span>Files</span></p></li><li><p><span>OneDrive folders</span>&mdash;<span>Requires Microsoft Entra ID (Teams and Office 365)</span></p></li></ul><p>&nbsp;</p><h4 id='index-for-searching'><span>Index for Searching</span></h4><p><span>All knowledge source depend on the source for searching. This means the files need to have their content indexed. It happens different ways in different knowledge sources:</span></p><ul><li><p><span>Web site: your site needs to be indexed by Bing. This can take days (or more) and depends on getting your site ready according to the </span><a href='https://www.bing.com/webmasters'><span>Bing Webmaster</span></a><span> requirements.</span></p></li><li><p><span>Files: will be made searchable by Dataverse.</span></p></li><li><p><span>OneDrive: Will be indexed by OneDrive almost immediately after upload.</span></p></li></ul><h4 id='document-types'><span>Document Types</span></h4><ul><li><p><span>Markdown and html</span></p><ul><li><p><span>In a web site: just html will be indexed, citations open as a web page</span></p></li><li><p><span>In files: (stored in Dataverse) both will be indexed, citations open as text only</span></p></li><li><p><span>In OneDrive: neither will be indexed</span></p></li></ul></li><li><p><span>PDF and Word</span></p><ul><li><p><span>PDFs and Word docs get indexed everywhere</span></p></li><li><p><span>PDF citations open as documents, Word docs get downloaded instead of opening</span></p></li></ul></li><li><p><span>Excel and .csv</span></p><ul><li><p><span>Both can be searched and understood when uploaded as files.</span></p></li></ul></li></ul><p>&nbsp;</p><hr /><p><a href='http://creativecommons.org/licenses/by-sa/4.0/'><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a><span> Intro to AI lecture notes by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, written in </span><time><span>2024</span></time><span>, are licensed under a </span><a href='http://creativecommons.org/licenses/by-sa/4.0/'><span>Creative Commons Attribution-ShareAlike 4.0 International License</span></a><span>. </span></p><hr /><p><span>Note: Microsoft Copilot with GPT-4 was used to draft parts of these notes.</span></p><p>&nbsp;</p></div></div>
+<div id='write'  class=''><h1>Creating a Custom Chatbot</h1><p><strong><span>CS123, Intro to AI</span></strong></p><figure class='table-figure'><table><thead><tr><th><span>Topics</span></th><th>&nbsp;</th></tr></thead><tbody><tr><td><span>Overview of AI</span></td><td><span>Neural networks and deep learning</span></td></tr><tr><td><span>AI Problem Solving Revisited</span><br /><span>Machine Learning</span>&mdash;<span>Part 1</span><br /><span>Applications of AI</span></td><td><span>Generative AI +Prompt engineering</span></td></tr><tr><td><span>Machine Learning</span>&mdash;<span>Part 2</span></td><td><span>RAG &amp;  </span><mark><span>Custom chatbot creation</span></mark></td></tr><tr><td><span>History of AI + Midterm</span></td><td><span>Social and ethical issues of AI  </span><br /><span>Final</span></td></tr></tbody></table></figure><p>&nbsp;</p><h2>Contents</h2><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n873"><a class="md-toc-inner" style="" href="#copilot-studio">Copilot Studio</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n881"><a class="md-toc-inner" style="" href="#tips">Tips</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n882"><a class="md-toc-inner" style="" href="#generative-ai-responses">Generative AI Responses</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n888"><a class="md-toc-inner" style="" href="#greeting">Greeting</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n890"><a class="md-toc-inner" style="" href="#authentication">Authentication</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n900"><a class="md-toc-inner" style="" href="#knowledge-sources">Knowledge Sources</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n913"><a class="md-toc-inner" style="" href="#index-for-searching">Index for Searching</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n922"><a class="md-toc-inner" style="" href="#document-types-for-files">Document Types for Files</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n945"><a class="md-toc-inner" style="" href="#references">References</a></span></p></div><h2 id='copilot-studio'><span>Copilot Studio</span></h2><p><span>Full details on creating a custom GPT chatbot are provided in the </span><a href='https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio'><span>Microsoft documentation for Copilot Studio</span></a><span>.</span></p><p><span>There are essentially two ways to create a chatbot in Copilot Studio:</span></p><ul><li><p><strong><span>Topics</span></strong><span>: This approach is based on using keywords in the user&#39;s query to trigger topics that have branching conversation flows that follow a decision tree (remember this from symbolic logic?)</span></p></li><li><p><strong><span>Generative</span></strong><span>: An LLM is used with RAG to generate responses to the user&#39;s queries.</span></p></li></ul><h2 id='tips'><span>Tips</span></h2><h3 id='generative-ai-responses'><span>Generative AI Responses</span></h3><ul><li><p><span>To get your copilot to use generative AI to respond, go to Settings, Generative AI, and click the radio button labeled &quot;Generative (preview)&quot; </span></p></li><li><p><span>In order to get the copilot to use my web site, in &quot;Overview&quot; I had to turn off &quot;Allow the AI to use its own general knowledge (preview)&quot;.</span></p></li></ul><h3 id='greeting'><span>Greeting</span></h3><p><span>The initial greeting comes from the topic: &quot;conversation start&quot;. You can edit it in &quot;conversation flow&quot;.</span></p><h3 id='authentication'><span>Authentication</span></h3><p><span>Click on the &quot;Settings&quot; button, &quot;Security&quot;, &quot;Authentication&quot;. These are the options</span></p><ul><li><p><span>No authentication: </span><em><span>This is the reccomended option for our class assignment.</span></em></p></li><li><p><span>Authenticate with Microsoft</span></p><p><span>If you want to use OneDrive as a knowledge source, you have to use this option, which uses </span><em><span>Microsoft Entra ID</span></em><sup class='md-footnote'><a href='#dfref-footnote-1' name='ref-footnote-1'>1</a></sup><span>,  but, then you won&#39;t be able to publish to a web site!</span></p></li><li><p><span>Authenticate manually</span></p></li></ul><h3 id='knowledge-sources'><span>Knowledge Sources</span></h3><p><span>Click on the  &quot;Add Knowledge&quot; button, there will be two options, choose &quot;Featured&quot;. The sources shown here are sources that don </span><em><span>not</span></em><span> require a special </span><em><span>enterprise data connection</span></em><span>:</span></p><ul><li><p><span>Public web sites (must be indexed by Bing)  </span></p><ul><li><p><span>You can see if the site you want to use is indexed by Bing by using the </span><code>site:</code><span> search operator. For example, in the Bing search bar type:</span>
+<code>site:yourdomain.com</code>
+<span>This will show all the pages from your site that have been indexed.</span></p></li></ul></li><li><p><span>Files</span></p></li><li><p><span>OneDrive folders</span>&mdash;<span>Requires Microsoft Entra ID (Teams and Office 365)</span></p></li></ul><p>&nbsp;</p><h4 id='index-for-searching'><span>Index for Searching</span></h4><p><span>All knowledge source depend on the source for searching. This means the files need to have their content indexed. It happens different ways in different knowledge sources:</span></p><ul><li><p><span>Web site: your site needs to be indexed by Bing. This can take days (or more) and depends on getting your site ready according to the </span><a href='https://www.bing.com/webmasters'><span>Bing Webmaster</span></a><span> requirements.</span></p></li><li><p><span>Files: will be made searchable by Dataverse.</span></p></li><li><p><span>OneDrive: Will be indexed by OneDrive almost immediately after upload.</span></p></li></ul><h4 id='document-types-for-files'><span>Document Types for Files</span></h4><ul><li><p><span>Markdown and html</span></p><ul><li><p><span>In a web site: just html will be indexed, citations (links in the response) open as a web page</span></p></li><li><p><span>In files: (stored in Dataverse) both will be indexed, citations open as text only</span></p></li><li><p><span>In OneDrive: neither will be indexed</span></p></li></ul></li><li><p><span>PDF and Word</span></p><ul><li><p><span>PDFs and Word docs get indexed everywhere</span></p></li><li><p><span>PDF citations open as documents, Word docs get downloaded instead of opening</span></p></li></ul></li><li><p><span>Excel and .csv</span></p><ul><li><p><span>Both can be searched and understood when uploaded as files.</span></p></li></ul></li></ul><h2 id='references'><span>References</span></h2><p><a href='https://learn.microsoft.com/en-us/microsoft-copilot-studio/'><span>Microsoft Copilot Studio Documentation</span></a></p><p>&nbsp;</p><hr /><p><a href='http://creativecommons.org/licenses/by-sa/4.0/'><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a><span> Intro to AI lecture notes by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, written in </span><time><span>2024</span></time><span>, are licensed under a </span><a href='http://creativecommons.org/licenses/by-sa/4.0/'><span>Creative Commons Attribution-ShareAlike 4.0 International License</span></a><span>.  </span></p><hr /><p><span>Note: Microsoft Copilot with GPT-4 was used to draft parts of these notes. </span></p><p>&nbsp;</p><p>&nbsp;</p><div class='footnotes-area'  ><hr/>
+<div class='footnote-line'><span class='md-fn-count'>1</span> <span>Microsoft Entra ID, formerly known as Azure Active Directory, is a cloud-based identity and access management system used by Microsoft Teams, Azure, Microsoft 365, and other Microsoft products and services.</span> <a name='dfref-footnote-1' href='#ref-footnote-1' title='back to document' class='reversefootnote' >↩</a></div></div></div></div>
 </body>
 </html>
