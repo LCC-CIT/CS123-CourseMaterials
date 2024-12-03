@@ -6,7 +6,7 @@ generator: Typora
 author: Brian Bird
 ---
 
-<h1>Generative AI</h1>
+<h1>Generative AI, Part 2</h1>
 
 **CS123, Intro to AI**
 
@@ -30,10 +30,12 @@ Due Sunday:
 
 - Forum post with questions, answers and comments for online students
   (Part of your participation grade)
-
 - Exercises on Generative AI, based on the NY Times articles
-
 - Quiz over the lectures/recordings
+
+Due next Thursday:
+
+- Generative AI project
 
 ## Uses of Generative AI
 
@@ -56,8 +58,35 @@ Here are some examples:
   - [Runway](https://www.runwayml.com/)&mdash;Upload an image and use a text prompt to animate it.
   - [Synthesia](https://synthesia.io)&mdash;Generate presentations with voice, presenter, and graphics.  
     [Example video presentation](https://share.synthesia.io/b01113e0-46da-4674-80c0-9e32f183a8f2)
+- [Notebook LM](https://notebooklm.google.com/)&mdash;create a podcast from a document or web site and more.
 
 
+
+### Using Generative AI at Work
+
+Generative AI is already being used in many fields. Here are some specific real-world applications:
+
+1. **Content Creation:**
+   - **Text Generation:** Tools like GPT-3 can generate human-like text for writing articles, summarizing content, creating chatbots, and even composing poetry or stories.
+   - **Image Synthesis:** GANs (Generative Adversarial Networks) can create realistic images, which are used in areas such as game development, movie special effects, and advertising.
+2. **Healthcare:**
+   - **Drug Discovery:** Generative AI helps in designing new molecules for pharmaceuticals, speeding up the process of drug discovery.
+   - **Medical Imaging:** AI can generate detailed medical images for diagnostic purposes, enhancing the accuracy of medical assessments.
+3. **Fashion and Design:**
+   - **Clothing Design:** AI can generate new fashion designs, from clothes to accessories, and even help with pattern-making and fabric selection.
+   - **Interior Design:** Tools that generate 3D models and room layouts based on user preferences are becoming increasingly popular.
+4. **Music and Art:**
+   - **Music Composition:** AI can compose music in various genres, aiding musicians in creating new pieces or generating background scores for videos and games.
+   - **Art Creation:** AI-generated artwork is now being featured in galleries and auctions, pushing the boundaries of creativity.
+5. **Virtual Environments:**
+   - **Video Game Development:** AI can create expansive, realistic virtual worlds and characters, enhancing the gaming experience.
+   - **Virtual Reality (VR):** Generative AI is used to create immersive VR experiences for education, training, and entertainment.
+6. **Finance:**
+   - **Algorithmic Trading:** AI can generate trading strategies and execute trades automatically, optimizing investment portfolios.
+   - **Fraud Detection:** Generative models can identify patterns and anomalies, helping to detect and prevent fraudulent activities.
+7. **Marketing:**
+   - **Personalized Advertising:** AI generates personalized ad content based on user data, improving engagement and conversion rates.
+   - **Customer Insights:** Analyzing consumer behavior to create targeted marketing campaigns.
 
 
 
