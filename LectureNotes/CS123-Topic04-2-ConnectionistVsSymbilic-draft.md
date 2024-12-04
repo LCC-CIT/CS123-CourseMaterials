@@ -6,7 +6,7 @@ generator: Typora
 author: Brian Bird
 ---
 
-<h1>Future of AI</h1>
+<h1>Connectionist vs. Symbolic AI</h1>
 
 **CS123, Intro to AI**
 
