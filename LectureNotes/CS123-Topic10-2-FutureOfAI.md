@@ -1,6 +1,6 @@
 ---
 title: AI Future
-description: History of AI
+description: Future of AI
 keywords: AI
 generator: Typora
 author: Brian Bird
@@ -10,12 +10,12 @@ author: Brian Bird
 
 **CS123, Intro to AI**
 
-| Topics                                                       |                                              |
-| ------------------------------------------------------------ | -------------------------------------------- |
-| Overview of AI                                               | Neural networks and deep learning            |
-| AI Problem Solving Revisited<br />Machine Learning&mdash;Part 1<br />Applications of AI | Generative AI + Prompt engineering           |
-| Machine Learning&mdash;Part 2                                | Custom chatbot creation                      |
-| <mark>History of AI + Midterm</mark>                         | Social and ethical issues of AI  <br />Final |
+| Topics                                                       |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Overview of AI                                               | Neural networks and deep learning                            |
+| AI Problem Solving Revisited<br />Machine Learning&mdash;Part 1<br />Applications of AI | Generative AI + Prompt engineering                           |
+| Machine Learning&mdash;Part 2                                | Custom chatbot creation                                      |
+| History of AI + Midterm                                      | Social and ethical issues of AI <br /><mark>Future of AI</mark>, Final |
 
 
 
