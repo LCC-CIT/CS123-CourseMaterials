@@ -141,11 +141,17 @@ While the human brain’s estimated computing power is often cited as 1,000–10
 
 [Ray Kurzweil's Most Exciting Predictions About the Future of Humanity](https://futurism.com/ray-kurzweils-most-exciting-predictions-about-the-future-of-humanity)&mdash;Futurism.
 [The Singularity Is Near](https://en.wikipedia.org/wiki/The_Singularity_Is_Near.)&mdash;Wikipedia.
+
 [Transhumanist author predicts artificial super-intelligence](https://www.techspot.com/news/103740-transhumanist-author-predicts-artificial-super-intelligence-immortality-singularity.html)&mdash;Techspot.
+
 [Wheat and chessboard problem](https://en.wikipedia.org/wiki/Wheat_and_chessboard_problem)&mdash;Wikipedia.
+
 [What is Moore's Law? - Our World in Data](https://ourworldindata.org/moores-law).
+
 [The Death of Moore’s Law: What it means and what might fill the gap](https://cap.csail.mit.edu/death-moores-law-what-it-means-and-what-might-fill-gap-going-forward).
-[Moore's law](https://en.wikipedia.org/wiki/Moore's_law)&mdash;Wikipedia.
+[Moore's law](https://en.wikipedia.org/wiki/Moore's_law)&mdash;Wikipedia, 2024.
+
+[AMD's Zen 5 chips pack in 8.315 billion transistors per compute die, a 28% increase in density](https://www.tomshardware.com/pc-components/cpus/amds-zen-5-chips-pack-in-8315-billion-transistors-per-compute-die-a-28-increase-in-density)&mdash;Tom's Hardware, 2024.
 
 
 
