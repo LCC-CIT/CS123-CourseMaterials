@@ -126,9 +126,7 @@ Challenges in Precise Estimation
 - Different Architectures:
 - Biological neurons and digital processors operate fundamentally differently. The brain excels at massively parallel processing, pattern recognition, and adaptability, while computers are opt imized for linear and high-speed calculations.
   - Analog vs. Digital:
-    The brain processes information in an analog-like, probabilistic manner, while computers are digital and deterministic.
-    	•	Uncertain Metrics:
-    	•	Defining “operation” in the context of the brain isn’t straightforward. Neural spikes, synaptic events, or high-level cognitive processes may all be considered operations, but they differ vastly in complexity.
+    The brain processes information in an analog-like, probabilistic manner, while computers are digital and deterministic. Defining “operation” in the context of the brain isn’t straightforward. Neural spikes, synaptic events, or high-level cognitive processes may all be considered operations, but they differ vastly in complexity.
 
 #### Context with Modern AI Hardware
 
