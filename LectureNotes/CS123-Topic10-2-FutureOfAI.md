@@ -31,6 +31,8 @@ Ray Kurzweil, a renowned futurist and director of engineering at Google, has mad
 
 - **Timeline**
 
+  Based on *The Singularity is Near* by Kurzweil
+
   - **Computers Surpass Humans**: By 2029, a computer will pass the Turing test.
   - **Humans Become Machines**: By the early 2030s, technology will be able to copy human brains and put them onto electronic mechanisms.
   - **The Singularity**: Kurzweil predicts that the Singularity — the moment when technology becomes smarter than humans — will happen by 2045.  
