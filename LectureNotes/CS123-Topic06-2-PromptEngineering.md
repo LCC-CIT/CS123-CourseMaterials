@@ -101,10 +101,39 @@ A good prompt for AI is most effective if it has:
 
 ## Chain-of-Thought Prompting
 
-**Explanation**: Chain-of-thought prompting improves reasoning by breaking down complex tasks into a sequence of logical steps, enabling the model to solve problems more effectively³⁴.
+**Explanation**: Chain-of-thought prompting improves reasoning by breaking down complex tasks into a sequence of logical steps, enabling the model to solve problems more effectively.   Each step will take into account the result of the previous step and build on it. 
 
-- **Example**: “To solve the equation 2x + 3 = 7, first subtract 3 from both sides, then divide by 2.”
-- **Result**: The AI provides a step-by-step solution, improving accuracy.
+**Examples**
+
+- Prompt: To solve the equation 2x + 3 = 7, first subtract 3 from both sides, then divide by 2.
+
+  Result: The AI provides a step-by-step solution with the result x = 2.
+
+- Prompt: Solve this word problem step-by-step:  
+  There are 12 apples in a basket. John takes 3 apples, and  then Mary takes 4 apples. How many apples are left in the basket?  
+  Step 1: What is the starting number of apples?  
+  Step 2: How many apples are left after John takes his share?  
+  Step 3: How many apples are left after Mary takes her share?  
+
+  Result: The AI provides a step-by-step solution with the result that there are 7 apples left in the basket.
+
+- Write a short fictional story (around 200 words) about a character who 
+  finds a mysterious antique key.  Follow these 
+  steps:
+
+  1. Imagine the main character – who are they? What is 
+     their life like?
+
+  2. Where do they find the key? Describe the setting and 
+     how the key appears. 
+
+  3. What makes the key so intriguing? Does it have strange 
+     markings? A particular shape?
+
+  4. What does the character decide to do with the key? Do they 
+     try to find what it unlocks?
+
+     Result: An interesting story that is composed based on the steps in the prompt.
 
 ## Role Prompting
 
