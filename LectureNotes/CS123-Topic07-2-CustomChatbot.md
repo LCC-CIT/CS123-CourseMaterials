@@ -27,7 +27,7 @@ author: Brian Bird
 
 Full details on creating a custom GPT chatbot are provided in the [Microsoft documentation for Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio).
 
-There are essentially two ways to create a chatbot in Copilot Studio:
+There are essentially two ways a chatbot created in Copilot Studio can generate answers:
 
 - **Topics**: This approach is based on using keywords in the user's query to trigger topics that have branching conversation flows that follow a decision tree (remember this from symbolic logic?)
 
@@ -80,9 +80,10 @@ All knowledge source depend on the source for searching. This means the files ne
 
 #### Document Types for Files
 
-- Markdown and html
-  - In a web site: just html will be indexed, citations (links in the response) open as a web page
-  - In files: (stored in Dataverse) both will be indexed, citations open as text only
+- Markdown and html  
+  These files could be in one of three knowledge sources: web site, files, or OneDrive.
+  - In a web site: just html will be indexed, citations (links in the response) open as a web page. 
+  - In files: (stored in Dataverse) both will be indexed, citations open as text only.
   - In OneDrive: neither will be indexed
   
 - PDF and Word
