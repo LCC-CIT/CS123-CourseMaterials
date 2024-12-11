@@ -25,7 +25,7 @@ author: Brian Bird
 
 ## Copilot Studio
 
-Full details on creating a custom GPT chatbot are provided in the [Microsoft documentation for Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio).
+Full details on creating a custom GPT chatbot using M[icrosoft Copilot Studio](https://copilotstudio.microsoft.com) are provided in the [Microsoft documentation for Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio).  
 
 There are essentially two ways a chatbot created in Copilot Studio can generate answers:
 
@@ -93,6 +93,13 @@ All knowledge source depend on the source for searching. This means the files ne
 - Excel and .csv
   - Both can be searched and understood when uploaded as files.
   
+
+###  Publishing to a Web Site
+
+You can publish your chatbot in many different ways as can be seen on the "Channels" page for your chatbot. To put your chatbot on a web page you have two options:
+
+- Custom website: This option will provide you with code that you can put on your own web site to embed the chatbot on a page.
+- Demo website: This option will create a web page that is hosted by Microsoft and that contains your chatbot. You can share the link with anyone so they can use your chatbot.
 
 ## References
 
