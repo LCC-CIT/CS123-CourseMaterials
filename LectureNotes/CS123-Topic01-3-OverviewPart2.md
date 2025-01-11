@@ -23,9 +23,9 @@ author: Brian Bird
 
 [TOC]
 
-# Introduction
+## Introduction
 
-## Things to Do This Week
+### Things to Do This Week
 
 - Join the Discord server so you can communicate with your team.
 - Introduce yourself survey&mdash;complete it by Friday. 
@@ -35,34 +35,36 @@ author: Brian Bird
   This is mainly for online students or anyone who wasn't able to participate in the live classroom discussion.
 - Take the quiz over the lectures by Sunday
 
-
-
-# Dangers of AI
+## Dangers of AI
 
 Sure, here's an outline of the dangers of AI, including ethical, social, privacy, and philosophical issues:
 
-1. **Ethical Issues**
-   - **Bias**: AI systems can unintentionally perpetuate and amplify existing biases.
-   - **Data Exploitation**: AI's ability to gather and analyze massive quantities of data can lead to exploitation of personal information.
-   - **Decision Accountability**: With generative AI in particular, there is a lack of transparency in AI decision-making processes, leading to accountability issues.
-   - **Environmental Impact**: The energy consumption of AI systems can have significant environmental implications.
+### Ethical Issues
 
-2. **Social Issues**
-   - **Job Automation**: AI could lead to high unemployment rates due to automation of work.
-   - **Socio-economic Inequality**: The rise in unemployment and AI bias can create socio-economic inequality.
-   - **Abuse of Data and Loss of Control**: There's a risk of misuse of data collected by AI systems.
-   - **Financial Instability**: Rapid advancements in AI could lead to financial instability.
+- **Bias**: AI systems can unintentionally perpetuate and amplify existing biases.
+- **Data Exploitation**: AI's ability to gather and analyze massive quantities of data can lead to exploitation of personal information.
+- **Decision Accountability**: With generative AI in particular, there is a lack of transparency in AI decision-making processes, leading to accountability issues.
+- **Environmental Impact**: The energy consumption of AI systems can have significant environmental implications.
 
-3. **Privacy Issues**
-   - **Data Persistence**: Data can exist longer than the human subjects that created it.
-   - **Data Repurposing**: Data can be used beyond their originally intended purpose.
-   - **Covert Metadata Collection Practices**: AI systems can collect metadata without users' knowledge.
-   - **Limited Built-In Security Features**: AI models often have limited security features, increasing the risk of data breaches.
+### Social Issues
 
-4. **Philosophical Issues of Personhood and Humanity**
-   - **AI Consciousness and Agency**: There's a debate on whether AI can exhibit personhood, including consciousness and agency.
-   - **Moral and Legal Status of AI**: If AI systems can achieve consciousness and personhood, what will the moral and legal rights of these systems be?
-   - **Impact on Humanness**: If AI systems appear to be human and we treat them as human, even though they are machines, will people begin to think of each other as machines? Will our concept of personhood be diminished? See "You are not a parrot" by Emily Bender.
+- **Job Automation**: AI could lead to high unemployment rates due to automation of work.
+- **Socio-economic Inequality**: The rise in unemployment and AI bias can create socio-economic inequality.
+- **Abuse of Data and Loss of Control**: There's a risk of misuse of data collected by AI systems.
+- **Financial Instability**: Rapid advancements in AI could lead to financial instability.
+
+### Privacy Issues
+
+- **Data Persistence**: Data can exist longer than the human subjects that created it.
+- **Data Repurposing**: Data can be used beyond their originally intended purpose.
+- **Covert Metadata Collection Practices**: AI systems can collect metadata without users' knowledge.
+- **Limited Built-In Security Features**: AI models often have limited security features, increasing the risk of data breaches.
+
+### Philosophical Issues of Personhood and Humanity
+
+- **AI Consciousness and Agency**: There's a debate on whether AI can exhibit personhood, including consciousness and agency.
+- **Moral and Legal Status of AI**: If AI systems can achieve consciousness and personhood, what will the moral and legal rights of these systems be?
+- **Impact on Humanness**: If AI systems appear to be human and we treat them as human, even though they are machines, will people begin to think of each other as machines? Will our concept of personhood be diminished? See "You are not a parrot" by Emily Bender.
 
 ### Your turn: What are some concerns you have about AI?
 
