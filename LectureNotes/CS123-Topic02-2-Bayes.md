@@ -178,7 +178,7 @@ Let's say we want to do inference on two new posts. The posts have these words (
 
 [An Intuitive (and Short) Explanation of Bayes’ Theorem](https://betterexplained.com/articles/an-intuitive-and-short-explanation-of-bayes-theorem/)&mdash;Better Explained
 
-[A Hitchhiker’s Guide to Sentiment Analysis using Naive-Bayes Classifier](https://towardsdatascience.com/a-hitchhikers-guide-to-sentiment-analysis-using-naive-bayes-classifier-b921c0fb694)&mdash; Anwesan De, Medium, 2021.
+[Naive Bayes classification](https://course.elementsofai.com/3/3)&mdash;Elements of AI, Part 1: Introduction to AI, "Real world AI". MiniLearn. 2024.
 
 [^1]: [Number of Days per Month/Year with Rainfall](https://www.weather.gov/media/pqr/climate/ClimateBookEugene/pg78.pdf)&mdash;National Weather Service
 
