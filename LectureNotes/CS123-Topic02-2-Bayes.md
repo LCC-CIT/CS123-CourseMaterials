@@ -125,8 +125,8 @@ Next we calculate the likelihood values for posts with negative sentiments.
 
 To calculate the likelihood value, we need two probabilities for each word:
 
-- The probability the event (word) correctly predicts the observation (positive post).
--  The probability the observation (positive post) occurs without the event (word).
+- The probability the event (word) correctly predicts the observation (positive sentiment).
+-  The probability the observation (positive sentiment) occurs without the event (word).
 
  We calculate likelihood values for each of the words using this formula;
 $$
