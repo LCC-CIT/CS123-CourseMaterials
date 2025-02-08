@@ -1,21 +1,16 @@
 ---
-title: AI Future
-description: Future of AI
+title: Intro to AI Outline
+description: Outline of the Intro to AI course
 keywords: AI
 generator: Typora
 author: Brian Bird
 ---
 
-<h1>Future of AI</h1>
+<h1>Intro to AI Course Outline</h1>
 
 **CS123, Intro to AI**
 
-| Topics                                                       |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Overview of AI                                               | Neural networks and deep learning                            |
-| AI Problem Solving Revisited<br />Machine Learning&mdash;Part 1<br />Applications of AI | Generative AI + Prompt engineering                           |
-| Machine Learning&mdash;Part 2                                | Custom chatbot creation                                      |
-| History of AI + Midterm                                      | Social and ethical issues of AI <br /><mark>Future of AI</mark>, Final |
+[TOC]
 
 ## 1. Overview of AI
 
@@ -29,9 +24,7 @@ author: Brian Bird
     - The Octopus Test
 - Types of AI
   - Narrow AI
-    - Examples of Narrow AI
   - General AI
-    - Is chatGPT a General AI System?
 - Dangers of AI
   - Ethical Issues
   - Social Issues
@@ -55,16 +48,15 @@ author: Brian Bird
 - AI winter
 - Deep Blue Beats a World Champion Chess Player
 
-## AI Problem Solving
+## 3. AI Problem Solving
 
 - Search and Problem Solving
 - Single-Agent Problems
 - Two-Agent Problems
   - Game/Search Trees
   - MiniMax Algorithm
-    - Steps of the Minimax Algorithm:
 
-## 3. Machine Learning
+## 4. Machine Learning
 
 - Bayes' Rule
   - Odds vs. Probabilities
@@ -96,7 +88,7 @@ author: Brian Bird
     - Random Forests
   - Artificial Neural Networks
 
-## 4. Neural networks and deep learning
+## 5. Neural networks and deep learning
 
 - History
   - Marvin Minsky, ANNs and the MIT AI Lab
@@ -125,7 +117,7 @@ author: Brian Bird
       - History of CNN Development
     - Generative Adversarial Networks (GAN)
 
-## 5. Generative AI + Prompt engineering
+## 6. Generative AI and Prompt engineering
 
 - Large Language Models
   - Training an LLM
@@ -181,7 +173,7 @@ author: Brian Bird
     - Organizations that use AI
   - By Governments
 
-## Future of AI
+## 9. Future of AI
 
 - The Singularity
 - AI Industry and Thought Leaders Who Are AI Optimists
@@ -195,7 +187,5 @@ author: Brian Bird
 
 ---
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
-
-Note: GPT-4 and GPT-4o were used to draft parts of these notes.
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI course by [Brian Bird](https://profbird.dev), written in 2024, revised in <time>2025</time> is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
