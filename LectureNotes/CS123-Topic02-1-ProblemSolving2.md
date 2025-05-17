@@ -27,8 +27,6 @@ author: Brian Bird
 
 ## What's Happening
 
-All activities are due Sunday night, 10/13/24
-
 - Exercises for Ch. 2, "Problem Solving" in *Elements of AI*
 - Lecture Q and A forum for online students
 - Lecture quiz for everyone.
