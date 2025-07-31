@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bayes Classifier: Inference</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
+        .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
+        .navigation a { margin: 0 15px; text-decoration: none; color: #0066cc; }
+        .navigation a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Bayes Classifier: Inference (Decision Threshold)</h1>
+    
+    <h2>Detailed Explanation:</h2>
+    <p>Inference is the final step in a Bayes classifier where a decision is made based on the calculated posterior odds. The system needs a rule to translate the posterior odds into a definitive classification, such as "spam" or "not spam." This rule is called a <strong>decision threshold</strong>. For example, a common threshold is 1:1 odds. If the posterior odds for a hypothesis are greater than 1:1, the classifier infers that the hypothesis is true. If the odds are less than 1:1, it infers the opposite. The choice of a decision threshold can be adjusted to make the classifier more cautious (e.g., only classify as spam if the odds are very high) or more aggressive (e.g., classify as spam even if the odds are just slightly above 1:1).</p>
+
+    <h2>Comprehension Question:</h2>
+    <p>What is the role of a decision threshold in the inference process?</p>
+    
+    <div class="navigation">
+        <a href="posterior_odds.html">&larr; Go Back</a>
+        <a href="#">Go Ahead &rarr;</a>
+        <a href="inference_simple.html">Get More Explanation</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bayes Classifier: Posterior Odds</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
+        .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
+        .navigation a { margin: 0 15px; text-decoration: none; color: #0066cc; }
+        .navigation a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Bayes Classifier: Posterior Odds</h1>
+    
+    <h2>Detailed Explanation:</h2>
+    <p>Posterior odds are the final result of applying Bayes' Rule. They represent your updated belief about a hypothesis <em>after</em> you have considered the new evidence. They are calculated by multiplying the prior odds by the likelihood ratio. Following our spam filter example, if your prior odds of an email being "not spam" were 4:1 and you found a word that has a likelihood ratio of 0.25, your posterior odds would be 4 * 0.25 = 1. This new posterior odd of 1:1 (or 50%) is a more accurate reflection of the email's likelihood of being spam, given both your initial knowledge and the new evidence. Posterior odds are the final output that the Bayes classifier uses to make a decision.</p>
+
+    <h2>Comprehension Question:</h2>
+    <p>How are posterior odds calculated?</p>
+    
+    <div class="navigation">
+        <a href="likelihood_ratio.html">&larr; Go Back</a>
+        <a href="inference.html">Go Ahead &rarr;</a>
+        <a href="posterior_odds_simple.html">Get More Explanation</a>
+    </div>
+</body>
+</html>
