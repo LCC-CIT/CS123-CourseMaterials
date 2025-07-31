@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bayes Classifier: Bayes' Rule</title>
+    <title>Bayes' Rule</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
         .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
@@ -13,16 +13,23 @@
 <body>
     <h1>Bayes Classifier: Bayes' Rule</h1>
     
-    <h2>Detailed Explanation:</h2>
+    <h2>Explanation:</h2>
     <p>Bayes' Rule is a fundamental theorem in probability that shows how to update the probability of a hypothesis when new evidence or information becomes available. Think of it as a way to combine your initial beliefs with new data to get a more accurate, updated belief. The rule is expressed as a mathematical formula, but its core idea is simple: new evidence (the "likelihood") is used to modify existing beliefs (the "prior odds") to arrive at a new, more refined belief (the "posterior odds"). This process is what allows a Bayes classifier to make more informed decisions. For example, if you want to classify an email as spam, you might start with a general belief about how likely any email is to be spam. Then, you see new evidence, like the word "free" in the subject line. Bayes' Rule helps you use the likelihood of seeing the word "free" in spam emails to update your initial belief, making a better decision about whether the email is spam.</p>
 
     <h2>Comprehension Question:</h2>
-    <p>In the context of Bayes' Rule, what is the purpose of the "likelihood ratio"?</p>
-    
+    <form id="mcq-likelihood-ratio" onsubmit="return checkMCQAnswer('mcq-likelihood-ratio', 'b');">
+        <p>In the context of Bayes' Rule, what is the purpose of the "likelihood ratio"?</p>
+        <label><input type="radio" name="mcq" value="a"> To represent the initial belief before seeing any evidence.</label><br>
+        <label><input type="radio" name="mcq" value="b"> To compare how likely the evidence is under two different hypotheses.</label><br>
+        <label><input type="radio" name="mcq" value="c"> To calculate the total probability of all possible outcomes.</label><br>
+        <label><input type="radio" name="mcq" value="d"> To determine the final decision after all evidence is considered.</label><br>
+        <button type="submit">Check Answer</button>
+        <div id="mcq-likelihood-ratio-feedback" style="margin-top:10px;"></div>
+    </form>
+
+    <a href="bayes_rule_simple.html">Get More Explanation</a>
     <div class="navigation">
-        <a href="#">&larr; Go Back</a>
-        <a href="probability_vs_odds.html">Go Ahead &rarr;</a>
-        <a href="bayes_rule_simple.html">Get More Explanation</a>
+        <a href="#">&larr; Home</a>
+        <a href="probability_vs_odds.html">Probability vs. Odds &rarr;</a>
     </div>
-</body>
-</html>
+    <script src="bayes_rule.js"></script>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bayes Classifier: Likelihood Ratio</title>
+    <title>Likelihood Ratio</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
         .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
@@ -13,16 +13,26 @@
 <body>
     <h1>Bayes Classifier: Likelihood Ratio</h1>
     
-    <h2>Detailed Explanation:</h2>
+    <h2>Explanation:</h2>
     <p>The likelihood ratio is the part of Bayes' Rule that incorporates new information or evidence. It's a way to measure how much a new piece of evidence (like a specific word in an email) changes the odds in favor of one hypothesis over another. The likelihood ratio is calculated by comparing the probability of seeing the evidence given one hypothesis (e.g., the word "Viagra" appearing in a spam email) to the probability of seeing the same evidence given the alternative hypothesis (e.g., the word "Viagra" appearing in a non-spam email). A likelihood ratio greater than 1 increases the odds of a hypothesis, while a ratio less than 1 decreases it. It's the "new clue" that helps you update your initial belief.</p>
 
     <h2>Comprehension Question:</h2>
-    <p>How does a likelihood ratio of 5 affect the prior odds of a hypothesis?</p>
+    <form id="mcq-likelihood-ratio-effect" onsubmit="return checkMCQAnswer('mcq-likelihood-ratio-effect', 'c');">
+        <p>How does a likelihood ratio of 5 affect the prior odds of a hypothesis?</p>
+        <label><input type="radio" name="mcq" value="a"> It decreases the prior odds.</label><br>
+        <label><input type="radio" name="mcq" value="b"> It does not change the prior odds.</label><br>
+        <label><input type="radio" name="mcq" value="c"> It increases the prior odds by a factor of 5.</label><br>
+        <label><input type="radio" name="mcq" value="d"> It makes the prior odds negative.</label><br>
+        <button type="submit">Check Answer</button>
+        <div id="mcq-likelihood-ratio-effect-feedback" style="margin-top:10px;"></div>
+    </form>
     
+    <a href="likelihood_ratio_simple.html">Get More Explanation</a>
     <div class="navigation">
-        <a href="prior_odds.html">&larr; Go Back</a>
-        <a href="posterior_odds.html">Go Ahead &rarr;</a>
-        <a href="likelihood_ratio_simple.html">Get More Explanation</a>
+        <a href="prior_odds.html">&larr; Prior Odds</a>
+        <a href="index.html">Home</a>
+        <a href="posterior_odds.html">Posterior Odds &rarr;</a>
     </div>
+    <script src="bayes_rule.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bayes Classifier: Prior Odds</title>
+    <title>Prior Odds</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
         .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
@@ -13,16 +13,26 @@
 <body>
     <h1>Bayes Classifier: Prior Odds</h1>
     
-    <h2>Detailed Explanation:</h2>
+    <h2>Explanation:</h2>
     <p>Prior odds represent your initial assessment or belief about a hypothesis <em>before</em> any new evidence is considered. They are a starting point for the classification process. You calculate prior odds based on historical data or past observations. For example, if you are building a spam filter and you know from your old emails that about 80% are not spam and 20% are spam, your prior odds for a new email being "not spam" would be 80:20, or 4:1. These prior odds are crucial because they ground the classifier's decisions in a realistic understanding of the world. They give the system a baseline to work from before it even looks at the content of a new email.</p>
 
     <h2>Comprehension Question:</h2>
-    <p>Why are prior odds considered a "starting point" for a Bayes classifier?</p>
+    <form id="mcq-prior-odds" onsubmit="return checkMCQAnswer('mcq-prior-odds', 'b');">
+        <p>Why are prior odds considered a "starting point" for a Bayes classifier?</p>
+        <label><input type="radio" name="mcq" value="a"> They are calculated after seeing new evidence.</label><br>
+        <label><input type="radio" name="mcq" value="b"> They represent your initial belief before new evidence.</label><br>
+        <label><input type="radio" name="mcq" value="c"> They are always equal to 1:1.</label><br>
+        <label><input type="radio" name="mcq" value="d"> They are used to make the final decision.</label><br>
+        <button type="submit">Check Answer</button>
+        <div id="mcq-prior-odds-feedback" style="margin-top:10px;"></div>
+    </form>
     
+    <a href="prior_odds_simple.html">Get More Explanation</a>
     <div class="navigation">
-        <a href="probability_vs_odds.html">&larr; Go Back</a>
-        <a href="likelihood_ratio.html">Go Ahead &rarr;</a>
-        <a href="prior_odds_simple.html">Get More Explanation</a>
+        <a href="probability_vs_odds.html">&larr; Probability vs. Odds</a>
+        <a href="index.html">Home</a>
+        <a href="likelihood_ratio.html">Likelihood Ratio &rarr;</a>
     </div>
+    <script src="bayes_rule.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bayes Classifier: Probability vs. Odds (Simple)</title>
+    <title>Probability vs. Odds (Simple)</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
         .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
@@ -18,8 +18,19 @@
         <li><strong>Odds</strong> is a ratio that compares how many times something will happen to how many times it won't. (Like 1 to 1 odds of rain). Think of it as: "chances for" versus "chances against."</li>
     </ul>
     
+    <h2>Comprehension Question:</h2>
+    <form id="mcq-probability-vs-odds-simple" onsubmit="return checkMCQAnswer('mcq-probability-vs-odds-simple', 'a');">
+        <p>If the probability of picking a red ball from a bag is 1/4, what are the odds of picking a red ball?</p>
+        <label><input type="radio" name="mcq" value="a"> 1:3</label><br>
+        <label><input type="radio" name="mcq" value="b"> 1:4</label><br>
+        <label><input type="radio" name="mcq" value="c"> 3:1</label><br>
+        <label><input type="radio" name="mcq" value="d"> 4:1</label><br>
+        <button type="submit">Check Answer</button>
+        <div id="mcq-probability-vs-odds-simple-feedback" style="margin-top:10px;"></div>
+    </form>
     <div class="navigation">
-        <a href="probability_vs_odds.html">&larr; Go Back to Detailed Explanation</a>
+    <script src="bayes_rule.js"></script>
+        <a href="probability_vs_odds.html">&larr; Go Back to Explanation</a>
     </div>
 </body>
 </html>

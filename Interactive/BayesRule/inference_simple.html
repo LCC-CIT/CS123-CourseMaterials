@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bayes Classifier: Inference (Simple)</title>
+    <title>Inference (Simple)</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
         .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
@@ -15,8 +15,19 @@
     
     <p>Inference is the step where the classifier finally makes a choice. The decision threshold is the line it uses to make that choice. For example, if the score is above 50%, it says "yes," and if it's below 50%, it says "no." The threshold is the minimum score needed to make a final decision.</p>
     
+    <h2>Comprehension Question:</h2>
+    <form id="mcq-inference-simple" onsubmit="return checkMCQAnswer('mcq-inference-simple', 'a');">
+        <p>What does the decision threshold do?</p>
+        <label><input type="radio" name="mcq" value="a"> It helps decide when to make a final choice</label><br>
+        <label><input type="radio" name="mcq" value="b"> It changes the prior odds</label><br>
+        <label><input type="radio" name="mcq" value="c"> It ignores the evidence</label><br>
+        <label><input type="radio" name="mcq" value="d"> It multiplies the likelihood ratio</label><br>
+        <button type="submit">Check Answer</button>
+        <div id="mcq-inference-simple-feedback" style="margin-top:10px;"></div>
+    </form>
     <div class="navigation">
-        <a href="inference.html">&larr; Go Back to Detailed Explanation</a>
+    <script src="bayes_rule.js"></script>
+        <a href="inference.html">&larr; Go Back to Explanation</a>
     </div>
 </body>
 </html>

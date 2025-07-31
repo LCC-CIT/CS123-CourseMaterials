@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bayes Classifier: Probability vs. Odds</title>
+    <title>Probability vs. Odds</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
         .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
@@ -13,7 +13,7 @@
 <body>
     <h1>Bayes Classifier: Probability vs. Odds</h1>
     
-    <h2>Detailed Explanation:</h2>
+    <h2>Explanation:</h2>
     <p>In everyday language, "probability" and "odds" are often used interchangeably, but in mathematics and statistics, they have distinct meanings.</p>
     <ul>
         <li><strong>Probability</strong> is a way of expressing the chance of something happening as a fraction or a percentage. It is calculated by dividing the number of successful outcomes by the total number of possible outcomes. For example, the probability of flipping a coin and getting heads is 1/2 or 50%. The value of a probability always falls between 0 and 1 (or 0% and 100%).</li>
@@ -21,12 +21,22 @@
     </ul>
 
     <h2>Comprehension Question:</h2>
-    <p>If the probability of it raining tomorrow is 2/5, what are the odds of it raining?</p>
+    <form id="mcq-probability-vs-odds" onsubmit="return checkMCQAnswer('mcq-probability-vs-odds', 'a');">
+        <p>If the probability of it raining tomorrow is 2/5, what are the odds of it raining?</p>
+        <label><input type="radio" name="mcq" value="a"> 2:3</label><br>
+        <label><input type="radio" name="mcq" value="b"> 2:5</label><br>
+        <label><input type="radio" name="mcq" value="c"> 3:2</label><br>
+        <label><input type="radio" name="mcq" value="d"> 5:2</label><br>
+        <button type="submit">Check Answer</button>
+        <div id="mcq-probability-vs-odds-feedback" style="margin-top:10px;"></div>
+    </form>
     
+    <a href="probability_vs_odds_simple.html">Get More Explanation</a>
     <div class="navigation">
-        <a href="bayes_rule.html">&larr; Go Back</a>
-        <a href="prior_odds.html">Go Ahead &rarr;</a>
-        <a href="probability_vs_odds_simple.html">Get More Explanation</a>
+        <a href="bayes_rule.html">&larr; Bayes' Rule</a>
+        <a href="index.html">Home</a>
+        <a href="prior_odds.html">Prior Odds &rarr;</a>
     </div>
+    <script src="bayes_rule.js"></script>
 </body>
 </html>

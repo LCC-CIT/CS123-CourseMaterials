@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bayes Classifier: Likelihood Ratio (Simple)</title>
+    <title>Likelihood Ratio (Simple)</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
         .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
@@ -15,8 +15,19 @@
     
     <p>The likelihood ratio is the new information you just found. It's a number that tells you how important the new clue is. If the number is big, it makes your final guess much more likely. If the number is small, it makes it less likely. It's the "magic number" that updates your first guess.</p>
     
+    <h2>Comprehension Question:</h2>
+    <form id="mcq-likelihood-ratio-simple" onsubmit="return checkMCQAnswer('mcq-likelihood-ratio-simple', 'b');">
+        <p>What does a high likelihood ratio mean?</p>
+        <label><input type="radio" name="mcq" value="a"> The new clue is not important</label><br>
+        <label><input type="radio" name="mcq" value="b"> The new clue makes your guess more likely</label><br>
+        <label><input type="radio" name="mcq" value="c"> The prior odds are wrong</label><br>
+        <label><input type="radio" name="mcq" value="d"> The answer is always 1:1</label><br>
+        <button type="submit">Check Answer</button>
+        <div id="mcq-likelihood-ratio-simple-feedback" style="margin-top:10px;"></div>
+    </form>
     <div class="navigation">
-        <a href="likelihood_ratio.html">&larr; Go Back to Detailed Explanation</a>
+    <script src="bayes_rule.js"></script>
+        <a href="likelihood_ratio.html">&larr; Go Back to Explanation</a>
     </div>
 </body>
 </html>

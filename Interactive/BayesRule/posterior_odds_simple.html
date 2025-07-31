@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bayes Classifier: Posterior Odds (Simple)</title>
+    <title>Posterior Odds (Simple)</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
         .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
@@ -15,8 +15,19 @@
     
     <p>Posterior odds are your final, best guess. You get them by multiplying your first guess (prior odds) by the new clue's importance (likelihood ratio). It's the final answer you get after all the information is considered.</p>
     
+    <h2>Comprehension Question:</h2>
+    <form id="mcq-posterior-odds-simple" onsubmit="return checkMCQAnswer('mcq-posterior-odds-simple', 'b');">
+        <p>How do you get the posterior odds?</p>
+        <label><input type="radio" name="mcq" value="a"> Add prior odds and likelihood ratio</label><br>
+        <label><input type="radio" name="mcq" value="b"> Multiply prior odds by likelihood ratio</label><br>
+        <label><input type="radio" name="mcq" value="c"> Divide prior odds by likelihood ratio</label><br>
+        <label><input type="radio" name="mcq" value="d"> Ignore prior odds</label><br>
+        <button type="submit">Check Answer</button>
+        <div id="mcq-posterior-odds-simple-feedback" style="margin-top:10px;"></div>
+    </form>
     <div class="navigation">
-        <a href="posterior_odds.html">&larr; Go Back to Detailed Explanation</a>
+    <script src="bayes_rule.js"></script>
+        <a href="posterior_odds.html">&larr; Go Back to Explanation</a>
     </div>
 </body>
 </html>
