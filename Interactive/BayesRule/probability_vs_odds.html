@@ -2,41 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Probability vs. Odds</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
-        .navigation { margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; }
-        .navigation a { margin: 0 15px; text-decoration: none; color: #0066cc; }
-        .navigation a:hover { text-decoration: underline; }
+        .form-check-input[type="radio"] {
+            border: 2px solid #495057;
+            background-color: #ffffff;
+        }
+        .form-check-input[type="radio"]:checked {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+        .form-check-input[type="radio"]:focus {
+            border-color: #86b7fe;
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        }
     </style>
 </head>
-<body>
-    <h1>Bayes Classifier: Probability vs. Odds</h1>
+<body class="bg-light">
+    <div class="container" style="max-width: 800px;">
+        <h1 class="text-primary">Bayes Classifier: Probability vs. Odds</h1>
     
-    <h2>Explanation:</h2>
-    <p>In everyday language, "probability" and "odds" are often used interchangeably, but in mathematics and statistics, they have distinct meanings.</p>
-    <ul>
-        <li><strong>Probability</strong> is a way of expressing the chance of something happening as a fraction or a percentage. It is calculated by dividing the number of successful outcomes by the total number of possible outcomes. For example, the probability of flipping a coin and getting heads is 1/2 or 50%. The value of a probability always falls between 0 and 1 (or 0% and 100%).</li>
-        <li><strong>Odds</strong> are a ratio that compares the number of successful outcomes to the number of unsuccessful outcomes. For the same coin flip, the odds of getting heads are 1:1 (one successful outcome for every one unsuccessful outcome). Unlike probability, odds can be any positive number. The key difference is the denominator: probability uses the total number of outcomes, while odds use the number of <em>other</em> outcomes.</li>
-    </ul>
+        <h2 class="text-primary">Explanation:</h2>
+        <p>In everyday language, "probability" and "odds" are often used interchangeably, but in mathematics and statistics, they have distinct meanings.</p>
+        <ul>
+            <li><strong>Probability</strong> is a way of expressing the chance of something happening as a fraction or a percentage. It is calculated by dividing the number of successful outcomes by the total number of possible outcomes. For example, the probability of flipping a coin and getting heads is 1/2 or 50%. The value of a probability always falls between 0 and 1 (or 0% and 100%).</li>
+            <li><strong>Odds</strong> are a ratio that compares the number of successful outcomes to the number of unsuccessful outcomes. For the same coin flip, the odds of getting heads are 1:1 (one successful outcome for every one unsuccessful outcome). Unlike probability, odds can be any positive number. The key difference is the denominator: probability uses the total number of outcomes, while odds use the number of <em>other</em> outcomes.</li>
+        </ul>
 
-    <h2>Comprehension Question:</h2>
-    <form id="mcq-probability-vs-odds" onsubmit="return checkMCQAnswer('mcq-probability-vs-odds', 'a');">
-        <p>If the probability of it raining tomorrow is 2/5, what are the odds of it raining?</p>
-        <label><input type="radio" name="mcq" value="a"> 2:3</label><br>
-        <label><input type="radio" name="mcq" value="b"> 2:5</label><br>
-        <label><input type="radio" name="mcq" value="c"> 3:2</label><br>
-        <label><input type="radio" name="mcq" value="d"> 5:2</label><br>
-        <button type="submit">Check Answer</button>
-        <div id="mcq-probability-vs-odds-feedback" style="margin-top:10px;"></div>
-    </form>
+        <h2 class="text-primary">Comprehension Question:</h2>
+        <form id="mcq-probability-vs-odds" onsubmit="return checkMCQAnswer('mcq-probability-vs-odds', 'a');">
+            <p>If the probability of it raining tomorrow is 2/5, what are the odds of it raining?</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="mcq" value="a" id="option-a">
+                <label class="form-check-label" for="option-a">2:3</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="mcq" value="b" id="option-b">
+                <label class="form-check-label" for="option-b">2:5</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="mcq" value="c" id="option-c">
+                <label class="form-check-label" for="option-c">3:2</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="mcq" value="d" id="option-d">
+                <label class="form-check-label" for="option-d">5:2</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2">Check Answer</button>
+            <div id="mcq-probability-vs-odds-feedback" class="mt-2"></div>
+        </form>
     
-    <a href="probability_vs_odds_simple.html">Get More Explanation</a>
-    <div class="navigation">
-        <a href="bayes_rule.html">&larr; Bayes' Rule</a>
-        <a href="index.html">Home</a>
-        <a href="prior_odds.html">Prior Odds &rarr;</a>
+        <a href="probability_vs_odds_simple.html" class="btn btn-outline-primary mt-3">Get More Explanation</a>
+        <nav class="mt-5 pt-3 border-top text-center">
+            <a href="bayes_rule.html" class="mx-3 text-decoration-none">&larr; Bayes' Rule</a>
+            <a href="index.html" class="mx-3 text-decoration-none">Home</a>
+            <a href="prior_odds.html" class="mx-3 text-decoration-none">Prior Odds &rarr;</a>
+        </nav>
     </div>
+    <div class="mb-5"></div>
     <script src="bayes_rule.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 </html>
