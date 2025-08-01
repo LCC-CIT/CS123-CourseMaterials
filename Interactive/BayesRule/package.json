@@ -1,0 +1,12 @@
+{
+  "name": "bayesrule",
+  "version": "1.0.0",
+  "description": "Jest test setup for BayesRule JS functions",
+  "main": "bayes_rule.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
