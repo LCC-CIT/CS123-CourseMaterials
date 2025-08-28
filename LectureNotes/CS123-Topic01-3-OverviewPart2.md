@@ -23,18 +23,6 @@ author: Brian Bird
 
 [TOC]
 
-## Introduction
-
-### Things to Do This Week
-
-- Join the Discord server so you can communicate with your team.
-- Introduce yourself survey&mdash;complete it by Friday. 
-- We'll choose teams next Monday.
-- Read Elements of AI Ch. 1 and do the exercises by Sunday
-- Answer "Your turn" questions in the forum by Sunday  
-  This is mainly for online students or anyone who wasn't able to participate in the live classroom discussion.
-- Take the quiz over the lectures by Sunday
-
 ## Dangers of AI
 
 Sure, here's an outline of the dangers of AI, including ethical, social, privacy, and philosophical issues:
