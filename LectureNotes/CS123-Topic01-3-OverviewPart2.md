@@ -1,7 +1,7 @@
 ---
 title: AI Overview
 description: Overview of Artificial Intelligence.
-keywords: AI, Turing test, Kasparov, Deep Blue, reason, think, conscious
+keywords: AI, Turing test, Kasparov, Deep Blue, reason, think, conscious, xAI, Emily Bender, stochastic parrot
 generator: Typora
 author: Brian Bird
 ---
@@ -23,28 +23,23 @@ author: Brian Bird
 
 [TOC]
 
-## Introduction
-
-### Things to Do This Week
-
-- Join the Discord server so you can communicate with your team.
-- Introduce yourself survey&mdash;complete it by Friday. 
-- We'll choose teams next Monday.
-- Read Elements of AI Ch. 1 and do the exercises by Sunday
-- Answer "Your turn" questions in the forum by Sunday  
-  This is mainly for online students or anyone who wasn't able to participate in the live classroom discussion.
-- Take the quiz over the lectures by Sunday
-
 ## Dangers of AI
-
-Sure, here's an outline of the dangers of AI, including ethical, social, privacy, and philosophical issues:
 
 ### Ethical Issues
 
 - **Bias**: AI systems can unintentionally perpetuate and amplify existing biases.
+
 - **Data Exploitation**: AI's ability to gather and analyze massive quantities of data can lead to exploitation of personal information.
+
 - **Decision Accountability**: With generative AI in particular, there is a lack of transparency in AI decision-making processes, leading to accountability issues.
+
 - **Environmental Impact**: The energy consumption of AI systems can have significant environmental implications.
+
+  - As of September 2025, xAI's Grok AI data center in Memphis was using 460MW of power from natural gas generators. This is how much power 256,000 homes would use. ([Based on 1.8kw per home](https://shrinkthatfootprint.com/average-household-electricity-consumption/))
+    ![xai-colossus-data-center-memphis](D:\Repos\CS123-CourseMaterials\LectureNotes\Images\xai-colossus-data-center-memphis.jpg)
+
+    ![NaturalGasGenerationTrailers-xAI](D:\Repos\CS123-CourseMaterials\LectureNotes\Images\NaturalGasGenerationTrailers-xAI.jpg)
+
 
 ### Social Issues
 
@@ -63,14 +58,26 @@ Sure, here's an outline of the dangers of AI, including ethical, social, privacy
 ### Philosophical Issues of Personhood and Humanity
 
 - **AI Consciousness and Agency**: There's a debate on whether AI can exhibit personhood, including consciousness and agency.
+
 - **Moral and Legal Status of AI**: If AI systems can achieve consciousness and personhood, what will the moral and legal rights of these systems be?
-- **Impact on Humanness**: If AI systems appear to be human and we treat them as human, even though they are machines, will people begin to think of each other as machines? Will our concept of personhood be diminished? See "You are not a parrot" by Emily Bender.
+
+- **Impact on Humanness**: If AI systems appear to be human and we treat them as human, what effect will that have on our human relationships and concept of humanness?
+
+  - [Hanson Robotics](https://www.hansonrobotics.com/) the company that created [Sophia](https://www.hansonrobotics.com/sophia/), envisions "a future, wherein AI and humans live and work together in friendship and symbiosis to make the world a better place".
+
+    ![Sophia+JimmyFallon](D:\Repos\CS123-CourseMaterials\LectureNotes\Images\Sophia+JimmyFallon.jpg)
+     *Sophia the robot on the Tonight Show with Jimmy Fallon*
+
+  - Or, if we think of machines as being persons will people begin to think of each other as machines? Will our concept of personhood be diminished? See "You are not a parrot" by Emily Bender.
+    <img src="D:\Repos\CS123-CourseMaterials\LectureNotes\Images\EmilyBender+Parrot.webp" alt="EmilyBender+Parrot" style="zoom:50%;" />
+  
+  
 
 ### Your turn: What are some concerns you have about AI?
 
 
 
-# Reference
+## Reference
 
 - [Elements of AI](https://www.elementsofai.com/)&mdash;The University of Helsinki and MinnaLearn
 - [The Turing Test](https://en.wikipedia.org/wiki/Turing_test)&mdash;Wikipedia
