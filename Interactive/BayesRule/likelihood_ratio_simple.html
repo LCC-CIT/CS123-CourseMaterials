@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Likelihood Ratio (Simple)</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #e6f3ff 0%, #b3d9ff 100%);
+            min-height: 100vh;
+        }
+            </style>
+</head>
+<body>
+    <div class="container" style="max-width: 800px;">
+        <h1 class="text-primary">Bayes Classifier: Likelihood Ratio (Simpler Explanation)</h1>
+    
+        <p>The likelihood ratio is the new information you just found. It's a number that tells you how important the new clue is. If the number is big, it makes your final guess much more likely. If the number is small, it makes it less likely. It's the "magic number" that updates your first guess.</p>
+    
+        <h2 class="text-primary">Comprehension Question:</h2>
+        <form id="mcq-likelihood-ratio-simple" onsubmit="return checkMCQAnswer('mcq-likelihood-ratio-simple', 'b');">
+            <p>What does a high likelihood ratio mean?</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="mcq" value="a" id="option-a">
+                <label class="form-check-label" for="option-a">The new clue is not important</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="mcq" value="b" id="option-b">
+                <label class="form-check-label" for="option-b">The new clue makes your guess more likely</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="mcq" value="c" id="option-c">
+                <label class="form-check-label" for="option-c">The prior odds are wrong</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="mcq" value="d" id="option-d">
+                <label class="form-check-label" for="option-d">The answer is always 1:1</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2">Check Answer</button>
+            <div id="mcq-likelihood-ratio-simple-feedback" class="mt-2"></div>
+        </form>
+        <nav class="mt-5 pt-3 border-top text-center">
+            <a href="likelihood_ratio.html" class="text-decoration-none">&larr; Go Back to Explanation</a>
+        </nav>
+    </div>
+    <script src="bayes_rule.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+</html>

@@ -27,8 +27,6 @@ author: Brian Bird
 
 ## What's Happening
 
-All activities are due Sunday night, 10/13/24
-
 - Exercises for Ch. 2, "Problem Solving" in *Elements of AI*
 - Lecture Q and A forum for online students
 - Lecture quiz for everyone.
@@ -88,7 +86,7 @@ Two-player games are examples of *two-agent* problems.
 
 #### MiniMax Algorithm
 
-he minimax algorithm is a recursive (repetative) decision-making algorithm used in two-player zero-sum games, where one player’s gain is the other player’s loss. The goal is to <u>min</u>imize the <u>max</u>imum possible loss for a worst-case scenario (hence “minimax”).
+The minimax algorithm is a recursive (repetative) decision-making algorithm used in two-player zero-sum games, where one player’s gain is the other player’s loss. The goal is to <u>min</u>imize the <u>max</u>imum possible loss for a worst-case scenario (hence “minimax”).
 
 #### Steps of the Minimax Algorithm:
 

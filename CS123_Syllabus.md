@@ -1,6 +1,6 @@
 <h1>Introduction to Artificial Intelligence</h1>
 
-<h2>CS 123 Syllabus for Fall 2024</h2>
+<h2>CS 123 Syllabus for Fall 2025</h2>
 
 
 
@@ -9,9 +9,9 @@
 | <u>Class</u>      |                                                              |      | <u>Instructor</u> |                                                              |
 | ----------------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------------------------------------------ |
 | **Course Number** | CS 123                                                       |      | **Name**          | Brian Bird                                                   |
-| **CRN**           | Hybrid (on campus) 21707<br />Online 21708                   |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)                  |
-| **Day & Time**    | M, W 2:00&ndash;3:50                                         |      | **Office Hours**  | Tu&mdash;Th 4:00&ndash;4:50                                  |
-| **Room**          | Building 19, Room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/97035941496) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/94514229670) |
+| **CRN**           | Hybrid (on campus) 21403<br />Online 21028                   |      | **E-mail**        | [birdb@lanecc.edu](mailto:birdb@lanecc.edu)                  |
+| **Day & Time**    | Tu, Th 2:00&ndash;3:50                                       |      | **Office Hours**  | M and W 2:00&ndash;2:50<br />Tu and Th 4:00&ndash;4:50       |
+| **Room**          | Building 19, Room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/92444108339) |      | **Room**          | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/8982554800) |
 
 <h2>Table of Contents</h2>
 
@@ -176,22 +176,23 @@ For upcoming closures, please visit the [Center for Accessible Resources webpage
 
  ## Campus Location and Maps
 
+- [Main Campus](https://www.lanecc.edu/about-lane/our-locations/main-campus): 4000 East 30th Ave. Eugene, Oregon 97405
 - [Bus service and free student bus pass](https://www.lanecc.edu/experience-lane/transportation-getting-around/lcc-bus-pass)
 - [Interactive Map of the LCC Main Campus](https://map.concept3d.com/?id=780#!ct/80243,11008,10696,80244,80245?s/)
-- [Floor plan of buiding 19](Images/Building19FloorPlan.pdf)
+- [Floor plan of buiding 19](Images/Building19FloorPlan.pdf) (All CIT classes meet on the 1st floor of this building)
 
 ## Schedules
 
-### Academic Calendar for Fall Term 2024
+### Academic Calendar for Fall Term 2025
 
-| Event                                                        | Date             |
-| ------------------------------------------------------------ | ---------------- |
-| Fall term classes begin                                      | 9/30 Monday      |
-| Last day to receive refund                                   | 10/7 Monday      |
-| Veteran’s Day&mdash;college closed                           | 11/11 Monday     |
-| Last day for schedule changes                                | 11/22 Friday     |
-| Thanksgiving Vacation – college closed on Thursday and Friday | 11/28&ndash;12/1 |
-| Final exam                                                   | 12/10 Tuesday    |
+| Event                                  | Date              |                  |
+| -------------------------------------- | ----------------- | ---------------- |
+| Fall term classes begin                | 9/29              | Monday           |
+| Last day to receive refund             | 10/6              | Monday           |
+| Veteran’s Day&mdash;college closed     | 11/11             | Tuesday          |
+| Last day for schedule changes          | 11/21             | Friday           |
+| Thanksgiving Vacation – college closed | 11/27&ndash;11/30 | Thursday, Friday |
+| Final exam                             | 12/9              | Tuesday          |
 
 View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.  
 
@@ -201,17 +202,17 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 
 | Week             | Topics                                  | Activities                                                   |
 | ---------------- | --------------------------------------- | ------------------------------------------------------------ |
-| **1**<br />9/30  | Intro to the course<br />Overview of AI | Introduce Yourself Survey<br /><br />Join a Team<br />Essentials of AI Ch. 1 exercises<br />Quiz |
-| **2**<br />10/7  | AI Problem Solving                      | Essentials of AI Ch. 2 exercises<br />Project: Applications of AI<br />Quiz |
-| **3**<br />10/14 | Real-World AI                           | Essentials of AI Ch. 3 exercises<br />Quiz                   |
-| **4**<br />10/21 | Machine Learning                        | Elements of AI Ch. 4 exercises<br />Quiz                     |
-| **5**<br />10/28 | History of AI and Midterm               | TBD<br />Midterm quiz:<br />- In the classroom on 10/30<br />- In the testing center 10/30&ndash;11/1 |
-| **6**<br />11/4  | Neural Netowrks and Deep Learning       | Elements of AI Ch. 5 exercises<br />Quiz                     |
-| **7**<br />11/11 | Generative AI                           | TBD<br />Quiz                                                |
-| **8**<br />11/18 | Prompt engineering                      | TBD<br />Project: prompt engineering<br />Quiz               |
-| **9**<br />11/25 | Custom GPT chatbots                     | TBD<br />Project: Custom chat-bot<br />Quiz                  |
-| **10**<br />12/2 | Social and ethical issues of AI         | Elements of AI Ch. 6 exercises<br />Quiz                     |
-| **11**<br />12/9 | Final                                   | Final quiz:<br />- In the classroom on 12/9<br />- In the testing center 12/9&ndash;12/11 |
+| **1**<br />9/29  | Intro to the course<br />Overview of AI | Introduce Yourself Survey<br /><br />Join a Team<br />Essentials of AI Ch. 1 exercises<br />Quiz |
+| **2**<br />10/6  | AI Problem Solving                      | Essentials of AI Ch. 2 exercises<br />Project: Applications of AI<br />Quiz |
+| **3**<br />10/13 | Real-World AI                           | Essentials of AI Ch. 3 exercises<br />Quiz                   |
+| **4**<br />10/20 | Machine Learning                        | Elements of AI Ch. 4 exercises<br />Quiz                     |
+| **5**<br />10/27 | History of AI and Midterm               | TBD<br />Midterm quiz:<br />- In the classroom on 10/30<br />- In the testing center 10/30&ndash;11/1 |
+| **6**<br />11/3  | Neural Netowrks and Deep Learning       | Elements of AI Ch. 5 exercises<br />Quiz                     |
+| **7**<br />11/10 | Generative AI                           | TBD<br />Quiz                                                |
+| **8**<br />11/17 | Prompt engineering                      | TBD<br />Project: prompt engineering<br />Quiz               |
+| **9**<br />11/24 | Custom GPT chatbots                     | TBD<br />Project: Custom chat-bot<br />Quiz                  |
+| **10**<br />12/1 | Social and ethical issues of AI         | Elements of AI Ch. 6 exercises<br />Quiz                     |
+| **11**<br />12/8 | Final                                   | Final quiz:<br />- In the classroom on 12/9<br />- In the testing center 12/9&ndash;12/11 |
 
 <a href="#top">Go back to the top</a>
 
