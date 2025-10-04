@@ -1,10 +1,12 @@
 <h1>CS 123: Introduction to Artificial Intelligence</h1>
 
-<h2>Getting Started</h2>
+<h2>Getting Started Guide</h2>
+
+<h3>Contents</h3>
 
 [TOC]
 
-# Introduction
+## Introduction
 
 Welcome to this class! 
 
@@ -12,11 +14,11 @@ Since the release of ChatGPT in November of 2022, AI has become an even hotter t
 
 AI has great potential for good as well as... well, evil. Some people are excited to see it advance, others are cautious and others see it as a doomsday technology. Regardless of your viewpoint, AI will play a big role in our future, so it is important to have some understanding of how it works and how we can use it for good while guarding against ways in which it might be abused.
 
-## Time commitment
+### Time commitment
 
 You should set aside at least <u>9 hours a week</u> for learning activities. This includes 4 hours in class (or for online students, participating live on Zoom or watching recordings of the lectures)  plus at least 5 hours studying on your own. 
 
-## First Steps
+### First Steps
 
 Here are the things you should do to get ready for this course:
 
@@ -37,34 +39,25 @@ Here are the things you should do to get ready for this course:
      - Take note of the due dates for the rest of the activities and <u>schedule time</u> complete them.
 
 
-## Introduction to Moodle
+### Introduction to Moodle
 
 Moodle is the learning management system used by Lane Community College. To learn how to use Moodle, go to the Moodle home page. Near the bottom of the page, click on "Training", then "Moodle for Students".
 
-## Class Meetings and Office Hours
-
-Come to class in person or via Zoom or watch the class Zoom recordings.
-
-- There are Zoom links in the syllabus.
-- The Zoom widget at the top of the Moodle page has links for class meeting, recordings, and office hours.
-
-Come see me during office hours&mdash;Drop in! No appointment needed. Come get help with assignments, discuss AI, or just to say "hi". If you would like to come to my office at another tiime you can message me to make an appointment.
 
 
 
+## Basic Technology and Computer Skills
 
-# Basic Technology and Computer Skills
-
-## Software You Will Need
+### Software You Will Need
 
 - A web browser.
 - [Adobe Reader](http://get.adobe.com/reader/) for reading PDF files.
 - [QuickTime](https://support.apple.com/downloads/quicktime),  [VLC Media Player](https://www.videolan.org/vlc/) or some other means of viewing videos.
-- Office software such as [MS Office](http://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=Office_365_subnav_22092015_All_Office&s_kwcid=AL!4249!3!82552207853!e!!g!!microsoft office&WT.mc_id=pointitsem+Google+Adwords+5+-+Office+15+Suites&ef_id=UsDFgAAAAHy-iVuM:20160104142119:s), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage).
+- Office software such as [MS Office](https://inside.lanecc.edu/atc/software/t/13385), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage).
 - [Zoom](https://zoom.us/) for participating in class or office hours remotely.
 - [Discord](https://discord.com/) for class communication and collaboration with your team.
   - Sign up for a free account, if you don't already have one. 
-  - Accept my invitation to the [Intro to AI Discord server](https://discord.com/invite/EpC4cGfG) (click on the link) and join the class server.
+  - Accept my invitation to the class Discord server. The invitation link is on the main Moodle page.
   - If you haven't used Discord before, [here's a 15 minute beginner's tutorial](https://youtu.be/rnYGrq95ezA?si=f2Bfrwu7WMJivcC6).
 - [Azure for Students](https://azure.microsoft.com/en-us/free/students/) account. This is a free online subscription. You won't need to download or install any software. You will use Azure AI Studio to build custom GPT chatbots.
 
@@ -79,25 +72,25 @@ Come see me during office hours&mdash;Drop in! No appointment needed. Come get h
 
   
 
-# Course Structure
+## Course Structure
 
 This course is broken into topical weekly modules. The weeks start on Monday and end on Sunday. Every week is broken into four sections: Objectives, Reading, Lecture Notes and Activities.
 
-## Objectives
+### Objectives
 
 Each week includes a set of objectives that are helpful to read before starting your work for the week.
 
-## Reading
+### Reading
 
 Links to the reading required for the week will be listed here
 
-## Activities
+### Activities
 
 Activities include quizzes and lab assignments both of which have due dates.
 
 
 
-# Online Course Communication
+## Online Course Communication
 
 All course communication (via e-mail, Moodle Messages, discussion forums, video, chat, etc.) should be clear, concise, and respectful. Written communication should use complete sentences with standard spelling and grammar, including proper capitalization and punctuation.
 
@@ -109,7 +102,7 @@ All course announcements will be posted by the instructor to Discord *announceme
 
 
 
-# Moodle Support
+## Moodle Support
 
 Help links can be found by clicking on the ?HELP link in the top navigation bar on Moodle.
 

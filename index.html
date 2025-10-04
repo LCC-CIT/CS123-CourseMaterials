@@ -32,15 +32,15 @@
 
 <body>
     <!-- Fork me on GitHub banner -->
-    <div style="float:right;">
+    <aside style="float:right;">
         <a href="https://github.com/LCC-CIT/CS123-CourseMaterials" target="_blank"><img decoding="async" width="149"
                 height="149"
                 src="https://github.blog/wp-content/uploads/2008/12/forkme_right_white_ffffff.png?resize=149%2C149"
                 class="attachment-full size-full" alt="Fork me on GitHub" loading="lazy" data-recalc-dims="1"></a>
-    </div>
+    </aside>
 
     <!-- Welcome Section -->
-    <div class="container">
+    <header class="container">
         <div class="row d-flex align-items-stretch">
             <h1 class="section-heading">CS 123 Course Materials</h1>
             <div class="col-12 col-lg-3">
@@ -55,19 +55,20 @@
                     all the course materials: lecture notes, exercises and projects.
                     This page has links to the lecture notes as well as external resources related to this course..</p>
                 <div class="d-flex flex-row align-items-center">
-                    <a href="CS123_Syllabus_8wk.html" target="_blank" class="btn btn-primary me-2"><i
+                    <a href="CS123_Syllabus.html" target="_blank" class="btn btn-primary me-2"><i
                             class="fas fa-file-alt"></i> Syllabus</a>
-                    <a href="CS123_GettingStartedGuide_8wk.html" target="_blank" class="btn btn-secondary">
+                    <a href="CS123_GettingStartedGuide.html" target="_blank" class="btn btn-secondary">
                         <i class="fas fa-play-circle"></i> Getting Started Guide</a>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
     <!-- Lecture Notes Section -->
-    <div class="container">
+    <section class="container">
         <div class="row mt-5 mb-3">
             <h3>Introduction to Artificial Intelligence</h3>
+            <p>This course provides a non-technical overview of the field of Artificial Intelligence (AI). Topics include classical symbolic AI, machine learning and generative AI. The way different types of AI work will be explained at a high-level, conceptual level and practical applications will be described.  Ethical issues, risks and potential benefits of using AI are also discussed.</p>
         </div>
         <div class="row">
             <div class="col-12">
@@ -130,17 +131,27 @@
                         </ul>
                     </li>
                     <li class="list-group-item">
-                        <h5>7: Generative AI and Prompt Engineering</h5>
+                        <h5>7: Generative AI</h5>
                         <ul class="list-group">
                             <li class="list-group-item"><a href="LectureNotes/CS123-Topic06-1-GenerativeAI.html"
                                     target="_blank"><i class="fas fa-link"></i> Generative AI</a></li>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="LectureNotes/CS123-Topic06-2-GenerativeAI-Part2.html"
+                                    target="_blank"><i class="fas fa-link"></i> Generative AI Part 2</a></li>                            <li class="list-group-item"><a href="LectureNotes/CS123-Topic06-2-PromptEngineering.html"
+                                    target="_blank"><i class="fas fa-link"></i> Prompt Engineering</a></li>
+                            <!-- Add lecture notes here -->
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>8: Prompt Engineering</h5>
+                        <ul class="list-group">
                             <li class="list-group-item"><a href="LectureNotes/CS123-Topic06-2-PromptEngineering.html"
                                     target="_blank"><i class="fas fa-link"></i> Prompt Engineering</a></li>
                             <!-- Add lecture notes here -->
                         </ul>
                     </li>
                     <li class="list-group-item">
-                        <h5>8: Retrieval-Augmented Generation and Custom Chatbots</h5>
+                        <h5>9: Retrieval-Augmented Generation and Custom Chatbots</h5>
                         <ul class="list-group">
                             <li class="list-group-item"><a href="LectureNotes/CS123-Topic07-1-RAG.html"
                                     target="_blank"><i class="fas fa-link"></i> Retrieval-Augmented Generation</a></li>
@@ -151,21 +162,23 @@
                         </ul>
                     </li>
                     <li class="list-group-item">
-                        <h5>9: Social and Ethical Issues of AI</h5>
+                        <h5>10: Social and Ethical Issues of AI</h5>
                         <ul class="list-group">
                             <li class="list-group-item"><a href="LectureNotes/CS123-Topic08-1-AiIssues.html"
                                     target="_blank"><i class="fas fa-link"></i> Benefits and Dangers of AI</a></li>
-                            <!-- Add lecture notes here -->
+                           <li class="list-group-item"><a href="LectureNotes/CS123-Topic10-2-FutureOfAI.html"
+                                    target="_blank"><i class="fas fa-link"></i> The Future of AI</a></li>
+                             <!-- Add lecture notes here -->
                         </ul>
                     </li>
                     <!-- Add more lecture topics here -->
                 </ul>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Resources Section -->
-    <div class="container">
+    <section class="container">
         <div class="row mt-3">
             <div class="col-12">
                 <h4 class="section-heading">Links to Useful Resources</h4>
@@ -174,7 +187,7 @@
 
         <div class="row mt-1">
             <!-- General Resources Column -->
-            <div class="col-12 col-lg-6">
+            <section class="col-12 col-lg-6">
                 <h5 class="section-heading">General Resources</h5>
                 <ul class="list-group">
                     <li class="list-group-item"><a href="https://zoom.us/" target="_blank"><i class="fas fa-globe"></i>
@@ -190,9 +203,9 @@
                                 class="fas fa-globe"></i> Microsoft Copilot Studio</a>&mdash;Create custom chatbots</li>
                     <!-- Add more resources as needed -->
                 </ul>
-            </div>
+            </section>
             <!-- LCC Resources Column -->
-            <div class="col-12 col-lg-6">
+            <section class="col-12 col-lg-6">
                 <h5>LCC Resources</h5>
                 <ul class="list-group">
                     <li class="list-group-item"><a href="https://sites.google.com/lanecc.edu/aitaskforce/"
@@ -203,11 +216,11 @@
                             href="https://www.lanecc.edu/programs-academics/academic-departments/business-technology-and-trades/computer-information-technology/cit-computer-lab"
                             target="_blank">CIT Computer Lab <i class="fas fa-external-link-alt"></i></a></li>
                 </ul>
-            </div>
+            </section>
         </div>
         <div class="row mt-3">
             <!-- Tutorials and books Column -->
-            <div class="col-12 col-lg-6">
+            <section class="col-12 col-lg-6">
                 <h5>Online Books and Tutorials</h5>
                 <ul class="list-group">
                     <!-- Add online books and tutorials here -->
@@ -221,7 +234,7 @@
             </div>
 
             <!-- Online AI Tools Column -->
-            <div class="col-12 col-lg-6">
+            <section class="col-12 col-lg-6">
                 <h5>Generative AI Tools</h5>
                 <ul class="list-group">
                     <li class="list-group-item"><a href="https://www.openai.com/chatgpt/" target="_blank"><i
@@ -246,12 +259,12 @@
                     <li class="list-group-item"><a href="https://www.runwayml.com/" target="_blank"><i
                                 class="fas fa-video"></i> Text to Video</a>&mdash;Runway</li>
                 </ul>
-            </div>
+            </section>
         </div>
-    </div>
+    </section>
 
     <!-- Chatbot Section -->
-    <div class="container">
+    <section class="container">
         <div class="row mt-3">
             <div class="col-12 col-lg-6 border">
                 <h4 class="section-heading">Course Chatbot</h4>
@@ -261,7 +274,7 @@
                 </iframe>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Footer -->
     <footer class="container d-flex align-items-center mt-5 mb-3">
@@ -271,7 +284,7 @@
         <div class="ms-2">
             <div>
                 Intro to AI course materials by<a href='https://profbird.dev' target="_blank"> Brian
-                    Bird</a>, written in <time>2024</time>,
+                    Bird</a>, written in 2024, revised in <time>2025</time>.
             </div>
             <div>
                 are licensed under a <a href='http://creativecommons.org/licenses/by-sa/4.0/' target="_blank">Creative

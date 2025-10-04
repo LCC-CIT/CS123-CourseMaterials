@@ -58,7 +58,7 @@ Sure, here's an outline of the dangers of AI, including ethical, social, privacy
 
 
 
-# Reference
+## Reference
 
 - [Elements of AI](https://www.elementsofai.com/)&mdash;The University of Helsinki and MinnaLearn
 - [The Turing Test](https://en.wikipedia.org/wiki/Turing_test)&mdash;Wikipedia

@@ -104,7 +104,7 @@ A mathematics professor at Dartmouth College who coined the term *Artificial Int
 
 1956: Dartmouth Summer Research Project on Artificial Intelligence. 
 
-- The workshop was based on the idea that: "Every aspect of learning or any other feature of  intelligence can in principle be so precisely described that a machine can be made to simulate it.""
+- The workshop was based on the idea that: "Every aspect of learning or any other feature of  intelligence can in principle be so precisely described that a machine can be made to simulate it."
 - This workshop is considered the founding event of AI research as a distinct field of study.
 
 ## Newell and Simon Develop the General Problem Solver
