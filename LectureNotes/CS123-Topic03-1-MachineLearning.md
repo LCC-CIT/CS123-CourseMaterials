@@ -23,52 +23,18 @@ author: Brian Bird
 
 [TOC]
 
-# Introduction
+## Introduction
 
-## What's Coming
-
-**Due by this coming Sunday:**
-
-- Forum for questions related to the lecture (for online students or those who weren't in class or on Zoom during the lecture).
-- Elements of AI, Ch. 4, Machine Learning, Exercises. 
-  I'm changing the exercises assignment into a quiz with questions modeled after the exercise questions. No more screen-shots.
-- Quiz over the instructor's lectures.
-
-**Next week:**
-
-- No reading, exercises, or quiz.
-- Tuesday: We will cover the history of AI. Some questions about the history of AI will be on the midterm.
-  - A practice midterm will be available.
-
-- Thursday: the midterm quiz will be given in the classroom.
-- Wednesday and Thursday: the midterm will be available in the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services), Center Building, Room 311, from 9:00am to 5:00pm (but start the quiz at 3:00pm at the latest).
-
-## Review
-
-### Bayes' Rule
-
-Bayes rule can be used to train a system on a data set such as:
-
-- Correlation of cancer imaging tests to actual cases of cancer.
-- Filtering email spam
-- Doing sentiment analysis
-
-This is one method for doing *supervised* *machine learning*.
-
-
-
-# Machine Learning
-
-Machine learning is a subfield of AI that uses algorithms trained on data sets. These models are capable of <u>predicting</u> outcomes and <u>classifying</u> information.
+Machine learning is a subfield of AI that uses models trained on data sets. These models are capable of <u>predicting</u> outcomes and <u>classifying</u> information. A special type of Machine Learning is Generative AI which can <u>generate</u> text, images and more.
 
 ## Models
 
 When talking about Machine Learning (ML), people often use the term *model*. This term can refer to either:
 
 -  A machine learning algorithm and the methodology for training it.
-- A machine learning algorithm that has been trained using data.
+-  A machine learning algorithm that has been trained using data.
 
-**Example of a model:** The *naive Bayes classifier* for detecting spam assigned weights (probabilities) to a set of words. This set of weights along with the algorithm for using them to classify an email message constitute a trained *model*.
+**Example of a model:** The *naive Bayes classifier* for detecting spam assigns weights (probabilities) to words in a set of words. This set of weights along with the algorithm for using them to classify an email message constitute a trained *model*.
 
 ## Types of ML
 
@@ -78,17 +44,15 @@ An AI system is trained using labeled data; which means the data has been catego
 
 **Example**: email spam detection.
 
-A model is trained on emails that have already been classified as spam or not spam. After training the model can be used to classify new emails as either spam or not spam.
+A model is trained on emails that have already been classified as spam or not spam. After training, the model can be used to classify new emails as either spam or not spam.
 
 ### Unsupervised learning
 
-The system is trained on *unlabeled data* and tries to find similarities, differences, patterns, and structure in data by itself. The system will then classify the samples in the data set according to its own categories.
+The system is trained on *unlabeled data* and tries to find similarities, differences, patterns, and structure in data by itself. The system will then classify the samples in other data sets according to the categories inferred from the training data.
 
 **Example:** customer segmentation in marketing. 
 
-A business might use data about their customers, such as age, location, and purchasing behavior to determine which customers are similar to each other. Unsupervised learning algorithms, such as k-means clustering, can be used to automatically find patterns in this data and group similar customers together.
-
-
+A business might use data about their customers, such as age, location, and purchasing behavior to determine which customers are similar to each other. Unsupervised learning algorithms, such as *k-means clustering*, can be used to automatically find patterns in this data and group similar customers together.
 
 ### Reinforcement learning
 
@@ -98,26 +62,24 @@ The AI system isn't given any training data, instead it acts as an autonomous ag
 
 Industrial robots can be programmed to perform tasks such as picking up objects or assembling parts. The robots start with little to no knowledge about how to perform these tasks. As a robot attempts to perform a task, it is given positive rewards for successful actions (like correctly assembling a part) and negative rewards for unsuccessful actions (like dropping an object). Over time, the robots learn to perform their tasks more efficiently by maximizing their successes and minimizing their mistakes. This is all done without explicit programming for each specific task.
 
-
-
 ## Supervised Learning Models
 
-We've already seen Bayes's rule, which is a statistical methodology (aka model). Here are some others. These can be used for *prediction* and/or *classification*.
+We've already mentioned Bayes' rule, which is a statistical methodology (aka model). Here are some others. These can be used for *prediction* and/or *classification*.
 
-### Nearest Neighbor (K-NN)
+### Nearest Neighbors (K-NN)
 
 K-NN, where K represents the number of "Nearest Neighbors" to consider is a methodology in which things (or people) are classified based on a number of predetermined features and grouped (classified) based on the similarity of those features.
 
 **Example:** Real estate comparative market analysis.
 
-Training: A realtor looks at the recent selling price of homes similar to the one they are selling and sets a selling price based on those similar homes. In order to train an ML model to do this, the pertinent characteristics of a home (location, number of beds and baths, etc.) need to be identified and represented numerically so that they can be compared mathematically.
+Training: A realtor compares the recent selling price of homes similar to the one they are selling and sets a selling price based on those similar homes. In order to train an ML model to do this, the pertinent characteristics of a home (location, number of beds and baths, etc.) need to be identified and represented numerically so that they can be compared mathematically.
 
-Inference (classification in this case): A home that hasn't sold yet can have its market value estimated by comparing it to several (k) other homes with similar characteristics (NN).
+Inference (classification in this case): A home that hasn't sold yet can have its market value estimated by comparing it to several (k) other homes with similar characteristics (Nearest Neighbors).
 
 **Example:** Character recognition.
 
 <details>
-  <summary>What do you think the steps would be to train a model for Handwritten Character Recognition (HCR) using the MNIST data set?<br>(Click to expand)</summary>
+  <summary>What do you think the steps would be to train a model for Handwritten Character Recognition (HCR) using the <a href="https://en.wikipedia.org/wiki/MNIST_database">MNIST data set</a>?<br>(Click to expand)</summary>
 <h4>Training the Model</h4>
 <ul>
   <li><b>Data Collection:</b> Gather a large dataset of handwritten characters, each labeled with their correct character (such as the MNIST).</li>
@@ -134,22 +96,49 @@ Inference (classification in this case): A home that hasn't sold yet can have it
 </details>
 
 
-
-
-
 ### Statistical Models
 
-These methods use mathematical statistics for prediction and/or classification.
+These models use mathematical statistics for prediction and/or classification.
 
 #### Bayesian Models
 
-We have already seen an application of naive Bayes classification. There are other ML techniques that use Bayes' rule in other ways.
+We have already discussed an application of naïve Bayes classification (email spam detection). 
 
 #### Regression
 
-##### Linear Regression
+##### Linear Regression  
 
-Covered in class lecture on Tuesday 7/9/24
+Linear regression is a statistical tool used to predict a relationship between two continuous variables by finding the best-fitting straight line through the data.
+
+**The Equation of a Line**
+
+The core of linear regression uses the simple algebraic equation for a straight line:
+
+*y = mx + b*
+
+- y&mdash;The *predicted value* (the outcome we want to know).
+- x&mdash;The *input value* (the data we use for prediction).
+- m&mdash;The *slope*. It shows how much *y* changes for every one-unit change in *x*.
+- b&mdash;The *y-intercept*. It's the predicted value of *y* when *x* is zero.
+
+**Example: Predicting Sales** 
+
+Imagine a company wants to predict the number of sales (y) based on the money spent on advertising (x) in a given week.
+
+Suppose the regression calculation yields the line:
+
+**Sales = 2 * Advertising Spend + 50**  
+ *m* = 2 (slope) and *b* = 50 (y-intercept).
+
+This means for every extra dollar spent on advertising, the company predicts an increase of 2 sales. If the company spends $100 on advertising, the predicted sales are:
+
+Sales = 2(100) + 50 = 250
+
+![](Images\LinearRegression-AdvertisingVsSales.png)
+
+- Data Points: Scattered dots on the chart represent the actual historical sales data (e.g., a dot at (50, 150) means $50 of ad spend resulted in 150 sales).
+
+- Regression Line: A straight line is drawn through the middle of these dots. This line represents the equation *y = mx + b* (our prediction model) and is used to estimate sales for any amount of advertising spend.
 
 ##### Logistic Regression
 
@@ -159,7 +148,7 @@ In binary logistic regression, a curve is produced by a mathematical function ca
 
 In the example below, the input, on the x-axis, is the number of hours students studied for an exam. The output, on the y-axis, is probability of passing the exam.
 
-<img src="Images/EoAI-Ch4-Ex19.png" alt="logistic regression graph" style="zoom:30%;" />
+<img src="D:\Repos\CS210-Repos\CS210-CourseMaterials\LectureNotes\Images\EoAI-Ch4-Ex19.png" alt="logistic regression graph" style="zoom:30%;" />
 
 [logistic regression graph on Desmos](https://www.desmos.com/calculator/zxs34s4tbd)
 
@@ -215,7 +204,7 @@ A Random Forest is a collection of Decision Trees. Each tree in the forest is bu
 
 An Artificial Neural Network (ANN) is a computational model inspired by the structure and function of neural networks in the brains. It consists of interconnected nodes or artificial neurons, which loosely model the neurons in a brain. These are connected in a way that models the synapses in a brain. Each artificial neuron receives signals from connected neurons, processes them, and sends a signal to other connected neurons. The strength of the signal at each connection is determined by a weight, which is adjusted during the learning process. They can learn from experience, and can derive conclusions from complex and seemingly unrelated sets of information.
 
-# Reference
+## Reference
 
 [10 Machine Learning Methods that Every Data Scientist Should Know](https://medium.com/towards-data-science/10-machine-learning-methods-that-every-data-scientist-should-know-3cc96e0eeee9)&mdash;Jorge Castañón, Towards Data Science on Medium, 2019.
 
@@ -229,6 +218,7 @@ An Artificial Neural Network (ANN) is a computational model inspired by the stru
 
 ---
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in 2024, revised in <time>2025</time> are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
-MS Copilot GPT-4 was used to draft parts of these notes.
+MS Copilot GPT-4 and Gemini Flash 2.5 were used to draft parts of these notes.
+
