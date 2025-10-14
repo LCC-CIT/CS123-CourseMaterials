@@ -134,7 +134,7 @@ This means for every extra dollar spent on advertising, the company predicts an 
 
 Sales = 2(100) + 50 = 250
 
-![](Images\LinearRegression-AdvertisingVsSales.png)
+<img src="Images\LinearRegression-AdvertisingVsSales.png" alt="50%" style="zoom:50%;" />
 
 - Data Points: Scattered dots on the chart represent the actual historical sales data (e.g., a dot at (50, 150) means $50 of ad spend resulted in 150 sales).
 
@@ -148,7 +148,7 @@ In binary logistic regression, a curve is produced by a mathematical function ca
 
 In the example below, the input, on the x-axis, is the number of hours students studied for an exam. The output, on the y-axis, is probability of passing the exam.
 
-<img src="D:\Repos\CS210-Repos\CS210-CourseMaterials\LectureNotes\Images\EoAI-Ch4-Ex19.png" alt="logistic regression graph" style="zoom:30%;" />
+<img src="Images\EoAI-Ch4-Ex19.png" alt="logistic regression graph" style="zoom:30%;" />
 
 [logistic regression graph on Desmos](https://www.desmos.com/calculator/zxs34s4tbd)
 
