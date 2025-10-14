@@ -132,8 +132,9 @@ Suppose the regression calculation yields the line:
 
 This means for every extra dollar spent on advertising, the company predicts an increase of 2 sales. If the company spends $100 on advertising, the predicted sales are:
 
+$$
 Sales = 2(100) + 50 = 250
-
+$$
 <img src="Images\LinearRegression-AdvertisingVsSales.png" alt="50%" style="zoom:50%;" />
 
 - Data Points: Scattered dots on the chart represent the actual historical sales data (e.g., a dot at (50, 150) means $50 of ad spend resulted in 150 sales).
