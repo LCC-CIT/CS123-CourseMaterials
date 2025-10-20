@@ -212,7 +212,7 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 | **8**<br />11/17 | Prompt engineering                      | TBD<br />Project: prompt engineering<br />Quiz               |
 | **9**<br />11/24 | Custom GPT chatbots                     | TBD<br />Project: Custom chat-bot<br />Quiz                  |
 | **10**<br />12/1 | Social and ethical issues of AI         | Elements of AI Ch. 6 exercises<br />Quiz                     |
-| **11**<br />12/8 | Final                                   | Final quiz:<br />- In the classroom on 12/9<br />- In the testing center 12/9&ndash;12/11 |
+| **11**<br />12/8 | Final                                   | Final quiz:<br />- In the classroom on 12/9<br />- In the testing center 12/6&ndash;12/9 |
 
 <a href="#top">Go back to the top</a>
 
