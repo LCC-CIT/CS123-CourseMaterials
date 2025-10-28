@@ -23,20 +23,9 @@ author: Brian Bird
 
 [TOC]
 
-# Introduction
+## Introduction
 
-## What's Happening this Week
-
-- Midterm Quiz
-  -  In the Instructional Testing center Wednesday and Thursday
-  - In class on Thursday
-
-- Due this Sunday:
-
-  - Week 4 questions, answers and comments forum posts
-    (Part of your participation grade)
-
-
+This second lecture on the history of AI focuses on the development of connectionist AI (Artificial Neural Networks).
 
 ## Marvin Minsky, ANNs and the MIT AI Lab
 
@@ -125,7 +114,7 @@ In 2014 Ian Goodfellow developed Generative Adversarial Networks (GANs) which ha
 
 
 
-# Reference
+## Reference
 
 ["Godfather of Artificial Intelligence" Geoffrey Hinton on the promise, risks of advanced AI](https://www.cbsnews.com/news/geoffrey-hinton-ai-dangers-60-minutes-transcript/)&mdash;CBS, 60 Minutes.
 
