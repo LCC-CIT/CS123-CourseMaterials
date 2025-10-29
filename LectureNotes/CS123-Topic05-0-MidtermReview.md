@@ -22,6 +22,8 @@
 
 ## Midterm Quiz
 
+The midterm will cover the reading and lectures from the first four weeks of the term.
+
 - Review lecture notes.
 - Take the practice midterm.
 - Take the actual midterm:
