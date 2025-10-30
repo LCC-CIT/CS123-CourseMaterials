@@ -41,7 +41,9 @@ Marvin Lee Minsky was an American cognitive and computer scientist whois often r
 
 ## Frank Rosenblatt and the Perceptron
 
-1957: The perceptron, designed by by Frank Rosenblatt, was based on the McCulloch–Pitts mathematical model of a neuron (1943). It was a system for supervised machine learning for binary classifiers. The first Perceptron, known as the Mark I, was a combination of software that ran on an IBM 7094 and custom hardware consisting of transisterized circuits. It was built at the Cornell Aeronautical Laboratory which was affiliated with Cornell University in New York. 
+1957: The perceptron, designed by by Frank Rosenblatt, was based on the McCulloch–Pitts mathematical model of a neuron (1943). It was a system for supervised machine learning for binary classifiers. 
+
+The first Perceptron, known as the Mark I, was a combination of hardware and software that ran on an IBM 7094 and custom hardware consisting of transisterized circuits. It was built at the Cornell Aeronautical Laboratory which was affiliated with Cornell University in New York. 
 
 ![FrankRosenblattWiringPerceptron](Images/FrankRosenblattWiringPerceptron.webp)
 
@@ -49,9 +51,7 @@ Marvin Lee Minsky was an American cognitive and computer scientist whois often r
 
 This was an early example of connectionism which was a competing approach to symbolism the dominant approach to AI at the time.
 
-The perceptron and connectionism were notably criticized by Marvin Minsky and Seymour Papert. They mounted their critique in their 1969 book titled *Perceptrons*. In this book, they argued that the perceptron had severe limitations. Their critique contributed to a decrease in enthusiasm and funding for perceptron research, marking the beginning of what is known as the "AI winter".
-
-
+The perceptron and connectionism were notably criticized by Marvin Minsky and Seymour Papert in their 1969 book titled *Perceptrons*. In this book, they argued that the perceptron (and connectionism in general) had severe limitations. Their critique contributed to a decrease in enthusiasm and funding for connectionist research, marking the beginning of what is known as the "AI winter".
 
 ## AI winter
 
@@ -87,9 +87,10 @@ Hinton emphasizes the potential for AI to do enormous good, here are some of the
 
 ## IBM Watson becomes a Jeopardy Champion
 
-In 2011, An IBM computer system named Watson beat two of the show’s all-time champions, Ken Jennings and Brad Rutter.  
+<img src="Images/IbmWatsonPlayingJeopardy_CbsNews.jpg" alt="IbmWatsonPlayingJeopardy_CbsNews" style="zoom:50%;" />
+*Ken Jennings, IBM Watson and Brad Rutter on the Jeopardy TV game show&mdash;CBS News*
 
-The original Watson was a room-size computer consisting of 10 racks holding 90 servers, with a total of 2,880 processor cores. Watson was trained on information from Wikipedia, encyclopedias, dictionaries, religious texts, novels, plays, and books from Project Gutenberg, among other sources.
+In 2011, An [IBM computer system named Watson](https://www.ibm.com/history/watson-jeopardy) beat two of Jeopardy's all-time champions, Ken Jennings and Brad Rutter. The original Watson was a room-size computer consisting of 10 racks holding 90 servers, with a total of 2,880 processor cores. Watson was trained on information from Wikipedia, encyclopedias, dictionaries, religious texts, novels, plays, and books from Project Gutenberg, among other sources.
 
 Watson’s architecture, known as DeepQA, utilized over 100 different algorithms and techniques to analyze questions, generate hypotheses, and evaluate evidence. The more of its algorithms that independently arrived at the same answer, the higher Watson’s confidence level. If the confidence level was high enough, Watson was programmed to buzz in during a game of Jeopardy. It took Watson an average of 3 seconds to come up with an answer. 
 
@@ -100,7 +101,7 @@ In 2011, Apple demoed a virtual assistant named Siri. In 2014, Amazon released i
 
 Fei-Fei Li is a, Chinese-American computer scientist is known as the "godmother of artificial intelligence"
 
-In 2009 she and her team created ImageNet, a large-scale dataset that has been instrumental in advancing computer vision and deep learning neural networks. She is also a strong advocate for diversity and ethical considerations in AI, and in 2017 she co-founded AI4ALL, an organization dedicated to increasing diversity and inclusion in AI.
+In 2009 she and her team created [ImageNet](https://image-net.org/), a large-scale dataset of over 14 million images that has been instrumental in advancing computer vision and deep learning neural networks. She is also a strong advocate for diversity and ethical considerations in AI, and in 2017 she co-founded [AI4ALL](https://ai-4-all.org/), an organization dedicated to increasing diversity and inclusion in AI.
 
 <img src="Images/FeiFeiLee.jpg" alt="FeiFeiLee" style="zoom:67%;" />
 

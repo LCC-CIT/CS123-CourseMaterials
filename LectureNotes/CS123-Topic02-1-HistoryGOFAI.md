@@ -117,19 +117,19 @@ It’s worth noting that while GPS was groundbreaking, it was limited by the com
 
 ## Marvin Minsky, ANNs and the MIT AI Lab
 
-Marvin Lee Minsky was an American cognitive and computer scientist whois often referred to as one of the fathers of AI. He defined AI as “the science of making machines do things that would require intelligence if done by men”. 
+Marvin Lee Minsky was an American cognitive and computer scientist who is often referred to as one of the fathers of AI. He defined AI as “the science of making machines do things that would require intelligence if done by men”. 
 
-1951: While studying mathematics at Princeton, Minsky built the first learning machine, an artificial neural network built from vacuum tubes called the Stochastic Neural Analog Reinforcement Calculator, or SNARC.
+1951: Minsky built the first learning machine using an artificial neural network built from vacuum tubes called the Stochastic Neural Analog Reinforcement Calculator, or SNARC. We will see this again when we cover the history of *connectionism* is AI.
 
 1959: He co-founded the Massachusetts Institute of Technology's AI laboratory.
 
 ## Frank Rosenblatt and the Perceptron
 
-1957: The perceptron, designed by by Frank Rosenblatt, was based on the McCulloch–Pitts mathematical model of a neuron (1943). It was a system for supervised machine learning for binary classifiers. The first Perceptron, known as the Mark I, was a combination of software that ran on an IBM 7094 and custom hardware consisting of transisterized circuits. It was built at the Cornell Aeronautical Laboratory which was affiliated with Cornell University in New York. 
+1957: The perceptron, designed by by Frank Rosenblatt, was based on the McCulloch–Pitts mathematical model of a neuron (1943). It was a system for supervised machine learning for binary classifiers. This was an early example of connectionism which was a competing approach to symbolism the dominant approach to AI at the time.
 
-This was an early example of connectionism which was a competing approach to symbolism the dominant approach to AI at the time.
+The perceptron and connectionism were criticized by Marvin Minsky and Seymour Papert.  in their 1969 book titled *Perceptrons*. In this book, they argued that the perceptron had severe limitations. Their critique contributed to a decrease in enthusiasm and funding for connectionist research and contributed to the beginning of what is known as the "AI winter".
 
-The perceptron and connectionism were notably criticized by Marvin Minsky and Seymour Papert. They mounted their critique in their 1969 book titled *Perceptrons*. In this book, they argued that the perceptron had severe limitations. Their critique contributed to a decrease in enthusiasm and funding for perceptron research, marking the beginning of what is known as the "AI winter".
+We will discuss the perceptron and connectionism further in a few weeks.
 
 ## Widrow and Hoff Develop ADALINE
 
@@ -154,7 +154,11 @@ The perceptron and connectionism were notably criticized by Marvin Minsky and Se
 
 ## Deep Blue Beats a World Champion Chess Player
 
-1997: IBM's Deep Blue was the first computer to defeat a reigning world chess champion, Garry Kasparov. Deep Blue's AI methodologies were primarily based on brute force symbolic computing power using techniques like preprogrammed chess rules, game trees and state-space searches. It did not use machine learning or neural networks. 
+<img src="Images/world-chess-champion-garry-kasparov-left-playing-against-ibm-s-supercomputer-deep-blue-in-1996-during-the-acm-chess-challenge.jpg" alt="world-chess-champion-garry-kasparov-left-playing-against-ibm-s-supercomputer-deep-blue-in-1996-during-the-acm-chess-challenge" style="zoom:25%;" />
+*Garry Kasparov (left) playing against Deep Blue at the ACM Chess Challenge in Philadelphia.
+Photo: Tom Mihalek/AFP/Getty Images*
+
+1996: [IBM's Deep Blue](https://www.ibm.com/history/deep-blue) was the first computer to defeat a reigning world chess champion, Garry Kasparov. Deep Blue's AI methodologies were primarily based on brute force symbolic computing power using techniques like preprogrammed chess rules, game trees and state-space searches. It did not use machine learning or neural networks. 
 
 It used 32 processors to perform a set of coordinated, high-speed computations in parallel. The system was capable of evaluating 200 million chess positions Per Second, achieving a processing speed of over 11 Gigaflops (11 billion Floating Point Operations per Second). 
 
@@ -167,6 +171,9 @@ It used 32 processors to perform a set of coordinated, high-speed computations i
 [The Games that helped AI Evolve](https://www.ibm.com/history/early-games?mhsrc=ibmsearch_a&mhq=arthur%20samuel%20checkers)&mdash;IBM
 
 [Soar (Cognitive Archigtecture)](https://en.wikipedia.org/wiki/Soar_(cognitive_architecture))&mdash;Wikipedia
+
+[How IBM’s Deep Blue Beat World Champion Chess Player Garry Kasparov](https://spectrum.ieee.org/how-ibms-deep-blue-beat-world-champion-chess-player-garry-kasparov)&mdash;Joanna Goodrich
+25 Jan 2021, IEEE Spectrum.
 
 [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai)&mdash;Coursera
 
