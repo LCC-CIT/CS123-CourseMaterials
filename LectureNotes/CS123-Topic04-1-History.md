@@ -113,6 +113,17 @@ CNNs were pioneered by Yann LeCun in the late 1980s and early 1990s. He develope
 
 In 2014 Ian Goodfellow developed Generative Adversarial Networks (GANs) which have been foundational in advancing AI’s ability to generate realistic images.
 
+## AlphaGo Beats World's Best Go Player
+
+<img src="Images/AlphaGoLeeSedol.jpg" alt="AlphaGoLeeSedol" style="zoom:50%;" />
+*Image from boldbusiness.com*
+
+2016: Go was once considered too difficult for AI. The game is a googol (10<sup>100</sup>) times more complex than chess — with 10<sup>170</sup> possible board configurations&mdash;more than the number of atoms in the universe. Google Deep Mind's AlphaGo AI system won a 4-1 victory over legendary Go player Lee Sedol  widely who was considered the greatest player of the time. It proved that AI systems can learn how to solve the most challenging problems in highly complex domains.
+
+AlphaGo combines deep neural networks with advanced search algorithms. One neural network — known as the “policy network” — selects the next move  to play. The other neural network — the “value network” — predicts the  winner of the game.
+
+Using reinforcement learning, initially, AlphaGo was trained on amateur games of Go so the system could  learn how humans play the game. Then AlphaGo played against different versions of itself thousands of times, each time  learning from its mistakes.
+
 
 
 ## Reference
@@ -120,6 +131,8 @@ In 2014 Ian Goodfellow developed Generative Adversarial Networks (GANs) which ha
 ["Godfather of Artificial Intelligence" Geoffrey Hinton on the promise, risks of advanced AI](https://www.cbsnews.com/news/geoffrey-hinton-ai-dangers-60-minutes-transcript/)&mdash;CBS, 60 Minutes.
 
 [Watson, ‘Jeopardy!’ champion](https://www.ibm.com/history/watson-jeopardy)&mdash;IBM
+
+[Google Deep Mind AlphaGo](https://deepmind.google/research/projects/alphago/)&mdash;Google
 
 [The History of AI: A Timeline of Artificial Intelligence](https://www.coursera.org/articles/history-of-ai)&mdash;Coursera
 

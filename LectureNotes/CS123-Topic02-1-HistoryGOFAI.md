@@ -158,7 +158,7 @@ We will discuss the perceptron and connectionism further in a few weeks.
 *Garry Kasparov (left) playing against Deep Blue at the ACM Chess Challenge in Philadelphia.
 Photo: Tom Mihalek/AFP/Getty Images*
 
-1996: [IBM's Deep Blue](https://www.ibm.com/history/deep-blue) was the first computer to defeat a reigning world chess champion, Garry Kasparov. Deep Blue's AI methodologies were primarily based on brute force symbolic computing power using techniques like preprogrammed chess rules, game trees and state-space searches. It did not use machine learning or neural networks. 
+1997: [IBM's Deep Blue](https://www.ibm.com/history/deep-blue) was the first computer to defeat a reigning world chess champion, Garry Kasparov. Deep Blue's AI methodologies were primarily based on brute force symbolic computing power using techniques like preprogrammed chess rules, game trees and state-space searches. It did not use machine learning or neural networks. 
 
 It used 32 processors to perform a set of coordinated, high-speed computations in parallel. The system was capable of evaluating 200 million chess positions Per Second, achieving a processing speed of over 11 Gigaflops (11 billion Floating Point Operations per Second). 
 
