@@ -70,3 +70,14 @@ See the [LCC Tutoring Services](https://www.lanecc.edu/tutor) web page for infor
 
 
 [![](Images/Week 5 F2025.jpg)](https://lanecc.edu/resources)
+
+
+
+
+
+------
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI course materials by [Brian Bird](https://profbird.dev) <time>2025</time> are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+
+---
+

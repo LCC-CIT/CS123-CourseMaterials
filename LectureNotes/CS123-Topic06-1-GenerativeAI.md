@@ -24,20 +24,9 @@ author: Brian Bird
 
 [TOC]
 
-# What's Happening this Week
-
-Due Sunday:
-
-- Forum post with questions, answers and comments for online students
-  (Part of your participation grade)
-
-- Exercises on Generative AI, based on the NY Times articles
-
-- Quiz over the lectures/recordings
 
 
-
-# Overview
+## Overview
 
 Generative AI is a subset of machine learning (ML) that is used for creating new content. Generative models use neural networks to generate data based on, but different from, the data they were trained on. 
 
@@ -49,7 +38,7 @@ A Generative Pretrained Transformer (GPT) chatbot, like ChatGPT, works by taking
 - It is *pretrained* because it uses a data model that has been trained through machine learning.
 - It is a *transformer* because it transforms a sequence of input text into a sequence of output text.
 
-# Large Language Models
+## Large Language Models
 
 A *Large Language Model* (LLM) is a neural network build using *transformer architecture*. Transformer architecture focuses attention on words to weigh their importance in a sentence, allowing the transformer to "understand" context and relationships between the words. LLMs can perform a variety of tasks, such as answering questions, summarizing text, translating languages, and creative writing. 
 
@@ -79,7 +68,7 @@ The *context length* of a LLM refers to the maximum number of tokens it can proc
 
 A *token* is a unit of text that the model processes. Tokens can be words, subwords, or even individual characters, depending on the tokenization method used. For example, the sentence "I love AI" might be tokenized into three tokens: "I", "love", and "AI". In more complex cases, words can be broken down into smaller subword tokens, especially for handling rare or compound words. The model uses these tokens to understand and generate text.
 
-# FAQ
+### FAQ
 
 - Are my prompts used to train the LLM?
 - Is my feedback (thumbs up/down) used to train the LLM?
@@ -107,7 +96,7 @@ A *token* is a unit of text that the model processes. Tokens can be words, subwo
 
 
 
-# References
+## References
 
 [How Transformers Work: A Detailed Exploration of Transformer Architecture](https://www.datacamp.com/tutorial/how-transformers-work)&mdash;Josep Ferrer, DataCamp, 2024
 
