@@ -1,7 +1,7 @@
 ---
 title: Neural Nets
 description: Artificial Neural Networks
-keywords: AI
+keywords: AI, ML, ANN
 generator: Typora
 author: Brian Bird
 ---
@@ -23,17 +23,6 @@ author: Brian Bird
 <h2>Table of Contents</h2>
 
 [TOC]
-
-# Introduction
-
-## What's Happening this Week
-
-Due this Sunday (the usual):
-
-- Forum post with questions, answers and comments for online students
-  (Part of your participation grade)
-- Exercises on Neural Networks
-- Quiz over the lectures
 
 # Artificial Neural Networks (ANN)
 
