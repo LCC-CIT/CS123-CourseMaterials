@@ -24,9 +24,7 @@ author: Brian Bird
 
 [TOC]
 
-# Artificial Neural Networks (ANN)
-
-## Description
+## Artificial Neural Networks (ANN)
 
 ### Neural Networks in the Brain
 
@@ -191,9 +189,9 @@ In this technique, two networks compete against each other. One of the networks 
 
 
 
-# Reference
+## Reference
 
-## Articles and Tutorials
+### Articles and Tutorials
 
 [What is a Perceptron: A Beginners Guide for Perceptron](https://www.simplilearn.com/tutorials/deep-learning-tutorial/perceptron)&mdash;Mayank Banoula, SimpliLearn, 2023.
 
@@ -201,7 +199,7 @@ In this technique, two networks compete against each other. One of the networks 
 
 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)&mdash;Michael A. Nielsen, Determination Press, 2015
 
-## Interactive Web Pages
+### Interactive Web Pages
 
 [Tensorflow Playground](http://playground.tensorflow.org/)&mdash;Tinker with a neural network in your browser.
 
@@ -219,6 +217,6 @@ In this technique, two networks compete against each other. One of the networks 
 
 ---
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in 2024, revised in <time>2025</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 Note: GPT-4 and GPT-4o were used to draft parts of these notes.
