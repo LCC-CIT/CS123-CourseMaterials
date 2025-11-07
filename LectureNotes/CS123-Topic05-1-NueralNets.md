@@ -214,6 +214,11 @@ In this technique, two networks compete against each other. One of the networks 
 
 [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
 
+[GANPaint - Painting with Generative Models](https://ganpaint-demo.vizhub.ai/)
+
+[Designed to Deceive: Do These People Look Real to You?](https://www.nytimes.com/interactive/2020/11/21/science/artificial-intelligence-fake-people-faces.html)&mdash;Kashmir Hill and Jeremy White, New York Times, Nov. 21, 2020.  
+In this interactive demo, notice that the slider features correspond to the features used when training the GAN.
+
 
 
 [^1]: Marvin Minsky, in collaboration with Dean Edmonds, developed the first artificial neural network in 1951, known as the Stochastic Neural Analog Reinforcement Calculator (SNARC). It was not implemented in software and did not use a computer. Its 40 artificial neurons were built with mechanical and electronic components. It was about the size of a grand piano and included a plugboard for interconnecting the neurons. It was designed for a single task: to learn a path through a maze using Hebbian Learning.
