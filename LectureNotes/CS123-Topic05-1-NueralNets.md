@@ -106,9 +106,9 @@ Techniques were developed to overcome some of the main the limitations identifie
 
 - Discuss the X and O classifier
 
-  - Are some of the O pixels the same as some of the X pixels?
+  - Are some of the O pixels the same as some of the X pixels[^2]?
   - How would the neurons be connected?
-  - Could this be done with a perceptron?
+  - Could this be done with a perceptron (or two perceptron's[^3])?
 
 - Discuss the happy or sad face classifier
 
@@ -215,8 +215,11 @@ In this technique, two networks compete against each other. One of the networks 
 
 [^1]: Marvin Minsky, in collaboration with Dean Edmonds, developed the first artificial neural network in 1951, known as the Stochastic Neural Analog Reinforcement Calculator (SNARC). It was not implemented in software and did not use a computer. Its 40 artificial neurons were built with mechanical and electronic components. It was about the size of a grand piano and included a plugboard for interconnecting the neurons. It was designed for a single task: to learn a path through a maze using Hebbian Learning.
 
+[^2]: The "pixels" that are the same between the X and O should have low weights (or zero weight) since they don't help us distinguish between the X and O.
+[^3]: With a single perceptron an output of 0 could indicate an O and an output of 1 could indicate an X, but then what would indicate neither?
+
 ---
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in 2024, revised in <time>2025</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
-Note: GPT-4 and GPT-4o were used to draft parts of these notes.
+Note: GPT-4 and GPT-4o were used to draft some parts of these notes.

@@ -90,7 +90,11 @@
     <h2>Input Data</h2>
 
     <h3>Happy Faces</h3>
-
+    <p>This web app simulates a classifier for smiley faces. You can assign weights to the input
+        pixels in the image by clicking on them. Clicking once sets the weight to 1,
+        and clicking again sets it to -1. The activation 1 indicates that the image is classified as
+        a happy face, which can be correct or not, while activation –1 indicates that the image is
+        classified as a sad face.</p>
     <table id="h1" class="face" style="opacity:.5">
         <tbody>
             <tr>
@@ -735,12 +739,13 @@
     </table>
 
     <h2>Recognition Results</h2>
-    <span id="recognized">0</span> out of 16 recognized. <br>
+    <span id=" recognized">0</span> out of 16 recognized. <br>
     Validation code: <span id="validation">AA</span>
     <br><br>
+    
     <footer>
         <hr>
-        Written by Brian Bird, 2024
+        Written by Brian Bird, 2024. Based on a simulator in <a href="https://course.elementsofai.com/5/2" target="_blank">Elements of AI by MiniLearn</a>
         <hr>
     </footer>
 

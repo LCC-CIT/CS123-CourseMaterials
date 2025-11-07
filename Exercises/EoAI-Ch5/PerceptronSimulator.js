@@ -1,3 +1,7 @@
+/* Perceptron simulator for CS 123
+   Written by Brian Bird, Fall 2024
+*/
+
 const array = Array.from({ length: 5 }, () => Array(5).fill(0));
 
 window.onload = function () {
