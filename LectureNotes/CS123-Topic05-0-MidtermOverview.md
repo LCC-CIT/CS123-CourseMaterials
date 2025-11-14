@@ -2,12 +2,14 @@
 
 **CS123, Intro to AI**
 
-| Topics                                                       |                                              |
-| ------------------------------------------------------------ | -------------------------------------------- |
-| Overview of AI                                               | Neural networks and deep learning            |
-| AI Problem Solving Revisited<br />Machine Learning&mdash;Part 1<br />Applications of AI | Generative AI + Prompt engineering           |
-| Machine Learning&mdash;Part 2                                | Custom chatbot creation                      |
-| <mark>History of AI + Midterm</mark>                         | Social and ethical issues of AI  <br />Final |
+| Topics                                                     |                                      |
+| ---------------------------------------------------------- | ------------------------------------ |
+| 1. Intro to class and AI                                   | 6. Neural networks and deep learning |
+| 2. AI Problem Solving                                      | 7. Generative AI                     |
+| 3. Machine Learning&mdash;Part 1<br />Applications of AI   | 8. Prompt engineering                |
+| 4. Machine Learning&mdash;Part 2                           | 9. Custom chatbot creation           |
+| 5. <mark>More History of AI &</mark>  <mark>Midterm</mark> | 10. Social and ethical issues of AI  |
+|                                                            | 11. Final                            |
 
 [TOC]
 
@@ -67,17 +69,10 @@ The CIT Main lab (Building 19, room 135) is equipped with computers and software
 
 See the [LCC Tutoring Services](https://www.lanecc.edu/tutor) web page for information.
 
-
-
 [![](Images/Week 5 F2025.jpg)](https://lanecc.edu/resources)
-
-
-
-
 
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI course materials by [Brian Bird](https://profbird.dev) <time>2025</time> are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ---
-
