@@ -76,6 +76,8 @@ Here are some examples:
 
 - [Grok Code Fast](https://x.ai/news/grok-code-fast-1)
 
+- [GitHub Copilot](https://github.com/features/copilot)
+
   
 
 ### Using Generative AI at Work
