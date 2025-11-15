@@ -47,12 +47,14 @@ Here are some examples:
   - [ ChatGPT by OpenAI](https://www.openai.com/chatgpt/)
   - [ Claude by Anthropic](https://claude.ai/)
   - [ Copilot by Microsoft](https://copilot.microsoft.com/)
-- Simulated human chatbot like [Soul Machines](https://www.soulmachines.com/)
+  - [Gemini by Google](https://gemini.google.com/app)
+  - [ Meta AI by Meta](https://meta.ai/)
+- Simulated human chatbot like the [Soul Machines avatars](https://www.soulmachines.com/avatar-site).
 - Text to image generators:
   - [ Image Creator by Microsoft](https://designer.microsoft.com/image-creator)—Image generator
 
-  - [ Gemeini by Google](https://gemini.google.com/)—Chatbot and image generator
-  - [ Meta AI (by Facebook's parent)](https://meta.ai/)—Chatbot and image generator
+  - Gemeini—Chatbot also does image generator
+  - Meta AI—Chatbot also does image generator
 - Text to music generators like [Avia](https://www.aiva.ai/)
 - Video generators:
   - [Runway](https://www.runwayml.com/)&mdash;Upload an image and use a text prompt to animate it.
