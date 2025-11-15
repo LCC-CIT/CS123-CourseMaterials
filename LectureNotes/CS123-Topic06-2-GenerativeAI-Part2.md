@@ -22,36 +22,61 @@ author: Brian Bird
 
 [TOC]
 
-# 
-
 ## Uses of Generative AI
 
 ### Types of Generative AI
 
 Here are some examples:  
 
-- Chatbots:
-  
-  - [ ChatGPT by OpenAI](https://www.openai.com/chatgpt/)
-  - [ Claude by Anthropic](https://claude.ai/)
-  - [ Copilot by Microsoft](https://copilot.microsoft.com/)
-  - [Gemini by Google](https://gemini.google.com/app)
-  - [ Meta AI by Meta](https://meta.ai/)
-- Simulated human chatbot like the [Soul Machines avatars](https://www.soulmachines.com/avatar-site).
-- Text to image generators:
-  - [ Image Creator by Microsoft](https://designer.microsoft.com/image-creator)—Image generator
+#### Chatbots
 
-  - Gemeini—Chatbot also does image generator
-  - Meta AI—Chatbot also does image generator
-- Text to music generators like [Avia](https://www.aiva.ai/)
+- [ ChatGPT by OpenAI](https://chatgpt.com)
+- [ Claude by Anthropic](https://claude.ai/)
+- [ Copilot by Microsoft](https://copilot.microsoft.com/)
+- [Gemini by Google](https://gemini.google.com/app)
+- [ Meta AI by Meta](https://meta.ai/)
+- [Grok by XAI](https://x.ai/)
 
-- Video generators:
-  
-  - [Runway](https://www.runwayml.com/)&mdash;Upload an image and use a text prompt to animate it.
-  - [Synthesia](https://synthesia.io)&mdash;Generate presentations with voice, presenter, and graphics.  
-    [Example video presentation](https://share.synthesia.io/b01113e0-46da-4674-80c0-9e32f183a8f2)
+#### AI Avatars
+
+- Simulated human chatbot: [Soul Machines avatars](https://www.soulmachines.com/avatar-site).
+
+#### Text to image generators:
+
+- [ Image Creator by Microsoft](https://designer.microsoft.com/image-creator)
+- OpenAI, MetaAI, Grok and Gemeini chatbots also do image generation.
+
+#### Text to music generators
+
+-   [Avia](https://www.aiva.ai/)
+
+#### Text to video generators:
+
+- [Runway](https://www.runwayml.com/)&mdash;Upload an image and use a text prompt to animate it.
+- [Synthesia](https://synthesia.io)&mdash;Generate presentations with voice, presenter, and graphics.  
+  [Example video presentation](https://share.synthesia.io/b01113e0-46da-4674-80c0-9e32f183a8f2)
+- [Sora by OpenAI](https://openai.com/index/sora/)
+- Veo by Google is availavble on the Gemini web page.
+
+#### Education and study aids
 
 - [Notebook LM](https://notebooklm.google.com/)&mdash;create a podcast from a document or web site and more.
+
+#### Code generators:
+
+- Gemini
+
+  - Gemini Canvas can be used for coding
+  - [Gemini CLI](https://geminicli.com/)
+  - In Integrated Development Environments like VS Code
+
+- [OpenAI Codex](https://openai.com/codex/)
+
+- [Claude Code](https://claude.com/product/claude-code)
+
+- [Grok Code Fast](https://x.ai/news/grok-code-fast-1)
+
+  
 
 ### Using Generative AI at Work
 
@@ -105,8 +130,8 @@ Generative AI is already being used in many fields. Here are some specific real-
 
 ---
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in 2024, revised in <time>2025</time> are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ---
 
-Note: Microsoft Copilot with GPT-4 was used to draft parts of these notes.
+Note: Microsoft Copilot with GPT-4 was used to draft parts of these notes (2024).
