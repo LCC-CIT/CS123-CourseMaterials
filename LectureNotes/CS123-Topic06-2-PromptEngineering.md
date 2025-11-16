@@ -217,5 +217,5 @@ Which formula correctly represents Bayes' Rule? {
 
 ---
 
-Note: Microsoft Copilot with GPT-4 was used to draft parts of these notes.
+Note: Microsoft Copilot with GPT-4 was used to draft parts of these notes (2024).
 
