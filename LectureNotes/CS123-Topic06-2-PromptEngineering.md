@@ -23,32 +23,27 @@ author: Brian Bird
 
 [TOC]
 
-# Overview
+## Overview
 
 Prompt engineering is the process of designing and refining inputs (prompts) to generative AI systems to improve the accuracy and quality of the generated output.
 
-# Components of a Good Prompt
+## Components of a Good Prompt
 
 A good prompt for AI is most effective if it has:
 
 1. **Clarity**: The prompt should be clear, specific and unambiguous, making it easy for the AI to understand what is being asked.
    - **Example**: Instead of asking “Tell me about AI,” you can ask “Give me a summary of the latest advances in AI.”
-
-2. **Relevance**: use relevant keywords or phrases. This helps the AI understand your intent and deliver relevant results.
+2. **Relevance**: use keywords or phrases that are *specific* and *relevant* to your desired response. This helps the AI understand your intent and deliver relevant results.
 
    - **Example**: Instead of asking: “Tell me about cloud computing”, you can ask  “I’m researching cloud computing trends in the IT industry. Provide recent reports and articles on the topic.”
-
 3. **Conciseness**: A prompt should be as brief as possible while still conveying all necessary information.
-
 4. **Context**: Providing relevant context helps the AI understand the background of the thing you're asking for. 
 
    - **Example**: “Given the recent advancements in AI, what are the potential ethical concerns?”
 
    - **Result**: The AI considers the context of recent advancements and addresses relevant ethical concerns.
 
-5. **Provide Clear Instructions**: Clear instructions on what is expected from the AI can guide it to produce the desired output.
-
-# Prompting Best Practices
+## Prompting Best Practices
 
 1. **Split Up Complex Tasks**: Break down complex tasks into simpler, manageable subtasks to improve accuracy.
 2. **Use Structured Prompts**
@@ -66,9 +61,9 @@ A good prompt for AI is most effective if it has:
 
    ​              
 
-# Prompting Strategies
+## Prompting Strategies
 
-## Zero-Shot Prompting
+### Zero-Shot Prompting
 
 **Explanation**: Zero-shot prompting involves giving the AI a task without any prior examples or context. The AI relies on its pre-existing knowledge to generate a response.
 
@@ -77,7 +72,7 @@ A good prompt for AI is most effective if it has:
 - **Prompt**: “Translate ‘Hello, how are you?’ to French.”
 - **Response**: “Bonjour, comment ça va?”
 
-## One-Shot Prompting
+### One-Shot Prompting
 
 **Explanation**: One-shot prompting provides the AI with a single example to guide its response. This helps the AI understand the task better. For example:
 
@@ -85,7 +80,7 @@ A good prompt for AI is most effective if it has:
 
 - **One-shot Prompt**: “Generate a marketing email for a new eco-friendly water bottle, highlighting its features. Example: ‘Introducing our latest eco-friendly water bottle! Made from sustainable materials, this bottle is not only durable but also stylish. Perfect for those who care about the environment and want a sleek design.’”
 
-## Few-Shot Prompting
+### Few-Shot Prompting
 
 **Explanation**: Few-shot prompting involves giving the AI a few examples to help it understand the task more clearly. This is useful for more complex tasks.
 
@@ -99,7 +94,7 @@ A good prompt for AI is most effective if it has:
   ‘SustainSip’
   ‘NatureQuench’"
 
-## Chain-of-Thought Prompting
+### Chain-of-Thought Prompting
 
 **Explanation**: Chain-of-thought prompting improves reasoning by breaking down complex tasks into a sequence of logical steps, enabling the model to solve problems more effectively.   Each step will take into account the result of the previous step and build on it. 
 
@@ -135,7 +130,7 @@ A good prompt for AI is most effective if it has:
 
      Result: An interesting story that is composed based on the steps in the prompt.
 
-## Role Prompting
+### Role Prompting
 
 This technique helps guide the AI to respond in a manner consistent with the assigned role, leading to more focused, creative, or empathetic outputs. Here is an example of using the AI as a fitness coach:
 
@@ -144,9 +139,9 @@ This technique helps guide the AI to respond in a manner consistent with the ass
 
 
 
-# Examples
+## Examples
 
-## Moodle Quiz Prompt Template
+### Moodle Quiz Prompt Template
 
 This is a prompt template I use for generating quiz questions for Moodle:
 
@@ -190,14 +185,14 @@ Which formula correctly represents Bayes' Rule? {
 
 
 
-## LCC Fusion Lab Prompt Library
+### LCC Fusion Lab Prompt Library
 
 [Prompt library](https://docs.google.com/spreadsheets/d/1wnHdO_IOPz2FOViICvIti1sxhK4A8vA-rL4oCPVIkuA/edit?gid=964683428#gid=964683428) in the LCC [Fusion Lab](https://sites.google.com/lanecc.edu/fusionlab/home) 
 
 
 
 
-# References
+## References
 
 [Effective Prompts for AI: The Essentials](https://mitsloanedtech.mit.edu/ai/basics/effective-prompts/)—MIT Sloan Teaching, 2023
 
@@ -213,7 +208,7 @@ Which formula correctly represents Bayes' Rule? {
 
 ---
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in 2024, revised in <time>2025</time> are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ---
 
