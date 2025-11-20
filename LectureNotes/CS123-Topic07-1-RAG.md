@@ -39,21 +39,21 @@ author: Brian Bird
 
   - Your educational history, or work resume.
   - Specific information about a particular course at a particular college.
-  - Current news, or new developments in some field.
+  - Local current news.
   - History or policies of a lesser-known company or organization.
 
   If it doesn't know the answer, it will sometimes just make one up!
 
-- **Out-of-date information:** The model (sometimes called a *foundation model*), was trained at some point in time and it's knowledge ends at the time it's training data was obtained.
+- **Out-of-date information:** The model (sometimes called a *foundation model*), was trained at some point in time and it's base knowledge ends at the time it's training data was obtained. Most modern AI chatbots will supplement that base knowledge with a web search, but will still sometimes give outdated information.
 
 - **Access to private data**: The model was trained on public data, so any private data, like patient health care records, student records or HR records would not be included; neither would proprietary data like company marketing strategy, manufacturing processes or computer code.
 
-- **Citations**: The way an LLM is trained doesn't provide transparency into where specific information came from. But, data from a RAG knowledge store can be tagged with it's source.
+- **Citations**: The way an LLM is trained doesn't provide transparency into where specific information came from. But, data from a RAG knowledge store can be tagged with it's source[^1].
 
-  - Try getting a response with Bing Copilot, it will give you references, but those aren't necesarily it's sources&mdash; but they could be sources for the RAG-like supplemental information.
+  - Try getting a response with Gemini, Chat GPT or other chatbots, they will give you references, but those aren't necesarily it's sources&mdash; but they could be sources for the RAG-like supplemental information.
 
 
-## How it works
+## How RAG works
 
 **Retrieval Augmented Generation (RAG)** combines generative AI with information retrieval to enhance accuracy and reduce hallucinations. Here are the key processes involved:
 
@@ -68,15 +68,33 @@ author: Brian Bird
 
 #### Searching the Source Data
 
-RAG systems can use either *semantic search*, vector search or both.
+RAG systems can use either *semantic search*, *lexical search* or both.
 
-##### Semantic Search
+- **Lexical Search (Keyword Search)**
 
-Semantic search goes beyond keyword matching to understand the meaning and intent behind a query. It uses techniques like text embeddings to interpret relationships between words and concepts.
+  - **What it is:** This is the "traditional" searchthat looks for exact word matches.
 
-##### Vector Search
+  - **Why RAG needs it:** Vector search is notoriously bad at finding exact matches for specific identifiers. If a user asks for "Error Code 504" or "Part Number XJ-900," vector search might return "System Failure" or "Model X" because they are *conceptually* similar.
 
-Vector search Uses mathematical representations (vectors) of text to find similar items based on their numerical proximity in vector space. It’s efficient for handling large datasets and finding contextually similar results.
+- **Semantic Search (Vector Search)**
+
+  - **What it is:** This uses embeddings to find matches based on meaning (semantics) and intent rather than word matching.
+
+  - **Why RAG needs it:** It solves the "vocabulary mismatch" problem. If a user searches for "how to fix a broken screen," it can find a document titled "Display Replacement Guide" even though none of the words match exactly.
+
+- **Hybrid Search (Best of both worlds)**
+
+  - **What it is:** Most advanced RAG systems now use *Hybrid Search*, which runs both a lexical search and a semantic search in parallel.
+
+  - **How it works:** The system retrieves results from both methods and then uses a *reranker algorithm* to combine and sort them into a single list for the LLM.
+
+**Summary of Search Methods**
+
+| **Search Type** | **Best For...**                                    | **Example Query**                               |
+| --------------- | -------------------------------------------------- | ----------------------------------------------- |
+| **Lexical**     | Exact names, IDs, part numbers, specific acronyms. | "Who is **Professor Bird**?"                    |
+| **Semantic**    | Concepts, vague questions, describing a problem.   | "Who teaches the **AI course**?"                |
+| **Hybrid**      | Getting the best of both worlds.                   | "What is the **grading policy** for **CS123**?" |
 
 #### Embeddings
 
@@ -94,11 +112,14 @@ The embeddings store is a specialized database used to store and manage text emb
 
 [What is Retrieval-Augmented Generation?](https://research.ibm.com/blog/retrieval-augmented-generation-RAG)&mdash; Kim Martineau with video by Marina Danilevsky, IBM Research, 2023.
 
+Note: Microsoft Copilot with GPT-4 (2024) and Gemini 3 (2025) was used to draft parts of these notes.
+
+
+
 
 ---
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
----
+[^1]: The LLM itself doesn't inherently know how to cite better just because it's RAG. The RAG *system* (the code around the LLM) passes the source metadata along with the text chunk. The system then displays that citation to the user.
 
-Note: Microsoft Copilot with GPT-4 was used to draft parts of these notes.
