@@ -6,7 +6,7 @@ generator: Typora
 author: Brian Bird
 ---
 
-<h1>Retrieval-Augmented Generation</h1>
+<h1>Retrieval Augmented Generation</h1>
 
 **CS123, Intro to AI**
 
@@ -25,7 +25,7 @@ author: Brian Bird
 
 ## What is RAG?
 
-**Retrieval-Augmented Generation (RAG)** is an advanced AI technique that enhances the capabilities of large language models (LLMs) by integrating an information retrieval system. This system fetches relevant information from external sources, which the LLM then uses to generate more accurate and reliable responses.
+**Retrieval Augmented Generation (RAG)** is an advanced AI technique that enhances the capabilities of large language models (LLMs) by integrating an information retrieval system. This system fetches relevant information from external sources, which the LLM then uses to generate more accurate and reliable responses.
 
 ## Why Use it?
 
@@ -52,57 +52,77 @@ author: Brian Bird
 
   - Try getting a response with Gemini, Chat GPT or other chatbots, they will give you references, but those aren't necesarily it's sources&mdash; but they could be sources for the RAG-like supplemental information.
 
-
 ## How RAG works
 
-**Retrieval Augmented Generation (RAG)** combines generative AI with information retrieval to enhance accuracy and reduce hallucinations. Here are the key processes involved:
-
-- **Data Chunking**: Large volumes of unstructured data are divided into manageable chunks for efficient searching. Chunks are segments of the original text, they could be paragraphs, but they type of segment and its size can vary depending on the specific requirements of the RAG system. The goal is to balance the need for contextual meaning with size. If chunks are too large, they can dilute the relevance, if they are too small, they can lose context.
-- **Vector Embedding**: Unstructured data is converted into numerical vectors, allowing for comparison and retrieval based on mathematical similarity.
-- **Vector Search**: Techniques like K-Nearest-Neighbour (KNN) or Hierarchical Navigable Small Worlds (HNSW) are used to find the closest matches to the input query in the vector database.
-- **Contextual Generation**: The generative model uses the retrieved data to construct accurate and contextually relevant responses, ensuring up-to-date and private information is utilized.
+See the explanation below this diagram.
 
 ![6-complete-rag-architecture](Images/6-complete-rag-architecture.png)
 
 
 
-#### Searching the Source Data
+ A RAG system operates in two distinct timeframes: *Setup Time* (when a developer create the RAG chatbot and upload files) and *Run Time* (when a user asks a question).
 
-RAG systems can use either *semantic search*, *lexical search* or both.
+### Setup Time (The "Ingestion" Pipeline)
 
-- **Lexical Search (Keyword Search)**
+This entire phase is dedicated to building the *Retriever's* memory. The *Generator* (the LLM) is not involved yet.
 
-  - **What it is:** This is the "traditional" searchthat looks for exact word matches.
+1. **Upload:** You provide files to the *source data* store (shown in the retriever section of the diagram).
+2. **Chunking:** The system reads your files and chops them into small, manageable pieces (e.g., 3-5 paragraphs each) called "chunks".
+3. **Embedding:** Each chunk is sent to an *Embeddings Model* (a specialized, non-LLM AI) that translates the text into a list of numbers (vectors) representing its meaning.
+   - The sysem makes a map linking embeddings to the source documents so they can be referenced in output from a user prompt.
+4. **Storage:** These vectors are saved into the *Embeddings Store* (Vector Database). This database now holds a mathematical map of your documents.
 
-  - **Why RAG needs it:** Vector search is notoriously bad at finding exact matches for specific identifiers. If a user asks for "Error Code 504" or "Part Number XJ-900," vector search might return "System Failure" or "Model X" because they are *conceptually* similar.
+> **Analogy:** This is like a librarian reading all the new books and filing index cards for them in the library catalog. The books aren't being *read* to answer a question yet; they are just being organized so they *can* be found later.
 
-- **Semantic Search (Vector Search)**
+### Run Time (The "Inference" Pipeline)
 
-  - **What it is:** This uses embeddings to find matches based on meaning (semantics) and intent rather than word matching.
+This is where the user interacts with the system. Both the *Retriever* and the *Generator* work together in real-time.
 
-  - **Why RAG needs it:** It solves the "vocabulary mismatch" problem. If a user searches for "how to fix a broken screen," it can find a document titled "Display Replacement Guide" even though none of the words match exactly.
+1. **User Query:** The user asks, "What is the attendance policy?".
 
-- **Hybrid Search (Best of both worlds)**
+2. **Query Embedding:** The *Retriever* converts this question into numbers (vectors) using the same model from the "ingestion" pipeline.
 
-  - **What it is:** Most advanced RAG systems now use *Hybrid Search*, which runs both a lexical search and a semantic search in parallel.
+3. **Vector Search:** The *Retriever* compares the question's numbers against the numbers in the *Embeddings Store* to find the closest matches&mdash;e.g., it finds the chunk from the syllabus about "Attendance". 
 
-  - **How it works:** The system retrieves results from both methods and then uses a *reranker algorithm* to combine and sort them into a single list for the LLM.
+   - The search request is shown in the line labeled "Identify the Relevant Information" in the diagram.
 
-**Summary of Search Methods**
+   - The search result is shown in the line labeled "Retrieve the Information" in the diagram.
 
-| **Search Type** | **Best For...**                                    | **Example Query**                               |
-| --------------- | -------------------------------------------------- | ----------------------------------------------- |
-| **Lexical**     | Exact names, IDs, part numbers, specific acronyms. | "Who is **Professor Bird**?"                    |
-| **Semantic**    | Concepts, vague questions, describing a problem.   | "Who teaches the **AI course**?"                |
-| **Hybrid**      | Getting the best of both worlds.                   | "What is the **grading policy** for **CS123**?" |
+   - More about search. 
+     RAG systems can use either *lexical search*, *vector (semantic) search* or both:
 
-#### Embeddings
+     - **Lexical Search (Keyword Search)**
 
-Embeddings are a way to represent text data in a numerical format, capturing the meaning and context of words or phrases.  They capture the relationships between words, allowing models to understand context better.
+       This is the "traditional" searchthat looks for exact word matches.  
+       Vector search is notoriously bad at finding exact matches for specific identifiers. If a user asks for "Error Code 504" or "Part Number XJ-900," vector search might return "System Failure" or "Model X" because they are *conceptually* similar.
 
-##### Embeddings Store
+     - **Semantic Search (Vector Search)**
+       This uses embeddings to find matches based on meaning (semantics) and intent rather than word matching.
 
-The embeddings store is a specialized database used to store and manage text embeddings, which are  mathematical representations of text that capture the meaning and context of words or phrases. It enables semantic search by matching queries with relevant documents based on their embeddings, rather than exact keyword matches.
+       This solves the "vocabulary mismatch" problem. If a user searches for "how to fix a broken screen," it can find a document titled "Display Replacement Guide" even though none of the words match exactly.
+
+     - **Hybrid Search (Best of both worlds)**. 
+       Most advanced RAG systems now use *Hybrid Search*, which runs both a lexical search and a semantic search in parallel.  
+       The system retrieves results from both methods and then uses a *reranker algorithm* to combine and sort them into a single list for the LLM.
+
+   
+
+4. **Augmentation:** This is a crucial step, it's the "magic" that makes the system work! The system retrieves a text chunk from the search and combines it with the original question (labeld "combine both retrieval information" in the diagram) and the user query (*context injection*). 
+
+   - Instead of sending just the question to the AI, the system *augments* the prompt. It pastes the text found by the Retriever alongside the original user question.
+
+   - *Context from our chat:* This is where the "Open Book" analogy applies. The system is handing the model the specific page it needs to read.
+
+   - Analogy:  
+
+     > Without RAG: Taking a test with your memory only.  
+     > With RAG: An open-book test. You find the relevant page (Retrieval), put the book next to your exam paper (Augmentation), and write the answer based on the book (Generation).
+
+5. **Generation:** The *LLM* (Foundation Model) finally receives this combined prompt. It reads the retrieved syllabus chunk and generates an answer: "According to the syllabus, attendance is not graded".
+
+> **Analogy:** This is the librarian (*Retriever*) looking up the index card, running to the shelf, grabbing the specific page, and handing it to the student (*Generator*) so they can write their essay.
+
+
 
 
 
