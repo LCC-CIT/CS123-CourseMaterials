@@ -25,7 +25,7 @@ author: Brian Bird
 
 ## Copilot Studio
 
-Full details on creating a custom GPT chatbot using M[icrosoft Copilot Studio](https://copilotstudio.microsoft.com) are provided in the [Microsoft documentation for Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio).  
+Full details on creating a custom GPT chatbot using [Microsoft Copilot Studio](https://copilotstudio.microsoft.com) are provided in the [Microsoft documentation for Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio).  
 
 There are essentially two ways a chatbot created in Copilot Studio can generate answers:
 
@@ -103,7 +103,10 @@ You can publish your chatbot in many different ways as can be seen on the "Chann
 
 ## References
 
-[Microsoft Copilot Studio Documentation](https://learn.microsoft.com/en-us/microsoft-copilot-studio/)
+- [Sign up for a free trial](https://learn.microsoft.com/en-us/microsoft-copilot-studio/sign-up-individual) (no credit card required) 
+- [Quickstart: Create and deploy a chatbot](https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-get-started?tabs=web) 
+- [Add Knowledge to your copilots](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio) 
+- [Generative AI in Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-gpt-overview)
 
 
 

@@ -54,13 +54,14 @@ author: Brian Bird
 
 ## How RAG works
 
-See the explanation below this diagram.
+ A RAG system operates in two distinct timeframes: *Setup Time* (when a developer create the RAG chatbot and upload files) and *Run Time* (when a user asks a question).  
+(This explaination continues below the diagram.)
 
 ![6-complete-rag-architecture](Images/6-complete-rag-architecture.png)
 
+*Diagram from: [A Simple Guide To Retrieval Augmented Generation Language Models](https://www.smashingmagazine.com/2024/01/guide-retrieval-augmented-generation-language-models/)&mdash;Smashing Magazine*
 
 
- A RAG system operates in two distinct timeframes: *Setup Time* (when a developer create the RAG chatbot and upload files) and *Run Time* (when a user asks a question).
 
 ### Setup Time (The "Ingestion" Pipeline)
 
@@ -139,7 +140,7 @@ Note: Microsoft Copilot with GPT-4 (2024) and Gemini 3 (2025) was used to draft 
 
 ---
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in 2024, updated in <time>2025</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 [^1]: The LLM itself doesn't inherently know how to cite better just because it's RAG. The RAG *system* (the code around the LLM) passes the source metadata along with the text chunk. The system then displays that citation to the user.
 
