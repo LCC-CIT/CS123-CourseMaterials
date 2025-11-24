@@ -15,7 +15,7 @@
 
 ## Announcements for Fall 2025
 
-The college will be clsed Thursday and Friday, 11/27 and 11/28, for the Thanksgiviing holiday.
+The college will be clsed Thursday through Sunday, 11/27 through 11/30, for the Thanksgiviing holiday.
 
 ## Things to Do
 
