@@ -16,7 +16,7 @@
 ## Announcements for Fall 2025
 
 **Week 8 is the last week to drop a class or change grade options**
-This <u>Friday, November 21</u> is the last day to make fall term schedule changes. This includes adding or dropping a course, withdrawing, taking an incomplete, or changing grading methods. 
+This <u>Friday, November 21</u> is the last day to make fall term schedule changes. This includes adding or dropping a course, withdrawing or changing grading methods. 
 **Note**: Students should <u>always</u> consult [an academic advisor](https://www.lanecc.edu/get-support/academic-support/academic-advising) and/or [financial aid](https://www.lanecc.edu/costs-admission/paying-college/financial-aid) representative before making these changes, especially withdrawing. These types of changes can potentially have implications for academic progress and/or financial aid awards. 
 
 ## Things to Do
