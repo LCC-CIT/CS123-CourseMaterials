@@ -21,14 +21,14 @@ The college will be clsed Thursday and Friday, 11/27 and 11/28, for the Thanksgi
 
 **Due this week:**
 
-- Project 2, using AI for a simulated work activity. Thursday, 11/20.
+- Project 3, prompt engineering. Thursday, 11/20.
 - Forum post with questions, answers and comments for online students
   (Part of your participation grade). Sunday, 11/23.
-- Quiz over the lectures/recordings. Sunday, 11/23.
+- Quiz over RAG and Custom Chatbots. Sunday, 11/23.
 
 **Due next week**
 
-- Project 3 on prompt engineering which is due next Sunday, 11/30.
+- Project 4, a custom chatobt is due next Sunday, 12/7.
 
 
 
