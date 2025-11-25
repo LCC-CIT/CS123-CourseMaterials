@@ -65,8 +65,8 @@ A Custom Gem is a specialized, persistent "wrapper" built around the powerful Ge
 
 Gems function using three integrated layers:
 
-1. **The Core Engine (Gemini LLM):** This is the foundation of the Gem's intelligence, trained on massive amounts of data. Without a Gem, you would have to type out long, detailed instructions for every query.
-2. **The Personalization Layer (The Super-Prompt):** This is the critical element. The instructions you write when creating a Gem (defining its Persona, Tone, and Task) are saved as a "Super-Prompt" and automatically injected into every conversation, forcing Gemini to behave consistently as your specialist AI.
+1. **The Core Engine (Gemini LLM):** This is the foundation of the Gem's intelligence, trained on massive amounts of data. Without a Gem, you would have to type out longer, more detailed instructions for every query.
+2. **The Personalization Layer (The Gem Instrucitons):** This is the critical element. The instructions you write when creating a Gem (defining its Persona, Tone, and Task) are saved as a "Super-Prompt" (aka Gem instructions) and automatically injected into every conversation, forcing Gemini to behave consistently.
 3. **The Knowledge Layer (Retrieval-Augmented Generation - RAG):** This layer integrates your custom files without making Gemini memorize them. When you ask a question, the system searches its index of your files, retrieves only the most relevant snippets, and uses that current, specific text to "ground" the AI's response. This ensures the output is factual based on your data. Furthermore, linking to Google Docs/Sheets allows the Gem’s knowledge to update *live* whenever the source document changes.
 
 In essence, a Gem is a highly effective way to package complex instructions and custom data, creating a hyper-specialized version of the powerful Gemini AI engine instantly available for your specific needs.
@@ -75,17 +75,17 @@ In essence, a Gem is a highly effective way to package complex instructions and 
 
 You can make a Gem from scratch or modify one that has already been made.
 
-### Writing Instructions
+See the Instructions on the Gemini web page.
+
+### Including a Web Search in the Gem Instructions
 
 you **can** instruct a custom Gem to use its web search capability to look for information, and you can mention a specific website.
-
-However, it's important to understand the nuance:
 
 ### 1. You Cannot Force Exclusivity
 
 You can include instructions like:
 
-> "Whenever the user asks a question about current news or market prices, you must first search the web. **Focus your search on information found on `www.example-finance-site.com` or `www.example-news-blog.org` to prioritize those sources.**"
+> "Whenever the user asks a question about current news or market prices, you must <u>first</u> search the web. **Focus your search on information found on `www.example-finance-site.com` or `www.example-news-blog.org` to prioritize those sources.**"
 
 - **What it does:** This provides a strong behavioral constraint for the Gemini model. When it decides to use its Google Search grounding tool (which is how it gets current web data), the model will heavily weigh the specified domains in its search query and information retrieval.
 - **What it doesn't do:** You cannot strictly prevent the Gem from bringing up information from other sources if those sources are deemed more relevant or authoritative by the underlying Gemini model/search tool. The Gemini model is designed to provide the best, most comprehensive answer available via Google Search.
@@ -97,11 +97,7 @@ If you want the Gem to *only* use a specific website's data, you often need to c
 - **For Static Content:** If the website has a specific document (like a PDF annual report or a detailed guide), it is far more reliable to **download that file** and **upload it** directly to the Gem's "Knowledge" section (up to 10 files). The Gem will then prioritize this uploaded content over general web search for those topics.
 - **For Real-Time Content:** If the site content is constantly changing (like stock prices or live news feeds), you **must** rely on the web search instruction, as the file upload method is for static documents.
 
-
-
 ### Summary
-
-
 
 | Goal                                     | Method in Gem Instructions                                   | Reliability                                 |
 | ---------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
@@ -109,9 +105,9 @@ If you want the Gem to *only* use a specific website's data, you often need to c
 | **Search the General Web**               | "Always use the web search tool to find current information." | High, uses standard Gemini grounding.       |
 | **Use a Specific Document**              | **Upload the document** (PDF, DOCX) to the Gem's Knowledge base. | Highest, it is the primary source of truth. |
 
-### Adding Knowledge
+## Adding Knowledge
 
-#### Upload files or add them from Google Drive
+### Upload files or add them from Google Drive
 
 - **File Count Limit:**  You can typically reference up to **10 individual files** as the knowledge source, regardless of whether they are uploaded or linked from Drive.
 
@@ -121,9 +117,7 @@ If you want the Gem to *only* use a specific website's data, you often need to c
   - **Data:** Google Sheets, XLS, XLSX, CSV, TSV.
   - *Note: Other formats like images and videos can be analyzed in a chat session but the core Gem knowledge base focuses on these document and data types.*
 
-  ### Limits for Custom Gem Knowledge Files
-
-  
+  ## Limits for Custom Gem Knowledge Files
 
   | Constraint                       | Limit                                             | Details                                                      |
   | -------------------------------- | ------------------------------------------------- | ------------------------------------------------------------ |
@@ -132,7 +126,7 @@ If you want the Gem to *only* use a specific website's data, you often need to c
   | **Document Length**              | Up to **~1,500 pages**                            | The Gemini models (especially Pro/Ultra with the 1 million token context window) can effectively process documents up to this approximate length (e.g., PDFs). |
   | **Supported File Types**         | Standard types like **PDF, DOCX, JPG, PNG**, etc. | The same file types supported in general chats are supported for Gems. |
 
-- ### Advantages of Google Drive Linking
+  ### Advantages of Google Drive Linking
 
   | Feature             | Google Drive Link                                            | Local File Upload                                            |
   | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -143,7 +137,7 @@ If you want the Gem to *only* use a specific website's data, you often need to c
 
 
 
-### How to Make a Gem Available to Others
+## How to Make a Gem Available to Others
 
 1. **Link Sharing:** The primary method is to generate a public link, much like sharing a Google Doc or Drive file.
    - You access your **Gem Manager** on the Gemini web app (`gemini.google.com`).
@@ -164,61 +158,43 @@ That's excellent! Effective instruction design is the key to creating a powerful
 
 Here is a template you can adapt for your Gem's instructions:
 
+### Template for Prioritizing a Specific Website
 
+#### 1. Establish the Persona and Primary Goal (Sets the foundation)
 
-## 📝 Template for Prioritizing a Specific Website
+**Persona:** You are a highly specialized *[Name of Expert/Role, e.g., "Market Analyst for the Tech Industry"]*.
 
+**Primary Goal:** Your sole purpose is to provide timely, accurate, and fact-based answers about *[Specific Topic, e.g., "Company X's stock performance and official product announcements"]*.
 
+#### 2. Set the Web Search Constraint (The Core Rule)
 
+**CRITICAL RULE: Web Search Protocol**
 
+1. You <u>must</u> use your web search tool for any question regarding current information (e.g., "today's price," "latest news," "recent announcements").
+2. When performing a web search, you are **strictly required to prioritize and cite sources from the following URL(s):**
+   - `https://www.your-target-website.com`
+   - `https://www.secondary-source.org` (Optional)
+3. **DO NOT** rely on information from general news sites or social media unless the specific website listed above cannot provide an answer.
 
-### 1. **Establish the Persona and Primary Goal** (Sets the foundation)
+#### 3. **Define Output and Tone** (Reinforces the professional behavior)
 
+**Output Format & Tone:**
 
-
-> **Persona:** You are a highly specialized **[Name of Expert/Role, e.g., "Market Analyst for the Tech Industry"]**.
->
-> **Primary Goal:** Your sole purpose is to provide timely, accurate, and fact-based answers about **[Specific Topic, e.g., "Company X's stock performance and official product announcements"]**.
-
-
-
-### 2. **Set the Web Search Constraint (The Core Rule)**
-
-
-
-> **CRITICAL RULE: Web Search Protocol**
->
-> 1. You **must** use your web search tool for any question regarding current information (e.g., "today's price," "latest news," "recent announcements").
-> 2. When performing a web search, you are **strictly required to prioritize and cite sources from the following URL(s):**
->    - `https://www.your-target-website.com`
->    - `https://www.secondary-source.org` (Optional)
-> 3. **DO NOT** rely on information from general news sites or social media unless the specific website listed above cannot provide an answer.
-
-
-
-### 3. **Define Output and Tone** (Reinforces the professional behavior)
-
-
-
-> **Output Format & Tone:**
->
-> - Your responses must be **professional, objective, and direct**.
-> - For every piece of current information you provide, you **must include an inline citation** linking to the exact source page from `www.your-target-website.com`.
-> - If the specific site above provides conflicting information with a general Google Search result, you **MUST** prioritize the information from the target site.
-
-
+- Your responses must be **professional, objective, and direct**.
+- For every piece of current information you provide, you **must include an inline citation** linking to the exact source page from `www.your-target-website.com`.
+- If the specific site above provides conflicting information with a general Google Search result, you **MUST** prioritize the information from the target site.
 
 ### Why this works:
 
-
-
-- **Priority One Directive:** Placing "CRITICAL RULE" and using bolding/lists signals to the underlying model that this instruction is a high-priority behavioral constraint.
+- **Priority One Directive:** Placing "CRITICAL RULE" and using **bolding** signals to the underlying model that this instruction is a high-priority behavioral constraint.
 - **Specific Domain Inclusion:** By including the URL directly in the instruction, the model incorporates that URL into its search queries, which significantly biases the search results toward that domain.
 - **Mandatory Citation:** Requiring a citation for every piece of information ensures the Gem is actually using the web search tool and checking its source against your rule.
 
 By structuring your instructions this way, you give the Gem a clear, non-negotiable protocol for how to use its web search capability, making it much more likely to prioritize the information you need.
 
 Is there a specific task or topic you are creating this Custom Gem for? I can help you tailor the language even further.
+
+
 
 ## References
 
