@@ -1,7 +1,7 @@
 ---
-title: Custom Chatbot
-description: How to create a custom chatbot with Microsoft Copilot Studio
-keywords: AI, chatbot, copilot studio
+title: Custom Gem Chatbot
+description: How to create a custom Gemini Gem chatbot
+keywords: AI, chatbot, Gemini Gem
 generator: Typora
 author: Brian Bird
 ---
@@ -148,17 +148,19 @@ If you want the Gem to *only* use a specific website's data, you often need to c
    - **Public:** In some cases, for personal accounts, you may see an option to make it fully public, allowing anyone to search for and access it on Google.
    - **Specific People:** You can also share it directly via email, granting "Viewer" or even "Editor" permissions if you want someone to collaborate on the instructions.
 3. **No Official Central Marketplace (Yet):** As of now, there is no official, built-in "Gem Marketplace" or centralized gallery hosted by Google where you can browse and discover *all* public Gems. You have to share the links directly.
-   - However, because Gems can be shared via URL, some third-party communities and developers have started creating **unofficial indexes** or lists where people voluntarily post their Gem links for others to find (similar to how people used to share long prompts on forums like Reddit).
+   - However, because Gems can be shared via URL, some third-party communities and developers have started creating unofficial indexes or lists where people voluntarily post their Gem links for others to find (similar to how people used to share long prompts on forums like Reddit).
+   
+   
 
-
+---
 
 ## Appendix
 
-That's excellent! Effective instruction design is the key to creating a powerful Custom Gem. To make your Gem prioritize a specific website when it uses the web search tool, you need to be **precise, repetitive, and use a clear constraint structure**.
-
-Here is a template you can adapt for your Gem's instructions:
+---
 
 ### Template for Prioritizing a Specific Website
+
+Here is a template you can adapt for your Gem's instructions:
 
 #### 1. Establish the Persona and Primary Goal (Sets the foundation)
 
@@ -192,7 +194,20 @@ Here is a template you can adapt for your Gem's instructions:
 
 By structuring your instructions this way, you give the Gem a clear, non-negotiable protocol for how to use its web search capability, making it much more likely to prioritize the information you need.
 
-Is there a specific task or topic you are creating this Custom Gem for? I can help you tailor the language even further.
+---
+
+### Concept of Conversational Memory
+
+*Conversational memory* is the history of the conversation. If the conversation goes on for too long, the system must use techniques (like summarizing or dropping older parts of the conversation) to keep the essential *conversational memory* within the *model context* limit.
+
+No, **conversational memory** is related to, but not the same as, **model context** (or context window).
+
+Here is a comparison of the differences between *conversational memory* and *model context* (aka the *context window*).
+
+| **Feature**                        | **What it Is**                                               | **How it's Used in Chatbots**                                |
+| ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Conversational Memory**          | The **session state**; the historical record of the user's questions and the bot's responses within the current chat session. | It allows the bot to understand follow-up questions without the user having to repeat details, making the dialogue coherent and natural. |
+| **Model Context** (Context Window) | The **physical limit** on the amount of text (measured in tokens) the Large Language Model (LLM) can process, hold, and consider at any one time to generate a response. | The chat history (conversational memory) must be continuously compressed and fed into this context window along with the custom instructions and the RAG-retrieved data so the model can generate the next informed reply. |
 
 
 
