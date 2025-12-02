@@ -25,16 +25,7 @@ author: Brian Bird
 
 ## Introduction
 
-### What's Happening this Week
-
-- Forum post with questions, answers and comments for online students
-  (Part of your participation grade)
-- Exercises based on Elements of AI Ch. 6, Implications
-- Final quiz
-
-### Overview
-
-#### Potential benefits of AI
+### Potential benefits of AI
 
 - Increased work productivity
 - New business and job opportunities
@@ -45,7 +36,7 @@ author: Brian Bird
 - Companionship for elderly or lonely people (a benefit touted by some, but questionable)
 - AI used for defense and law enforcement
 
-#### Potential Dangers of AI
+### Potential Dangers of AI
 
 - Lost jobs
 - Invasion of privacy (by governments and corporations)
@@ -141,6 +132,8 @@ Establish policies so that employees have guidance on safe and beneficial use of
 
 ---
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI lecture notes by [Brian Bird](https://profbird.dev), written in 2024, revised in <time>2025</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
-Note: GPT-4 and GPT-4o were used to draft parts of these notes.
+*GPT-4 and GPT-4o (2024) were used to draft parts of these notes.*
+
+---

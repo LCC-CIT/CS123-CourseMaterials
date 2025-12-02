@@ -38,6 +38,15 @@
   (Part of your participation grade). Sunday, 12/7.
 - No quiz this week.
 
+**Final quiz next week:**
+
+- Review all of the course material this week (the quiz covers the whole term).
+- Take the practice final
+- The final quiz will be given:
+  - In the classroom at the normal time on Tuesday. 
+                                     And
+  - In Instructional Testing Services Monday through Wednesday.
+
 
 
 ![F2025Week10](Images/F2025Week10.png)
