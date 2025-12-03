@@ -45,7 +45,9 @@
 - The final quiz will be given:
   - In the classroom at the normal time on Tuesday. 
                                      And
-  - In Instructional Testing Services Monday through Wednesday.
+  - In Instructional Testing Services Saturday 12/6, Monday 12/8 and Tuesday 12/9.  
+       Check the [ITS web site](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) for the hours they are open. 
+       Note that ITS is not open on Sunday.
 
 
 
