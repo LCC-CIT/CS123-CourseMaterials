@@ -10,21 +10,17 @@ author: Brian Bird
 
 **CS123, Intro to AI**
 
-| Topics                                                       |                                              |
-| ------------------------------------------------------------ | -------------------------------------------- |
-| Overview of AI                                               | Neural networks<br />Deep learning           |
-| History of AI&mdash;Part 1<br>AI Problem Solving             | <mark>Generative AI</mark>                   |
-| Machine Learning&mdash;Part 1<br />Bayes' Rule               | Prompt engineering                           |
+| Topics                                                               |                                              |
+| -------------------------------------------------------------------- | -------------------------------------------- |
+| Overview of AI                                                       | Neural networks<br />Deep learning           |
+| History of AI&mdash;Part 1<br>AI Problem Solving                     | <mark>Generative AI</mark>                   |
+| Machine Learning&mdash;Part 1<br />Bayes' Rule                       | Prompt engineering                           |
 | Machine Learning&mdash;Part 2<br />Regression and K-Nearest Neighbor | Custom chatbot creation                      |
-| History of AI&mdash;Part 2<br />Midterm                      | Social and ethical issues of AI  <br />Final |
-
-
+| History of AI&mdash;Part 2<br />Midterm                              | Social and ethical issues of AI  <br />Final |
 
 <h2>Contents</h2>
 
 [TOC]
-
-
 
 ## Overview
 
@@ -71,12 +67,18 @@ A *token* is a unit of text that the model processes. Tokens can be words, subwo
 ### FAQ
 
 - Are my prompts used to train the LLM?
+
 - Is my feedback (thumbs up/down) used to train the LLM?
+
 - Are my prompts kept private?
+
 - Can any of my data get sent to the chatBot server?
+
 - Have any of the current (summer 2024) GPT chatBots attained AGI?
   https://www.tomsguide.com/ai/chatgpt/openai-has-5-steps-to-agi-and-were-only-a-third-of-the-way-there
+
 - What are the top uses for GPT ChatBots?
+  
   1. **Customer Support**: Providing instant responses to customer inquiries, troubleshooting issues, and offering product information.
   2. **Content Creation**: Assisting in generating articles, blog posts, social media content, and marketing copy.
   3. **Education**: Offering tutoring, answering questions, and providing explanations on various subjects.
@@ -87,14 +89,13 @@ A *token* is a unit of text that the model processes. Tokens can be words, subwo
   8. **Research Assistance**: Summarizing articles, extracting key information, and helping with data analysis.
 
 - How do I know if a chatbot is hallucinating?
+
 - What are the limitations of GPT chatbots?
+  
   - Date of training
   - Ability to search
   - Ability to cite (or not, or to appear to give sources even though the citations were not the source of the LLM's training.)
   - Ability to make judgments or reccomendations (which is best)
-
-
-
 
 ## References
 
@@ -108,8 +109,6 @@ A *token* is a unit of text that the model processes. Tokens can be words, subwo
 
 [GPT-4](https://openai.com/index/gpt-4-research/)&mdash;OpenAI
 
-
-
 [^1]: LLMs  don't actually "understand" text in the way humans do. Instead, they analyze and process text based on patterns they have learned from training data. They are sophisticated tools that excel at mimicking human-like text but do not possess genuine understanding, comprehension or awareness.
 
 ---
@@ -119,4 +118,3 @@ A *token* is a unit of text that the model processes. Tokens can be words, subwo
 ---
 
 Note: Microsoft Copilot with GPT-4 was used to draft parts of these notes.
-

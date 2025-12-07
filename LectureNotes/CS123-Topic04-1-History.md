@@ -10,14 +10,12 @@ author: Brian Bird
 
 **CS123, Intro to AI**
 
-| Topics                                                       |                                              |
-| ------------------------------------------------------------ | -------------------------------------------- |
-| Overview of AI                                               | Neural networks and deep learning            |
+| Topics                                                                                  |                                              |
+| --------------------------------------------------------------------------------------- | -------------------------------------------- |
+| Overview of AI                                                                          | Neural networks and deep learning            |
 | AI Problem Solving Revisited<br />Machine Learning&mdash;Part 1<br />Applications of AI | Generative AI + Prompt engineering           |
-| Machine Learning&mdash;Part 2                                | Custom chatbot creation                      |
-| <mark>History of AI + Midterm</mark>                         | Social and ethical issues of AI  <br />Final |
-
-
+| Machine Learning&mdash;Part 2                                                           | Custom chatbot creation                      |
+| <mark>History of AI + Midterm</mark>                                                    | Social and ethical issues of AI  <br />Final |
 
 <h2>Table of Contents</h2>
 
@@ -56,7 +54,7 @@ The perceptron and connectionism were notably criticized by Marvin Minsky and Se
 ## AI winter
 
 > In 1974, the applied mathematician Sir James Lighthill published a critical report on academic AI research, claiming that researchers had essentially over-promised and under-delivered when it came to the potential intelligence of machines. His condemnation resulted in stark funding cuts. 
->
+> 
 > The period between the late 1970s and early 1990s signaled an “AI winter”—a term first used in 1984—that referred to the gap between AI expectations and the technology’s shortcomings.  
 > (From The History of AI: A Timeline of Artificial Intelligence)
 
@@ -83,18 +81,17 @@ Hinton emphasizes the potential for AI to do enormous good, here are some of the
 - Efficiency: AI can perform tasks more efficiently, potentially leading to advancements in various fields.
 - Learning: AI systems have a better way of acquiring knowledge, which can lead to improved problem-solving and innovation.
 
-
-
 ## IBM Watson becomes a Jeopardy Champion
 
 <img src="Images/IbmWatsonPlayingJeopardy_CbsNews.jpg" alt="IbmWatsonPlayingJeopardy_CbsNews" style="zoom:50%;" />
-*Ken Jennings, IBM Watson and Brad Rutter on the Jeopardy TV game show&mdash;CBS News*
+*Ken Jennings, IBM Watson and Brad Rutter on the Jeopardy TV game show—CBS News*
 
 In 2011, An [IBM computer system named Watson](https://www.ibm.com/history/watson-jeopardy) beat two of Jeopardy's all-time champions, Ken Jennings and Brad Rutter. The original Watson was a room-size computer consisting of 10 racks holding 90 servers, with a total of 2,880 processor cores. Watson was trained on information from Wikipedia, encyclopedias, dictionaries, religious texts, novels, plays, and books from Project Gutenberg, among other sources.
 
 Watson’s architecture, known as DeepQA, utilized over 100 different algorithms and techniques to analyze questions, generate hypotheses, and evaluate evidence. The more of its algorithms that independently arrived at the same answer, the higher Watson’s confidence level. If the confidence level was high enough, Watson was programmed to buzz in during a game of Jeopardy. It took Watson an average of 3 seconds to come up with an answer. 
 
 ## Siri, Alexa and Google Assistant
+
 In 2011, Apple demoed a virtual assistant named Siri. In 2014, Amazon released its virtual assistant named Alexa and in 2016 Google released Google Assistant. All three had natural language processing capabilities and could understand a spoken question and respond with an answer. But, they contained limitations&mdash;they used “command-and-control systems,” which are programmed to understand a long list of questions but cannot answer anything that falls outside their programming. 
 
 ## Fei Fei Lee and ImageNet
@@ -105,7 +102,7 @@ In 2009 she and her team created [ImageNet](https://image-net.org/), a large-sca
 
 <img src="Images/FeiFeiLee.jpg" alt="FeiFeiLee" style="zoom:67%;" />
 
-## Yann LeCun and Convolutional Neural Networks (CNNs) 
+## Yann LeCun and Convolutional Neural Networks (CNNs)
 
 CNNs were pioneered by Yann LeCun in the late 1980s and early 1990s. He developed the LeNet-5 architecture, which was designed to recognize handwritten digits. This work laid the foundation for modern deep learning and computer vision applications. Yann LeCun and Geoffrey Hinton are often referred to as “godfathers of AI”.
 
@@ -124,8 +121,6 @@ AlphaGo combines deep neural networks with advanced search algorithms. One neura
 
 Using reinforcement learning, initially, AlphaGo was trained on amateur games of Go so the system could  learn how humans play the game. Then AlphaGo played against different versions of itself thousands of times, each time  learning from its mistakes.
 
-
-
 ## Reference
 
 ["Godfather of Artificial Intelligence" Geoffrey Hinton on the promise, risks of advanced AI](https://www.cbsnews.com/news/geoffrey-hinton-ai-dangers-60-minutes-transcript/)&mdash;CBS, 60 Minutes.
@@ -139,8 +134,6 @@ Using reinforcement learning, initially, AlphaGo was trained on amateur games of
 [The Quest for Artificial Intelligence: A History of Ideas and Achievements](http://ai.stanford.edu/%7Enilsson/QAI/qai.pdf)&mdash;Nils J. Nilsson, Cambridge University Press, 2010.
 
 [Timeline of AI](https://www.theainavigator.com/ai-timeline)&mdash;an interactive timeline of the history of AI
-
-
 
 [^1]:The Entscheidungsproblem, which translates to "decision problem" in German, was a mathematical question proposed by David Hilbert in the early 1900s. It asked: "Is there a mechanical procedure (algorithm) that can decide whether any given statement in mathematics is true or false?"
 [^2]: A Turing machine consists of three key parts: 1) An infinitely long tape. This tape is divided into squares, each holding a symbol. The machine can read, write, and move this tape to access information. 2) A read/write head: This head scans the current symbol on the tape and can modify it based on the machine's rules. 3) A state table: This table defines the machine's behavior. It tells the machine what to do (change state, write a symbol, move the tape) based on the current symbol it reads and the machine's internal state.

@@ -19,8 +19,6 @@ author: Brian Bird
 | Machine Learning                  | Custom chatbot creation         |
 | Neural networks and deep learning | Social and ethical issues of AI |
 
-
-
 <h2>Table of Contents</h2>
 
 [TOC]
@@ -44,8 +42,6 @@ Is your definition different from the dictionary definition?
 
 Later we will discus whether or not current AI systems are really intelligent.
 
-
-
 # Types of AI
 
 There are two major types of AI: *symbolic AI* and *artificial neural networks* (ANN). There are also hybrid systems that use both symbolic AI and ANNs.
@@ -65,16 +61,14 @@ AI can also be categorized into two categories: *narrow AI* and *general AI*.
 - The decision-making is transparent. The reasoning process can be traced back to the logical rules that were applied.
 
 - Simplified example from the medical field, diagnosing a patient's symptoms:  
-
+  
   ```pseudocode
   IF patient has a fever AND patient has a cough AND patient has difficulty breathing THEN patient may have pneumonia.
   ```
 
 - In "Essentials of AI", you will see an example application of AI for playing tic-tac-toe in which a decision tree is built and an algorithm is used to follow branches of the tree to find moves that will lead to winning the game.
-
+  
   We'll work through a similar example together in the next class.
-
-
 
 ### Artificial Neural Networks
 
@@ -83,20 +77,21 @@ AI can also be categorized into two categories: *narrow AI* and *general AI*.
 - Neural networks are built using machine learning, in which they are trained an large amounts of data that contains examples of the things the neural network should recognize and process
 - They are not transparent. It is very difficult (if not impossible) to determine which set of connections were followed to reach a given decision.
 - Example, image recognition:  
+  
   <img src="Images\PigeonNeuralNet.png" alt="PigeonNeuralNet" style="zoom:33%;" />
 
-#### Generative AI 
+#### Generative AI
 
 - Can create "original" content such as text, images, video, audio, or software code in response to a user's prompt.
 
 - Uses Deep learning models (LLMs), which work by identifying and encoding the patterns and relationships in huge amounts of data encoded into an ANN.
 
 - Unlike GOFAI, which makes predictions based on data by applying rules, generative AI is trained to create new data using a sophisticated ANN, which means that the process by which it operates is not transparent.
-
+  
   #### GPT Chatbots
-
+  
   A Generative Pretrained Transformer (GPT) chatbot produces a string of output words, based on a prompt by using probability to predict the next most likely word:
-
+  
   - Input: The chatbot receives a user’s prompt or instruction.
   - Tokenization: The AI model breaks apart the input into more manageable tokens (words or parts of words).
   - Probability Calculation: The model calculates the probability of each possible next word (or token) based on the data set it was trained on.
@@ -122,8 +117,6 @@ These are systems designed to perform a specific task and can only operate under
 
 #### Your Turn: Can you think of other examples of narrow AI?
 
-
-
 ### General AI
 
 Also known as AGI (*Artificial General Intelligence*) are systems that possess the ability to perform any intellectual task that a human being can do. They can understand, learn, adapt, and implement knowledge in different domains. This type of AI is purely theoretical at this point with no practical examples in use today.
@@ -132,15 +125,11 @@ Also known as AGI (*Artificial General Intelligence*) are systems that possess t
 
 ChatGPT is not an example of General AI. It's actually Narrow AI. While it's quite advanced and can generate human-like text based on prompts, it's still designed for a specific task: text generation. It doesn't have an understanding of the world in the way humans do, and it can't apply knowledge from one domain to another in the way a human would. It operates based on patterns in the data it was trained on and doesn't have understanding[^3] of the text it generates.
 
-
-
 # Reference
 
 - *Artificial Intelligence, A Modern Approach*&mdash;2010, 3rd Ed. Pearson
 - [Elements of AI](https://www.elementsofai.com/)&mdash;The University of Helsinki and MinnaLearn, 2024
 - [Understanding the Different Types of Artificial Intelligence](https://www.ibm.com/blog/understanding-the-different-types-of-artificial-intelligence/)&mdash;IBM
-
-
 
 [^1]: The definition of *Artificial Intelligence* is not actually agreed upon by computer scientists. The definition given in these notes in my own synthesis of commonly given definitions, such as those listed in Russell and Norvig. An alternate definition, given in "Elements of AI" is a system that is autonomous and adaptive.
 ---

@@ -12,16 +12,12 @@ author: Brian Bird
 
 <h2>Sept. 29 through Oct. 5</h2>
 
-
-
 | Topics                                           |                                              |
 | ------------------------------------------------ | -------------------------------------------- |
 | <mark>1. Overview of AI</mark>                   | Neural networks and deep learning            |
 | 2. History of GOFAI<br />     AI Problem Solving | Generative AI + Prompt engineering           |
 | 3. Machine Learning                              | Custom chatbot creation                      |
 | 4. Midterm                                       | Social and ethical issues of AI  <br />Final |
-
-
 
 <h2>Contents</h2>
 
@@ -38,7 +34,6 @@ author: Brian Bird
 - Be exposed to different types of AI.
 
 - Discuss ethical issues related to AI.
-
 
 ## Announcements
 
@@ -88,10 +83,9 @@ Ask questions in the class [Discussion channel](https://discord.com/channels/129
 ### Class Participation
 
 - If you are an on-campus or online student who can join us during class time, then come to the classroom (building 19, room 128) or [join us on Zoom](https://lanecc.zoom.us/j/92444108339).
+
 - If you are an online student be sure to <u>watch the video recordings</u> of the in-class, lectures. Access these via the page linked near the top of Moodle main page.
 
 - You will get the most out of this class if you can come or Zoom to class where you can get help with your lab assignments! You can also get help during office hours or from a tutor in the lab (in person or on Zoom).
-
-
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Intro to AI Course Materials by [Brian Bird](https://profbird.dev), written in <time>2025</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
