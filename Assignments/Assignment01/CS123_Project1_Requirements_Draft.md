@@ -2,9 +2,9 @@
 
 Do research on the way AI is used in the career area that your team is focused on and write a report based on that research.
 
-As a team, collaborate to decide  on the types of applications to research and report on so that each team member covers a different type of application within your teams career  focus area. Share the results of your research with each other on [Discord](https://classes.lanecc.edu/mod/url/view.php?id=4656317) and give each other feedback.
+As a team, collaborate to decide on the types of applications to research and report on so that each team member covers a different type of application within your team's career focus area. Share the results of your research with each other and give each other feedback.
 
-Each member of each team will do research on the way AI is used in the career area on which your team is focused. Each team member will write a two or three paragraph description (300 to 500 words) of  one application of AI. Combine the writing from all team members into  one report. Include links or references to your research sources.
+Each member of each team will do research on the way AI is used in the career area on which your team is focused. Each team member will write a two or three paragraph description (300 to 500 words) of one application of AI. Combine the writing from all team members into one report. Include links or references to your research sources.
 
 ## New Requirements
 
